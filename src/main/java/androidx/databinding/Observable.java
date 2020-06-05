@@ -1,0 +1,13 @@
+package androidx.databinding;
+
+public interface Observable {
+
+    /* renamed from: androidx.databinding.Observable$OnPropertyChangedCallback */
+    public static abstract class OnPropertyChangedCallback {
+        public abstract void onPropertyChanged(Observable observable, int i);
+    }
+
+    void addOnPropertyChangedCallback(OnPropertyChangedCallback onPropertyChangedCallback);
+
+    void removeOnPropertyChangedCallback(OnPropertyChangedCallback onPropertyChangedCallback);
+}

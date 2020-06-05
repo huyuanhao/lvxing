@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/ysf_bot_list_placeholder" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <LinearLayout android:orientation="vertical" android:background="@color/ysf_grey_f7f7f7" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/ysf_popup_window_bot_list_header"/>
+        <com.qiyukf.unicorn.widget.pulltorefresh.PullToRefreshLayout android:id="@+id/ysf_ptr_layout_bot_list" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.qiyukf.unicorn.widget.pulltorefresh.PullableListView android:id="@+id/ysf_lv_bot_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:divider="@null"/>
+        </com.qiyukf.unicorn.widget.pulltorefresh.PullToRefreshLayout>
+    </LinearLayout>
+</LinearLayout>

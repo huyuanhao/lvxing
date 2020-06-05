@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/dialog_bind_inviter_0" android:background="@drawable/bg_white_10" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/iv_close" android:tag="binding_1" style="@style/Dialog.CloseGrey"/>
+    <TextView android:textStyle="bold" android:tag="binding_2" android:text="绑定邀请人" style="@style/tv_16_c33"/>
+    <EditText android:textColorHint="@color/color_hint" android:gravity="center" android:id="@+id/edit_code" android:background="@null" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginTop="45dp" android:hint="输入邀请码" style="@style/tv_16_c33"/>
+    <View android:layout_width="142dp" style="@style/DividerGrey.H"/>
+    <ezy.ui.widget.round.RoundText android:id="@+id/btn" android:layout_width="200dp" android:layout_marginTop="40dp" android:text="提交" style="@style/RndBtn.Green"/>
+    <TextView android:textColor="#343f73" android:id="@+id/tv_no_code" android:visibility="invisible" android:layout_marginTop="12dp" android:layout_marginBottom="20dp" android:text="推荐邀请人" style="@style/tv_12_red"/>
+</LinearLayout>

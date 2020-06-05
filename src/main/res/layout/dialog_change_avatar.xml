@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:tag="layout/dialog_change_avatar_0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:gravity="center" android:id="@+id/txt_photo_album" android:background="?android:attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="50dp" android:text="从手机相册选择" style="@style/tv_14_c33"/>
+    <View style="@style/DividerGrey.H"/>
+    <TextView android:textSize="14dp" android:gravity="center" android:id="@+id/txt_cancel" android:background="?android:attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="50dp" android:text="取消" style="@style/tv_14_c33"/>
+</LinearLayout>

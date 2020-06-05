@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:tag="layout/dialog_my_bonus_dog_0" android:background="@drawable/bg_white_10" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="30dp">
+        <TextView android:textStyle="bold" android:layout_gravity="center_horizontal" android:layout_marginTop="28dp" android:text="我的全球分红犬" style="@style/tv_16_c33"/>
+        <TextView android:textStyle="bold" android:layout_marginTop="27dp" android:text="一、全球分红犬获取途径" style="@style/tv_14_c33"/>
+        <TextView android:layout_marginTop="8dp" android:text="1、通过两只37级狗合成随机产出；\102、通过“亚、非、欧、美、大洋洲”\10       五狗合成产出；\103、可通过个人努力持续必定产出。" style="@style/tv_14_c33"/>
+        <TextView android:textStyle="bold" android:layout_marginTop="18dp" android:text="二、必得全球分红狗" style="@style/tv_14_c33"/>
+        <TextView android:layout_marginTop="8dp" android:text="【必得全球分红狗】属于第3种途径，\10进度是根据您的个人行为和好友行为\10两大维度动态计算。其中，个人行为\10包括但不限于：狗合成次数、看视频\10次数、解锁城市进度；好友行为包括：\10好友数量和旅行团收入。" style="@style/tv_14_c33"/>
+    </LinearLayout>
+    <ezy.ui.widget.round.RoundText android:id="@+id/btn" android:layout_marginTop="28dp" android:layout_marginBottom="40dp" android:text="确定" android:layout_marginStart="40dp" android:layout_marginEnd="40dp" style="@style/RndBtn.Green"/>
+</LinearLayout>

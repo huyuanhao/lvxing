@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:tag="layout/item_me_task_0" android:layout_width="match_parent" android:layout_height="60dp" android:paddingStart="15dp" android:paddingEnd="10dp">
+    <ImageView android:tag="binding_1" android:layout_width="20dp" android:layout_height="22dp" android:adjustViewBounds="true"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="10dp">
+        <TextView android:ellipsize="end" android:tag="binding_2" android:maxLines="1" style="@style/tv_16_c33"/>
+        <TextView android:tag="binding_3" android:layout_marginTop="3dp" style="@style/tv_12_c99"/>
+    </LinearLayout>
+    <TextView android:textColor="@color/selector_ff_and_99" android:gravity="center" android:tag="binding_4" android:layout_width="50dp" android:layout_height="24dp" android:text="领取" style="@style/tv_14_c99"/>
+</LinearLayout>

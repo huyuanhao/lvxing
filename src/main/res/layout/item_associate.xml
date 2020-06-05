@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/tv_keyword" android:tag="layout/item_associate_0" android:layout_height="40dp" android:singleLine="true" android:paddingStart="15dp" android:paddingEnd="15dp" style="@style/tv_14_c33"/>

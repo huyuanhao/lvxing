@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/ysf_white" android:layout_width="match_parent" android:layout_height="40dp">
+        <TextView android:textSize="@dimen/ysf_text_size_16" android:textColor="@color/ysf_black_222222" android:id="@+id/ysf_bot_list_title" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:maxLines="1" android:layout_weight="1"/>
+        <ImageView android:id="@+id/ysf_bot_list_close" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ysf_ic_dialog_close" android:scaleType="centerInside" android:contentDescription="@null"/>
+    </LinearLayout>
+    <include layout="@layout/ysf_include_divider"/>
+</merge>

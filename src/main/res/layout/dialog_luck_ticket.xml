@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/dialog_luck_ticket_0" android:background="@drawable/bg_white_10" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/iv_close" style="@style/Dialog.CloseGrey"/>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-13dp" android:src="@mipmap/ic_tv"/>
+    <TextView android:textStyle="bold" android:layout_marginTop="22dp" android:text="兑换转盘券" style="@style/tv_16_c33"/>
+    <TextView android:layout_marginTop="13dp" android:text="观看视频立即获得5张转盘券" style="@style/tv_14_c33"/>
+    <ezy.ui.widget.round.RoundLayout android:id="@+id/btn" android:layout_marginTop="29dp" android:layout_marginStart="30dp" android:layout_marginEnd="30dp" style="@style/RndBtn.Green">
+        <TextView android:textStyle="bold" android:gravity="center_vertical" android:layout_gravity="center" android:text="看视频获得" android:drawableStart="@mipmap/ic_tv_small" style="@style/tv_16_cff"/>
+    </ezy.ui.widget.round.RoundLayout>
+    <TextView android:tag="binding_1" android:layout_marginTop="9dp" android:layout_marginBottom="29dp" style="@style/tv_12_c99"/>
+</LinearLayout>

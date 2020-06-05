@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:tag="layout/dialog_lucky_draw_0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="300dp" android:layout_height="wrap_content" android:src="@mipmap/bg_lucky_draw" android:adjustViewBounds="true"/>
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="300dp" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+        <ImageView android:id="@+id/iv_close" style="@style/Dialog.CloseGrey"/>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="94dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="116dp" android:layout_marginStart="40dp" android:layout_marginEnd="40dp">
+            <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textStyle="bold" android:gravity="center_vertical" android:text="转盘券" android:drawablePadding="7dp" android:drawableStart="@mipmap/ic_turnplate" style="@style/tv_16_c33"/>
+                <TextView android:textSize="20sp" android:tag="binding_1" android:layout_marginStart="6dp" style="@style/tv_16_c33"/>
+            </LinearLayout>
+            <TextView android:tag="binding_2" android:layout_marginTop="4dp" android:layout_marginBottom="25dp" style="@style/tv_12_c66"/>
+        </LinearLayout>
+        <ezy.ui.widget.round.RoundText android:id="@+id/btn_start" android:layout_marginBottom="40dp" android:text="开始" style="@style/RndBtn.Green"/>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.jiayouya.travel.module.travel.widget.LuckDrawView android:layout_gravity="center_horizontal" android:id="@+id/draw_view" android:layout_width="225dp" android:layout_height="225dp" android:layout_marginTop="20dp"/>
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_pointer" android:adjustViewBounds="true"/>
+    </FrameLayout>
+    <TextView android:gravity="center" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/tv_get_ticket" android:tag="binding_3" android:layout_width="61dp" android:layout_height="26dp" android:layout_marginBottom="128dp" android:text="领券" style="@style/tv_14_cff"/>
+</FrameLayout>

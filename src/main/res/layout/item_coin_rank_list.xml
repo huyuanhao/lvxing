@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:tag="layout/item_coin_rank_list_0" android:layout_width="match_parent" android:layout_height="65dp" android:paddingStart="22dp" android:paddingEnd="30dp">
+    <ImageView android:tag="binding_1" android:layout_width="24dp" android:layout_height="28dp" android:adjustViewBounds="true" android:layout_marginStart="3dp" android:layout_marginEnd="3dp"/>
+    <TextView android:gravity="center" android:tag="binding_2" android:layout_width="30dp" android:fontFamily="@font/din_black" style="@style/tv_18_c33"/>
+    <de.hdodenhof.circleimageview.CircleImageView android:tag="binding_3" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginStart="13dp"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="10dp" android:layout_marginEnd="10dp">
+        <TextView android:tag="binding_4" style="@style/tv_14_c33"/>
+        <TextView android:tag="binding_5" android:layout_marginTop="4dp" style="@style/tv_10_c66"/>
+    </LinearLayout>
+    <TextView android:tag="binding_6" style="@style/tv_18_c33"/>
+</LinearLayout>

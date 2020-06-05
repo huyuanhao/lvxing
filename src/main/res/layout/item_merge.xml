@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/lyt_container" android:tag="layout/item_merge_0" android:visibility="invisible" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_gravity="center" android:id="@+id/iv_dog" android:tag="binding_1" android:layout_width="58dp" android:layout_height="58dp" android:adjustViewBounds="true"/>
+    <TextView android:textStyle="bold" android:gravity="center" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:tag="binding_2" android:layout_height="16dp" android:minWidth="20dp" android:paddingStart="3dp" android:paddingEnd="3dp" style="@style/tv_12_cff"/>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:id="@+id/lyt_clock" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="15dp" android:paddingStart="4dp" android:paddingEnd="4dp">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_clock_white"/>
+        <com.jiayouya.travel.common.widget.countdownview.CountdownView android:id="@+id/countdown_view" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2dp" app:isShowMinute="true" app:isShowSecond="true" app:suffix=":" app:suffixGravity="2" app:suffixMinuteRightMargin="-2dp" app:suffixSecondLeftMargin="-2dp" app:suffixTextColor="@color/white" app:suffixTextSize="10sp" app:timeTextColor="@color/white" app:timeTextSize="10sp"/>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="center" android:id="@+id/lyt_profit" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/iv_hb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_hb"/>
+        <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/lyt_profit_txt" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/iv_gold" android:layout_width="13dp" android:layout_height="13dp" android:src="@mipmap/ic_gold_coin" android:layout_marginEnd="3dp"/>
+            <TextView android:textStyle="bold" android:textColor="@color/orange_FFA229" android:id="@+id/tv_profit" android:layout_width="60dp" android:maxLines="1" style="@style/tv_14_c33"/>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

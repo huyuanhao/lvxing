@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/dialog_temp_bonus_profit_0" android:background="@drawable/bg_white_10" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/iv_close" style="@style/Dialog.CloseGrey"/>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:tag="binding_1" android:layout_width="90dp" android:layout_height="90dp" android:adjustViewBounds="true"/>
+        <ezy.ui.widget.round.RoundText android:textSize="10sp" android:textColor="#f35e4e" android:layout_width="28dp" android:layout_height="14dp" android:text="体验" android:includeFontPadding="false" app:rndCornerRadius="-1" app:rndStrokeColor="#f35e4e" app:rndStrokeWidth="1dp"/>
+        <ezy.ui.widget.round.RoundText android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:tag="binding_2" android:layout_height="18dp" android:paddingStart="8dp" android:paddingEnd="8dp" app:rndCornerRadius="-1" app:rndSolidColor="#65db7b" style="@style/tv_14_cff"/>
+    </FrameLayout>
+    <TextView android:textStyle="bold" android:tag="binding_3" android:layout_marginTop="17dp" style="@style/tv_16_c33"/>
+    <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+        <TextView android:textSize="40sp" android:tag="binding_4" style="@style/tv_14_red"/>
+        <TextView android:textSize="30sp" android:textStyle="bold" android:paddingTop="3dp" android:text="元" android:layout_marginStart="2dp" style="@style/tv_12_red"/>
+    </LinearLayout>
+    <ezy.ui.widget.round.RoundText android:id="@+id/btn" android:layout_marginTop="24dp" android:text="确定" android:layout_marginStart="40dp" android:layout_marginEnd="40dp" style="@style/RndBtn.Green"/>
+    <TextView android:gravity="center_vertical" android:id="@+id/tv_bonus_dog" android:tag="binding_5" android:layout_marginTop="14dp" android:layout_marginBottom="30dp" android:drawablePadding="4dp" android:drawableEnd="@mipmap/ic_arrow_right_dark_grey" style="@style/tv_12_c33"/>
+</LinearLayout>

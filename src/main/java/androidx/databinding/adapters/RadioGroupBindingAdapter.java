@@ -1,0 +1,29 @@
+package androidx.databinding.adapters;
+
+import android.widget.RadioGroup;
+import android.widget.RadioGroup.OnCheckedChangeListener;
+import androidx.databinding.InverseBindingListener;
+
+public class RadioGroupBindingAdapter {
+    public static void setCheckedButton(RadioGroup radioGroup, int i) {
+        if (i != radioGroup.getCheckedRadioButtonId()) {
+            radioGroup.check(i);
+        }
+    }
+
+    public static void setListeners(RadioGroup radioGroup, final OnCheckedChangeListener onCheckedChangeListener, final InverseBindingListener inverseBindingListener) {
+        if (inverseBindingListener == null) {
+            radioGroup.setOnCheckedChangeListener(onCheckedChangeListener);
+        } else {
+            radioGroup.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+                public void onCheckedChanged(RadioGroup radioGroup, int i) {
+                    OnCheckedChangeListener onCheckedChangeListener = onCheckedChangeListener;
+                    if (onCheckedChangeListener != null) {
+                        onCheckedChangeListener.onCheckedChanged(radioGroup, i);
+                    }
+                    inverseBindingListener.onChange();
+                }
+            });
+        }
+    }
+}

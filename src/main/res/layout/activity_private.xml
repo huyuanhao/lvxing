@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:tag="layout/activity_private_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ezy.ui.widget.CenteredTitleBar app:title="隐私" style="@style/Toolbar.BgWhite"/>
+    <Space android:layout_width="match_parent" android:layout_height="15dp"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/lyt_container" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:gravity="center_vertical" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="65dp" android:text="设置社交信息" android:drawableEnd="@mipmap/ic_arrow_right_grey" android:paddingStart="20dp" android:paddingEnd="20dp" style="@style/tv_16_c33"/>
+        <View android:layout_marginStart="20dp" style="@style/DividerGrey.H"/>
+        <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="82dp" android:paddingStart="20dp" android:paddingEnd="20dp">
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:text="我的师父可见" style="@style/tv_16_c33"/>
+                <TextView android:layout_marginTop="4dp" android:text="开启后，您的师父可以看见您的社交信息" style="@style/tv_12_c99"/>
+            </LinearLayout>
+            <Switch android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/switch_view" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="30dp" android:thumb="@drawable/selector_switch_thumb" android:track="@drawable/selector_switch_track"/>
+        </LinearLayout>
+        <View android:layout_marginStart="20dp" style="@style/DividerGrey.H"/>
+        <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="82dp" android:paddingStart="20dp" android:paddingEnd="20dp">
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:text="我的好友可见" style="@style/tv_16_c33"/>
+                <TextView android:layout_marginTop="4dp" android:text="开启后，您的好友可以看见您的社交信息" style="@style/tv_12_c99"/>
+            </LinearLayout>
+            <Switch android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/switch_view2" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="30dp" android:thumb="@drawable/selector_switch_thumb" android:track="@drawable/selector_switch_track"/>
+        </LinearLayout>
+        <View android:layout_marginStart="20dp" style="@style/DividerGrey.H"/>
+    </LinearLayout>
+</LinearLayout>

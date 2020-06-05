@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/dialog_recycle_special_hint_0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/bg_white_10" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="45dp" android:layout_marginBottom="5dp" android:src="@mipmap/ic_dog_level43"/>
+            <ezy.ui.widget.round.RoundText android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:layout_width="50dp" android:layout_height="18dp" android:text="Lv.38" android:fontFamily="@font/din_black" app:rndCornerRadius="-1" app:rndSolidColor="#65db7b" style="@style/tv_14_cff"/>
+        </FrameLayout>
+        <TextView android:textStyle="bold" android:layout_marginTop="20dp" android:text="确定回收情侣犬吗" style="@style/tv_16_c33"/>
+        <LinearLayout android:gravity="center_vertical" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="33dp" android:layout_marginTop="13dp" android:paddingStart="8dp" android:paddingEnd="8dp">
+            <TextView android:text="将获得" style="@style/tv_14_c66"/>
+            <TextView android:textSize="20sp" android:text="5~50" android:layout_marginStart="6dp" android:layout_marginEnd="6dp" style="@style/tv_14_red"/>
+            <TextView android:textStyle="bold" android:text="元" style="@style/tv_14_red"/>
+        </LinearLayout>
+        <ezy.ui.widget.round.RoundText android:id="@+id/btn" android:layout_marginTop="22dp" android:layout_marginBottom="50dp" android:text="确定回收" android:layout_marginStart="40dp" android:layout_marginEnd="40dp" style="@style/RndBtn.Green"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/iv_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:src="@mipmap/ic_close_white"/>
+</LinearLayout>

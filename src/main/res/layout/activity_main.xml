@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:tag="layout/activity_main_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="45dp"/>
+    <ImageView android:layout_gravity="bottom" android:background="@mipmap/bg_shadow_bottom" android:layout_width="match_parent" android:layout_height="10dp" android:layout_marginBottom="45dp" android:scaleType="fitXY"/>
+    <com.google.android.material.tabs.TabLayout android:layout_gravity="bottom" android:id="@+id/tabLayout" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="43dp" app:tabBackground="@null" app:tabGravity="0" app:tabIndicatorHeight="0dp" app:tabMode="1" app:tabPaddingEnd="0dp" app:tabPaddingStart="0dp" app:tabRippleColor="@android:color/transparent" app:tabSelectedTextColor="@color/c333333" app:tabTextColor="@color/grey_BEBEBE"/>
+</FrameLayout>

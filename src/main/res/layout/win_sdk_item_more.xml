@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/win_sdk_bg_show_more" android:layout_width="match_parent" android:layout_height="46dp">
+    <ImageView android:layout_gravity="center" android:background="@drawable/win_sdk_bg_show_more_icon" android:layout_width="38dp" android:layout_height="23dp" android:src="@drawable/win_sdk_unfold"/>
+</FrameLayout>

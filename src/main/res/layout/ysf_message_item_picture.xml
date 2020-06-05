@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.qiyukf.nim.uikit.common.ui.imageview.MsgThumbImageView android:layout_gravity="top" android:id="@+id/message_item_thumb_thumbnail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" android:contentDescription="@null"/>
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/message_item_thumb_cover" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" android:contentDescription="@null"/>
+    <TextView android:textColor="@color/ysf_grey_c5c4c4" android:layout_gravity="center" android:id="@+id/message_item_thumb_progress_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="99%"/>
+    <TextView android:textSize="@dimen/ysf_text_size_14" android:textColor="@color/ysf_blue_5092e1" android:gravity="center" android:layout_gravity="bottom" android:id="@+id/tv_nim_message_item_thumb_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="76px"/>
+</FrameLayout>

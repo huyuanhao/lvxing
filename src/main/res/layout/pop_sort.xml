@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:tag="layout/pop_sort_0" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_sort_up" android:layout_marginStart="60dp"/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/bg_white_10" android:layout_width="89dp" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/selector_33_and_green" android:gravity="center" android:id="@+id/tv_persons" android:layout_width="match_parent" android:layout_height="37dp" android:text="按推荐人数" style="@style/tv_12_c66"/>
+        <View style="@style/DividerGrey.H"/>
+        <TextView android:gravity="center" android:id="@+id/tv_time" android:layout_width="match_parent" android:layout_height="37dp" android:text="按邀请时间" style="@style/tv_12_c66"/>
+    </LinearLayout>
+</LinearLayout>

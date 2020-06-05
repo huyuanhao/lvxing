@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:tag="layout/item_map_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5dp" android:layout_marginEnd="5dp">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:tag="binding_1" android:layout_width="45dp" android:layout_height="45dp" android:layout_marginTop="27dp">
+            <TextView android:layout_gravity="center_horizontal" android:id="@+id/tv_percent" android:tag="binding_2" android:layout_marginTop="7dp" style="@style/tv_14_c99"/>
+            <TextView android:textColor="@color/selector_ff_and_99" android:gravity="center" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="18dp" android:layout_marginBottom="2dp" android:layout_marginStart="2dp" android:layout_marginEnd="2dp" style="@style/tv_10_c66"/>
+            <ImageView android:layout_gravity="center" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_travel_gift_grey"/>
+        </FrameLayout>
+        <ImageView android:layout_gravity="center_horizontal" android:tag="binding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_white_triangle"/>
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_horizontal" android:tag="binding_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_travel_gift" android:adjustViewBounds="true"/>
+</FrameLayout>

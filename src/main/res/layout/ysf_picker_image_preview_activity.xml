@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/picker_image_preview_root" android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.qiyukf.unicorn.widget.ViewPagerFixed android:id="@+id/picker_image_preview_viewpager" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@+id/picker_image_preview_operator_bar" android:background="#e6e6e6" android:layout_width="match_parent" android:layout_height="50dp">
+        <ImageButton android:id="@+id/picker_image_preview_orignal_image" android:background="@null" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="10dp"/>
+        <TextView android:textSize="@dimen/ysf_text_size_14" android:textColor="#999999" android:gravity="center_vertical" android:id="@+id/picker_image_preview_orignal_image_tip" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="7dp" android:text="@string/ysf_picker_image_preview_original"/>
+        <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+        <com.qiyukf.unicorn.widget.StylableTextView android:enabled="true" android:textSize="@dimen/ysf_text_size_14" android:gravity="center_vertical" android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/picker_image_preview_send" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="@string/ysf_send"/>
+    </LinearLayout>
+</LinearLayout>

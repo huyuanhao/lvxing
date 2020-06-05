@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:tag="layout/dialog_share_0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@+id/list" android:layout_width="match_parent" android:layout_height="414.6641dp" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+    <FrameLayout android:gravity="center_horizontal" android:layout_gravity="bottom" android:orientation="vertical" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="160dp" android:layout_marginTop="14dp">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40dp">
+            <TextView android:gravity="center_horizontal" android:id="@+id/iv_wx" android:text="微信朋友" android:drawableTop="@mipmap/ic_wx" android:drawablePadding="20dp" android:layout_marginStart="80dp" style="@style/tv_12_c66"/>
+            <TextView android:gravity="center_horizontal" android:layout_gravity="end" android:id="@+id/iv_wx_circle" android:text="朋友圈" android:drawableTop="@mipmap/ic_wx_circle" android:drawablePadding="20dp" android:layout_marginEnd="80dp" style="@style/tv_12_c66"/>
+        </FrameLayout>
+        <ImageView android:layout_gravity="end" android:id="@+id/iv_close" android:paddingTop="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_close_grey" android:paddingEnd="20dp"/>
+    </FrameLayout>
+</LinearLayout>

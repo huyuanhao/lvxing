@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/emojiLayout" android:background="@android:color/white" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/ll_emoji_layout_bottom_parent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <HorizontalScrollView android:id="@+id/emoj_tab_view_container" android:background="@android:color/white" android:scrollbars="none" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/emoj_tab_view" android:layout_width="wrap_content" android:layout_height="44dp"/>
+        </HorizontalScrollView>
+    </LinearLayout>
+    <View android:id="@+id/top_divider_line" android:layout_alignParentTop="true" style="@style/ysf_horizontal_light_thin_divider"/>
+    <View android:id="@+id/bottom_divider_line" android:layout_above="@+id/ll_emoji_layout_bottom_parent" style="@style/ysf_horizontal_light_thin_divider"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/layout_scr_bottom" android:layout_width="match_parent" android:layout_height="8dp" android:layout_marginBottom="10dp" android:layout_above="@+id/bottom_divider_line"/>
+    <com.qiyukf.unicorn.widget.ViewPagerFixed android:id="@+id/emotion_icon_pager" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="4dp" android:layout_marginBottom="4dp" android:layout_above="@+id/layout_scr_bottom" android:layout_below="@+id/top_divider_line" android:overScrollMode="never"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ll_load_empty_parent" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_emoji_empty"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="企业未上传表情数据"/>
+    </LinearLayout>
+    <TextView android:gravity="center" android:id="@+id/tv_load_and_fail_message" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="正在加载中，请稍后..."/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/ll_load_fail_parent" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:layout_gravity="center_horizontal" android:id="@+id/ysf_tv_network_error_pic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:text="当前网络不可用" android:drawableTop="@drawable/ysf_ic_network_error" android:drawablePadding="10dp" android:layout_centerHorizontal="true" android:layout_centerVertical="true"/>
+        <Button android:textColor="@color/ysf_white" android:layout_gravity="center_horizontal" android:id="@+id/btn_load_fail_reload" android:background="@drawable/ysf_evaluation_button_bg" android:paddingLeft="12dp" android:paddingTop="10dp" android:paddingRight="12dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="刷新" android:layout_centerHorizontal="true"/>
+    </LinearLayout>
+</RelativeLayout>

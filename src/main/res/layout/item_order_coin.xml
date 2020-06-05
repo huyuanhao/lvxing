@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/item_order_coin_0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textColor="@color/orange_FFA229" android:id="@+id/tv_add" android:tag="binding_1" android:drawablePadding="3dp" android:drawableStart="@mipmap/ic_order_coin" style="@style/tv_12_c33"/>
+    <FrameLayout android:layout_width="44dp" android:layout_height="44dp" android:layout_marginTop="5dp">
+        <ImageView android:id="@+id/iv_add" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <de.hdodenhof.circleimageview.CircleImageView android:id="@+id/iv" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@mipmap/ic_launcher"/>
+        <com.jiayouya.travel.module.tb.widget.CircleProgressBar android:id="@+id/progress_bar" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="match_parent" app:arcHeight="3dp" app:type="linear"/>
+    </FrameLayout>
+    <TextView android:gravity="center" android:layout_height="14dp" android:layout_marginTop="6dp" android:maxWidth="50dp" android:text="彩妆隔离..." android:singleLine="true" android:paddingStart="8dp" android:paddingEnd="8dp" style="@style/tv_12_c33"/>
+</LinearLayout>

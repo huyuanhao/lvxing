@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/activity_invite_logs_0" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ezy.ui.widget.CenteredTitleBar app:title="邀请记录" style="@style/Toolbar.BgWhite">
+        <TextView android:id="@+id/tv_sort" android:visibility="gone" android:text="排序" style="@style/Toolbar.RightText.Grey"/>
+    </ezy.ui.widget.CenteredTitleBar>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:layout_gravity="center_vertical" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="30dp" android:layout_marginStart="15dp" android:layout_marginEnd="15dp"/>
+        <ezy.ui.widget.round.RoundText android:id="@+id/tab_indicator" android:layout_width="130dp" android:layout_height="50dp" android:layout_marginStart="5dp" app:rndCornerRadius="10dp" app:rndShadowColor="#6639cd63" app:rndShadowLen="10dp" app:rndSolidColor="#39cd63"/>
+        <LinearLayout android:layout_gravity="center_vertical" android:id="@+id/lyt_tab" android:layout_width="match_parent" android:layout_height="30dp" android:layout_marginStart="15dp" android:layout_marginEnd="15dp">
+            <TextView android:textColor="@color/selector_66_and_ff" android:gravity="center" android:layout_width="0dp" android:layout_height="match_parent" android:text="直邀好友" android:layout_weight="1" style="@style/tv_14_c33"/>
+            <TextView android:textColor="@color/selector_66_and_ff" android:gravity="center" android:layout_width="0dp" android:layout_height="match_parent" android:text="扩散好友" android:layout_weight="1" style="@style/tv_14_c33"/>
+            <TextView android:textColor="@color/selector_66_and_ff" android:gravity="center" android:layout_width="0dp" android:layout_height="match_parent" android:text="待激活" android:layout_weight="1" style="@style/tv_14_c33"/>
+        </LinearLayout>
+    </FrameLayout>
+    <androidx.viewpager.widget.ViewPager android:id="@+id/view_pager" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <TextView android:gravity="center" android:id="@+id/tv" android:tag="binding_2" android:layout_height="27dp" android:layout_marginTop="10dp" android:layout_marginBottom="20dp" android:paddingStart="7dp" android:paddingEnd="7dp" style="@style/tv_14_c66"/>
+</LinearLayout>

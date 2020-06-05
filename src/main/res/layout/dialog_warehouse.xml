@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/dialog_warehouse_0" android:background="@drawable/bg_white_10" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:tag="binding_1" android:layout_width="match_parent" android:layout_height="60dp">
+        <TextView android:textSize="22sp" android:textStyle="bold" android:layout_gravity="center_horizontal" android:layout_marginTop="9dp" android:text="仓库" style="@style/tv_12_cff"/>
+        <TextView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:tag="binding_2" android:layout_marginBottom="8dp" style="@style/tv_12_cff"/>
+        <FrameLayout android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/iv_close" android:padding="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="12dp" android:layout_height="12dp" android:src="@mipmap/ic_close_white"/>
+        </FrameLayout>
+    </FrameLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="51dp" android:paddingStart="17dp" android:paddingEnd="17dp">
+        <TextView android:textStyle="bold" android:layout_gravity="center_vertical" android:text="等级" style="@style/tv_16_c33"/>
+        <TextView android:textStyle="bold" android:layout_gravity="center_vertical" android:text="名称" android:layout_marginStart="123dp" style="@style/tv_16_c33"/>
+        <TextView android:textStyle="bold" android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:text="已存入仓库" style="@style/tv_16_c33"/>
+    </FrameLayout>
+    <View android:layout_marginStart="17dp" android:layout_marginEnd="17dp" style="@style/DividerGrey.H"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="320dp">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/list" android:layout_width="match_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/lyt_empty" android:paddingTop="30dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/iv_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_warehouse_empty" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="18dp" android:src="@mipmap/ic_arrow_bottom_green" android:layout_marginEnd="11dp" app:layout_constraintBottom_toBottomOf="@+id/iv_empty" app:layout_constraintEnd_toEndOf="@+id/iv_empty"/>
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="45dp" android:src="@mipmap/ic_guide_hand" android:layout_marginEnd="23dp" app:layout_constraintBottom_toBottomOf="@+id/iv_empty" app:layout_constraintEnd_toEndOf="0"/>
+            <TextView android:layout_marginTop="25dp" android:text="拖动狗放入仓库" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/iv_empty" style="@style/tv_12_c99"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginTop="17.5dp" android:layout_marginBottom="25dp" android:layout_marginStart="27dp" android:layout_marginEnd="27dp">
+        <ezy.ui.widget.round.RoundText android:textColor="@color/green_39CD63" android:id="@+id/btn_expand" android:layout_width="0dp" android:layout_height="match_parent" android:text="扩容" android:layout_weight="1" android:layout_marginEnd="14dp" app:rndCornerRadius="-1" app:rndStrokeColor="@color/green_39CD63" app:rndStrokeWidth="1dp"/>
+        <ezy.ui.widget.round.RoundText android:id="@+id/btn" android:layout_width="0dp" android:layout_height="match_parent" android:text="取出" android:layout_weight="1" android:layout_marginStart="14dp" style="@style/RndBtn.Green"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:background="@android:color/transparent" android:padding="15dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@+id/win_sdk_next_step_dialog_layout" android:background="@drawable/win_sdk_offer_dialog_bg_trans" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="64dp" android:minHeight="140dp">
+            <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/win_sdk_offer_dialog_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="56dp" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/win_sdk_offer_dialog_icon1" android:layout_width="124dp" android:layout_height="98dp" android:src="@drawable/win_sdk_offer_dialog_icon1" android:scaleType="fitXY"/>
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/win_sdk_offer_dialog_get_container" android:background="@drawable/win_sdk_offer_dialog_btn" android:visibility="visible" android:layout_width="200dp" android:layout_height="38dp" android:layout_marginTop="8dp">
+        <TextView android:textSize="13sp" android:textStyle="bold" android:textColor="#742a00" android:gravity="center" android:id="@+id/win_sdk_offer_dialog_get" android:background="@drawable/win_sdk_offer_dialog_btn" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:drawableLeft="@drawable/win_sdk_offer_dialog_coin" android:drawablePadding="4dp"/>
+    </LinearLayout>
+</LinearLayout>

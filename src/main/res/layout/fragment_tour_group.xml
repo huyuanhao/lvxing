@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:tag="layout/fragment_tour_group_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@+id/refresh" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:background="@drawable/bg_travel" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <View android:id="@+id/status_view" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintTop_toTopOf="0"/>
+                    <TextView android:id="@+id/tv_title1" android:layout_marginTop="15dp" android:text="好友合成狗越多" android:layout_marginStart="20dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/status_view" style="@style/tv_16_cff"/>
+                    <TextView android:textSize="26sp" android:textStyle="bold" android:id="@+id/tv_title2" android:layout_marginTop="8dp" android:text="我的收入越高" android:layout_marginStart="20dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/tv_title1" style="@style/tv_12_cff"/>
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/lyt_persons" android:background="@drawable/bg_white_10" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="28dp" android:layout_marginStart="15dp" android:layout_marginEnd="15dp" app:layout_constraintTop_toBottomOf="@+id/tv_title2">
+                        <LinearLayout android:gravity="center_vertical" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="17dp" android:paddingStart="20dp" android:paddingEnd="20dp">
+                            <TextView android:textStyle="bold" android:text="好友人数:" style="@style/tv_16_c33"/>
+                            <TextView android:textSize="20sp" android:tag="binding_2" android:layout_marginStart="10dp" style="@style/tv_14_c33"/>
+                            <Space android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+                            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <de.hdodenhof.circleimageview.CircleImageView android:tag="binding_3" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginStart="50dp" app:civ_border_color="@color/white" app:civ_border_width="1dp"/>
+                                <de.hdodenhof.circleimageview.CircleImageView android:tag="binding_4" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginStart="25dp" app:civ_border_color="@color/white" app:civ_border_width="1dp"/>
+                                <de.hdodenhof.circleimageview.CircleImageView android:tag="binding_5" android:layout_width="30dp" android:layout_height="30dp" app:civ_border_color="@color/white" app:civ_border_width="1dp"/>
+                            </FrameLayout>
+                            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_arrow_right_grey"/>
+                        </LinearLayout>
+                        <ezy.ui.widget.round.RoundText android:id="@+id/btn_invite" android:tag="binding_6" android:layout_marginTop="15dp" android:text="邀请好友" android:layout_marginStart="20dp" android:layout_marginEnd="20dp" style="@style/RndBtn.Green"/>
+                        <TextView android:gravity="center_vertical" android:id="@+id/tv_friend_auth" android:tag="binding_7" android:layout_marginTop="12dp" android:drawablePadding="3dp" android:drawableStart="@mipmap/ic_hint_grey" style="@style/tv_12_c99"/>
+                        <TextView android:gravity="center_vertical" android:id="@+id/tv_notify_friend" android:tag="binding_8" android:layout_marginBottom="20dp" android:text="通知好友完成实名即可获得收入" android:drawableEnd="@mipmap/ic_arrow_right_grey" style="@style/tv_12_c99"/>
+                    </LinearLayout>
+                    <Space android:id="@+id/space" android:layout_width="match_parent" android:layout_height="110dp" app:layout_constraintBottom_toTopOf="@+id/lyt_persons"/>
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-110dp" android:src="@mipmap/ic_wallet" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="@+id/space"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:tag="binding_9" android:background="@drawable/bg_white_10" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginStart="15dp" android:layout_marginEnd="15dp">
+                    <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="23dp" android:layout_marginStart="19dp" android:layout_marginEnd="15dp">
+                        <TextView android:textStyle="bold" android:layout_width="0dp" android:text="好友累计给我赚钱" android:layout_weight="1" style="@style/tv_16_c33"/>
+                        <TextView android:gravity="center_vertical" android:tag="binding_10" android:text="玩法规则" android:drawableEnd="@mipmap/ic_arrow_right_grey" style="@style/tv_14_c66"/>
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="22dp">
+                        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                            <LinearLayout android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="30sp" android:textColor="@color/red_F35E4E" android:tag="binding_11" style="@style/tv_14_c33"/>
+                                <TextView android:textStyle="bold" android:textColor="@color/red_F35E4E" android:layout_marginBottom="1.5dp" android:text="元" style="@style/tv_12_c33"/>
+                            </LinearLayout>
+                            <TextView android:gravity="center_vertical" android:id="@+id/tv_total_profit" android:layout_marginTop="3dp" android:text="当前阶段总收入" android:drawableEnd="@mipmap/ic_question_grey" style="@style/tv_12_c99"/>
+                        </LinearLayout>
+                        <View style="@style/DividerGrey.V"/>
+                        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                            <LinearLayout android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="30sp" android:tag="binding_12" style="@style/tv_14_c33"/>
+                                <TextView android:textStyle="bold" android:layout_marginBottom="1.5dp" android:text="元" style="@style/tv_12_c33"/>
+                            </LinearLayout>
+                            <TextView android:gravity="center_vertical" android:id="@+id/tv_target" android:tag="binding_13" android:layout_marginTop="3dp" android:drawableEnd="@mipmap/ic_question_grey" style="@style/tv_12_c99"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <com.jiayouya.travel.common.widget.RndCornerProgressBar android:id="@+id/progress_bar" android:tag="binding_14" android:layout_width="match_parent" android:layout_height="8dp" android:layout_marginTop="23dp" android:layout_marginStart="30dp" android:layout_marginEnd="30dp" app:rcBackgroundColor="@color/grey_f4" app:rcEndColor="@color/green_end" app:rcStartColor="@color/green_start"/>
+                    <TextView android:tag="binding_15" android:layout_marginTop="14dp" android:layout_marginBottom="23dp" style="@style/tv_10_c99"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:tag="binding_16" android:background="@drawable/bg_white_10" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginStart="15dp" android:layout_marginEnd="15dp">
+                    <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21dp" android:layout_marginStart="20dp" android:layout_marginEnd="15dp">
+                        <TextView android:textStyle="bold" android:text="今日好友给我赚钱" style="@style/tv_16_c33"/>
+                        <TextView android:tag="binding_17" android:layout_marginStart="5dp" style="@style/tv_14_c99"/>
+                    </LinearLayout>
+                    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp">
+                            <LinearLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                                <TextView android:textSize="30sp" android:textColor="@color/red_F35E4E" android:tag="binding_18" style="@style/tv_14_c33"/>
+                                <TextView android:textStyle="bold" android:textColor="@color/red_F35E4E" android:layout_marginBottom="1.5dp" android:text="元" style="@style/tv_12_c33"/>
+                            </LinearLayout>
+                            <LinearLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                                <TextView android:textSize="30sp" android:tag="binding_19" style="@style/tv_14_c33"/>
+                                <TextView android:textStyle="bold" android:layout_marginBottom="1.5dp" android:text="元" style="@style/tv_12_c33"/>
+                            </LinearLayout>
+                            <LinearLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                                <TextView android:textSize="30sp" android:tag="binding_20" style="@style/tv_14_c33"/>
+                                <TextView android:textStyle="bold" android:layout_marginBottom="1.5dp" android:text="元" style="@style/tv_12_c33"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="31dp" android:src="@mipmap/ic_green_pop" android:layout_marginStart="81dp"/>
+                        <ezy.ui.widget.round.RoundText android:textColor="@color/white" android:gravity="center_vertical" android:tag="binding_21" android:paddingTop="2dp" android:paddingBottom="2dp" android:layout_marginTop="17dp" android:drawablePadding="1dp" android:drawableStart="@mipmap/ic_rocket" android:paddingStart="7dp" android:paddingEnd="7dp" android:layout_marginStart="80dp" app:rndCornerRadius="-1" app:rndGradientEndColor="#38cd62" app:rndGradientStartColor="#65db7b" app:rndPressedRatio="1" style="@style/tv_10_c33"/>
+                    </FrameLayout>
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="24dp">
+                        <TextView android:gravity="center_horizontal" android:layout_width="0dp" android:text="合计" android:layout_weight="1" style="@style/tv_12_c99"/>
+                        <TextView android:gravity="center_horizontal" android:layout_width="0dp" android:text="直邀好友贡献" android:layout_weight="1" style="@style/tv_12_c99"/>
+                        <TextView android:gravity="center_horizontal" android:layout_width="0dp" android:text="扩散好友贡献" android:layout_weight="1" style="@style/tv_12_c99"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:tag="binding_22" android:background="@drawable/bg_white_10" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:paddingStart="20dp" android:paddingEnd="20dp" android:layout_marginStart="15dp" android:layout_marginEnd="15dp">
+                    <FrameLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+                        <TextView android:textStyle="bold" android:gravity="center_vertical" android:id="@+id/tv_channel_explain" android:text="成为渠道后，额外多赚" android:drawablePadding="5dp" android:drawableEnd="@mipmap/ic_question_grey" style="@style/tv_16_c33"/>
+                        <ezy.ui.widget.round.RoundText android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/btn_upgrade_channel" android:tag="binding_23" android:layout_width="63dp" android:layout_height="23dp" android:text="升级渠道" app:rndCornerRadius="-1" app:rndGradientEndColor="@color/green_end" app:rndGradientStartColor="@color/green_start" style="@style/tv_12_cff"/>
+                    </FrameLayout>
+                    <TextView android:layout_marginTop="6dp" android:text="完成第十阶段即可成为渠道" style="@style/tv_12_c66"/>
+                    <LinearLayout android:gravity="bottom" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+                        <TextView android:textSize="30sp" android:tag="binding_24" style="@style/tv_16_c33"/>
+                        <TextView android:layout_marginBottom="2dp" android:text="元" android:layout_marginStart="3dp" style="@style/tv_12_c33"/>
+                    </LinearLayout>
+                    <TextView android:layout_gravity="center_horizontal" android:layout_marginTop="8dp" android:layout_marginBottom="24dp" android:text="今日渠道额外多赚" style="@style/tv_12_c99"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:tag="binding_25" android:background="@drawable/bg_white_10" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginBottom="12dp" android:paddingStart="20dp" android:paddingEnd="20dp" android:layout_marginStart="15dp" android:layout_marginEnd="15dp">
+                    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="23dp">
+                        <TextView android:textStyle="bold" android:text="我的邀请人" style="@style/tv_16_c33"/>
+                        <TextView android:gravity="center_vertical" android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/tv_contact_inviter" android:text="联系Ta" android:drawableEnd="@mipmap/ic_arrow_right_grey" style="@style/tv_14_c66"/>
+                    </FrameLayout>
+                    <FrameLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginBottom="25dp">
+                        <de.hdodenhof.circleimageview.CircleImageView android:tag="binding_26" android:layout_width="48dp" android:layout_height="48dp"/>
+                        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="60dp">
+                            <TextView android:tag="binding_27" style="@style/tv_14_c99"/>
+                            <TextView android:tag="binding_28" style="@style/tv_14_red"/>
+                            <TextView android:text="元" style="@style/tv_12_red"/>
+                        </LinearLayout>
+                    </FrameLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:tag="binding_29" android:background="@drawable/bg_white_10" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="15dp" android:paddingStart="20dp" android:paddingEnd="20dp" android:layout_marginStart="15dp" android:layout_marginEnd="15dp">
+                    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="23dp">
+                        <TextView android:textStyle="bold" android:text="星级邀请人" android:drawablePadding="5dp" android:drawableStart="@mipmap/ic_star_invite" style="@style/tv_16_c33"/>
+                        <TextView android:gravity="center_vertical" android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/tv_contact_star" android:text="联系Ta" android:drawableEnd="@mipmap/ic_arrow_right_grey" style="@style/tv_14_c66"/>
+                    </FrameLayout>
+                    <FrameLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginBottom="25dp">
+                        <de.hdodenhof.circleimageview.CircleImageView android:tag="binding_30" android:layout_width="48dp" android:layout_height="48dp"/>
+                        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="60dp">
+                            <TextView android:tag="binding_31" style="@style/tv_14_c99"/>
+                            <TextView android:tag="binding_32" style="@style/tv_14_red"/>
+                            <TextView android:text="元" style="@style/tv_12_red"/>
+                        </LinearLayout>
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+</FrameLayout>

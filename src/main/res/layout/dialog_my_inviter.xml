@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/dialog_my_inviter_0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/iv_close" style="@style/Dialog.CloseGrey"/>
+    <TextView android:textStyle="bold" android:tag="binding_1" android:layout_marginTop="-22dp" style="@style/tv_16_c33"/>
+    <de.hdodenhof.circleimageview.CircleImageView android:tag="binding_2" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginTop="19dp"/>
+    <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+        <TextView android:tag="binding_3" style="@style/tv_16_c33"/>
+        <TextView android:textStyle="bold" android:tag="binding_4" android:layout_marginStart="3dp" style="@style/tv_14_c33"/>
+        <ImageView android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4dp" android:src="@mipmap/ic_contact" android:layout_marginStart="6dp"/>
+    </LinearLayout>
+    <TextView android:tag="binding_5" android:layout_marginTop="9dp" style="@style/tv_14_c66"/>
+    <LinearLayout android:gravity="center_vertical" android:tag="binding_6" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginTop="19dp" android:paddingStart="10dp" android:paddingEnd="10dp" android:layout_marginStart="20dp" android:layout_marginEnd="20dp">
+        <ImageView android:layout_width="16dp" android:layout_height="16dp" android:src="@mipmap/ic_inviter_wx"/>
+        <TextView android:tag="binding_7" android:layout_width="0dp" android:layout_weight="1" android:layout_marginStart="8dp" style="@style/tv_16_c33"/>
+        <ezy.ui.widget.round.RoundText android:textSize="12sp" android:textStyle="normal" android:id="@+id/btn_copy_wx" android:layout_width="80dp" android:layout_height="24dp" android:layout_margin="0dp" android:text="复制微信号" style="@style/RndBtn.Green"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:tag="binding_8" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginTop="10dp" android:paddingStart="10dp" android:paddingEnd="10dp" android:layout_marginStart="20dp" android:layout_marginEnd="20dp">
+        <ImageView android:layout_width="16dp" android:layout_height="16dp" android:src="@mipmap/ic_inviter_qq"/>
+        <TextView android:tag="binding_9" android:layout_width="0dp" android:layout_weight="1" android:layout_marginStart="8dp" style="@style/tv_16_c33"/>
+        <ezy.ui.widget.round.RoundText android:textSize="12sp" android:textStyle="normal" android:textColor="@color/white" android:id="@+id/btn_copy_qq" android:layout_width="80dp" android:layout_height="24dp" android:layout_margin="0dp" android:text="复制QQ号" app:rndCornerRadius="-1" app:rndGradientEndColor="@color/blue_end" app:rndGradientStartColor="@color/blue_start"/>
+    </LinearLayout>
+    <TextView android:gravity="center_vertical" android:id="@+id/tv_setting" android:layout_marginTop="24dp" android:layout_marginBottom="29dp" android:text="我也要设置社交信息" android:drawableEnd="@mipmap/ic_arrow_right_grey" style="@style/tv_12_c33"/>
+</LinearLayout>

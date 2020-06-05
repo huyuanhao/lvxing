@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:tag="layout/activity_explore_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="match_parent" android:layout_height="247dp">
+                <HorizontalScrollView android:id="@+id/far_scroll_view" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:id="@+id/bg_far" android:layout_width="wrap_content" android:layout_height="159dp" android:src="@mipmap/bg_explore_far" android:adjustViewBounds="true"/>
+                        <ImageView android:layout_width="wrap_content" android:layout_height="159dp" android:src="@mipmap/bg_explore_far" android:adjustViewBounds="true"/>
+                    </LinearLayout>
+                </HorizontalScrollView>
+                <HorizontalScrollView android:layout_gravity="bottom" android:id="@+id/middle_scroll_view" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="88dp">
+                    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:id="@+id/bg_middle" android:layout_width="wrap_content" android:layout_height="122dp" android:src="@mipmap/bg_explore_middle" android:adjustViewBounds="true" android:paddingStart="35dp" android:paddingEnd="35dp"/>
+                        <ImageView android:layout_width="wrap_content" android:layout_height="122dp" android:src="@mipmap/bg_explore_middle" android:adjustViewBounds="true" android:paddingStart="35dp" android:paddingEnd="35dp"/>
+                    </LinearLayout>
+                </HorizontalScrollView>
+                <HorizontalScrollView android:layout_gravity="bottom" android:id="@+id/near_scroll_view" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:id="@+id/bg_near" android:layout_width="wrap_content" android:layout_height="89dp" android:src="@mipmap/bg_explore_near" android:adjustViewBounds="true"/>
+                        <ImageView android:layout_width="wrap_content" android:layout_height="89dp" android:src="@mipmap/bg_explore_near" android:adjustViewBounds="true"/>
+                    </LinearLayout>
+                </HorizontalScrollView>
+                <com.jiayouya.travel.module.explore.widget.ShakeLayout android:id="@+id/lyt_shake" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            </FrameLayout>
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-35dp">
+                <LinearLayout android:orientation="vertical" android:tag="binding_1" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:paddingStart="14dp" android:paddingEnd="14dp">
+                    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="46dp">
+                        <TextView android:textStyle="bold" android:text="探险动态" android:drawablePadding="8dp" android:drawableStart="@mipmap/ic_explore_notice" style="@style/tv_16_c33"/>
+                        <TextView android:gravity="center_vertical" android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/tv_rule" android:tag="binding_2" android:text="规则" android:drawablePadding="5dp" style="@style/tv_13_c66"/>
+                    </FrameLayout>
+                    <TextView android:gravity="center" android:tag="binding_3" android:background="@drawable/bg_white_10" android:layout_width="match_parent" android:layout_height="45dp" android:layout_marginTop="18dp" android:text="还没有探险过哦~" android:layout_marginStart="15dp" android:layout_marginEnd="15dp" style="@style/tv_14_c66"/>
+                    <LinearLayout android:orientation="vertical" android:tag="binding_4" android:background="@drawable/bg_white_10" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:paddingStart="15dp" android:paddingEnd="15dp">
+                        <androidx.recyclerview.widget.RecyclerView android:id="@+id/dynamic_list" android:paddingTop="7dp" android:paddingBottom="7dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+                        <View android:layout_marginStart="15dp" android:layout_marginEnd="15dp" style="@style/DividerGrey.H"/>
+                        <TextView android:gravity="center" android:tag="binding_5" android:layout_width="match_parent" android:layout_height="45dp" android:text="查看更多动态" style="@style/tv_14_c66"/>
+                    </LinearLayout>
+                    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+                        <TextView android:textStyle="bold" android:text="探险收获" android:drawablePadding="8dp" android:drawableStart="@mipmap/ic_explore_bag" style="@style/tv_16_c33"/>
+                        <TextView android:textStyle="bold" android:textColor="@color/orange_FF8F44" android:gravity="center_vertical" android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/tv_harvest" android:text="探险可能获得?" style="@style/tv_13_c66"/>
+                    </FrameLayout>
+                    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_horizontal" android:id="@+id/harvest_list" android:background="@drawable/bg_white_10" android:paddingTop="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:paddingStart="7dp" android:paddingEnd="7dp" android:nestedScrollingEnabled="false" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" app:spanCount="6"/>
+                    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+                        <TextView android:textStyle="bold" android:layout_gravity="center_vertical" android:text="我的探险队" android:drawablePadding="8dp" android:drawableStart="@mipmap/ic_explore_team" style="@style/tv_16_c33"/>
+                        <ezy.ui.widget.round.RoundText android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/btn_recall" android:tag="binding_6" android:layout_width="65dp" android:layout_height="30dp" android:text="召回" app:rndBottomShadowLen="5dp" app:rndCornerRadius="-1" app:rndGradientEndColor="#ffb638" app:rndGradientStartColor="#ffc950" app:rndLeftShadowLen="5dp" app:rndRightShadowLen="5dp" app:rndShadowColor="#66ffc545" app:rndShadowOffsetY="3dp" style="@style/tv_14_cff"/>
+                    </FrameLayout>
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/bg_white_10" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp">
+                        <androidx.recyclerview.widget.RecyclerView android:id="@+id/team_list" android:paddingTop="7dp" android:layout_width="match_parent" android:layout_height="64dp" android:paddingStart="7dp" android:paddingEnd="7dp" android:nestedScrollingEnabled="false" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" app:spanCount="5"/>
+                        <LinearLayout android:gravity="center_vertical" android:layout_gravity="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="15dp" android:layout_marginEnd="15dp">
+                            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_explore_cell"/>
+                            <TextView android:gravity="center" android:tag="binding_7" android:layout_width="wrap_content" android:layout_height="16dp" android:paddingStart="3dp" android:paddingEnd="3dp" android:layout_marginStart="5dp" style="@style/tv_12_c33"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <FrameLayout android:layout_gravity="center_horizontal" android:tag="binding_8" android:paddingTop="7dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="2dp" android:paddingEnd="2dp">
+                    <ezy.ui.widget.round.RoundLayout android:id="@+id/btn_play" android:paddingTop="18dp" android:paddingBottom="18dp" android:layout_width="135dp" android:layout_height="wrap_content" android:layout_margin="0dp" app:rndBottomShadowLen="5dp" app:rndLeftShadowLen="5dp" app:rndRightShadowLen="5dp" app:rndShadowColor="#665bce94" app:rndShadowOffsetY="3dp" style="@style/RndBtn.Green">
+                        <TextView android:textStyle="bold" android:gravity="center_vertical" android:layout_gravity="center" android:tag="binding_9" style="@style/tv_14_cff"/>
+                    </ezy.ui.widget.round.RoundLayout>
+                </FrameLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <ezy.ui.widget.CenteredTitleBar android:id="@+id/toolbar" app:title=" " style="@style/Toolbar.BgTrans">
+        <FrameLayout android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="15dp">
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:tag="binding_10" android:layout_width="wrap_content" android:layout_height="20dp" android:paddingStart="28dp" android:paddingEnd="6dp">
+                <TextView android:text="剩余时长" style="@style/tv_12_cff"/>
+                <com.jiayouya.travel.common.widget.countdownview.CountdownView android:id="@+id/countdown_view" android:tag="binding_11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4dp" app:isShowMinute="true" app:isShowSecond="true" app:suffix=":" app:suffixGravity="2" app:suffixMinuteRightMargin="-2dp" app:suffixSecondLeftMargin="-2dp" app:suffixTextColor="@color/orange_FFB527" app:suffixTextSize="10sp" app:timeTextColor="@color/orange_FFB527" app:timeTextSize="12sp"/>
+            </LinearLayout>
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_countdown"/>
+        </FrameLayout>
+    </ezy.ui.widget.CenteredTitleBar>
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/item_notice_center_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp">
+    <TextView android:gravity="center" android:tag="binding_1" android:layout_height="18dp" android:paddingStart="9dp" android:paddingEnd="9dp" style="@style/tv_12_cff"/>
+    <LinearLayout android:orientation="vertical" android:tag="binding_2" android:paddingTop="20dp" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:layout_marginStart="15dp" android:layout_marginEnd="15dp">
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <View android:tag="binding_3" android:layout_width="4dp" android:layout_height="20dp"/>
+            <TextView android:textStyle="bold" android:tag="binding_4" android:layout_marginStart="14dp" style="@style/tv_16_c33"/>
+        </LinearLayout>
+        <TextView android:tag="binding_5" android:layout_marginTop="10dp" android:lineSpacingExtra="3dp" android:layout_marginStart="18dp" android:layout_marginEnd="20dp" style="@style/tv_14_c33"/>
+    </LinearLayout>
+</LinearLayout>

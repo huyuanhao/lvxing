@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:layout_gravity="bottom" android:background="@drawable/ksad_draw_bottom_bg" android:layout_width="match_parent" android:layout_height="400dp"/>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/ksad_ad_normal_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="24dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="15dp" android:textStyle="bold" android:textColor="#fad700" android:ellipsize="end" android:id="@+id/ksad_ad_normal_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:maxLines="1"/>
+            <ImageView android:layout_width="40dp" android:layout_height="15dp" android:src="@drawable/ksad_ad_label_black"/>
+        </LinearLayout>
+        <TextView android:textSize="15dp" android:textColor="#ffffff" android:id="@+id/ksad_ad_normal_des" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="3"/>
+        <TextView android:textSize="16dp" android:textColor="#b3ffffff" android:gravity="center" android:id="@+id/ksad_ad_normal_convert_btn" android:background="@drawable/ksad_draw_convert_normal_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginTop="15dp" android:text="立即下载"/>
+        <com.kwad.sdk.draw.view.DrawDownloadProgressBar android:id="@+id/ksad_ad_light_convert_btn" android:visibility="gone" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginTop="15dp"/>
+    </LinearLayout>
+    <com.kwad.sdk.draw.view.DrawCardApp android:layout_gravity="bottom" android:id="@+id/ksad_card_app_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="156dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="24dp"/>
+    <com.kwad.sdk.draw.view.DrawCardH5 android:layout_gravity="bottom" android:id="@+id/ksad_card_h5_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="24dp"/>
+</FrameLayout>

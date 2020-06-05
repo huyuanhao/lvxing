@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="album_check_album_limit">
+        <item quantity="one">You can only select %1$d media item.</item>
+        <item quantity="other">You can only select %1$d media items.</item>
+    </plurals>
+    <plurals name="album_check_album_limit_camera">
+        <item quantity="one">You can only select %1$d media item, can&apos;t use camera.</item>
+        <item quantity="other">You can only select %1$d media items, can&apos;t use camera.</item>
+    </plurals>
+    <plurals name="album_check_image_limit">
+        <item quantity="one">You can only select %1$d image item.</item>
+        <item quantity="other">You can only select %1$d image items.</item>
+    </plurals>
+    <plurals name="album_check_image_limit_camera">
+        <item quantity="one">You can only select %1$d image item, can&apos;t use camera.</item>
+        <item quantity="other">You can only select %1$d image items, can&apos;t use camera.</item>
+    </plurals>
+    <plurals name="album_check_video_limit">
+        <item quantity="one">You can only select %1$d video.</item>
+        <item quantity="other">You can only select %1$d videos.</item>
+    </plurals>
+    <plurals name="album_check_video_limit_camera">
+        <item quantity="one">You can only select %1$d video item, can&apos;t use camera.</item>
+        <item quantity="other">You can only select %1$d video items, can&apos;t use camera.</item>
+    </plurals>
+</resources>

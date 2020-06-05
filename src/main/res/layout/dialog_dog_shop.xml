@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/dialog_dog_shop_0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:layout_width="326dp" android:layout_height="482dp">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@mipmap/bg_dog_shop" android:adjustViewBounds="true"/>
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11dp">
+                <ImageView android:layout_width="20dp" android:layout_height="20dp" android:src="@mipmap/ic_coin_big" android:layout_marginStart="10dp"/>
+                <TextView android:textSize="22sp" android:id="@+id/tv_icon" android:layout_marginStart="4dp" style="@style/tv_12_c33"/>
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/list" android:layout_width="match_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+        </LinearLayout>
+    </FrameLayout>
+    <ImageView android:id="@+id/iv_close" android:paddingTop="17dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_close_white" android:paddingStart="10dp" android:paddingEnd="10dp"/>
+</LinearLayout>

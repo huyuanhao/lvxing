@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:color="@color/c333333" android:state_activated="true"/>
+    <item android:state_pressed="true" android:color="@color/c333333"/>
+    <item android:state_checked="true" android:color="@color/c333333"/>
+    <item android:state_selected="true" android:color="@color/c333333"/>
+    <item android:color="@color/grey_DBDBDE"/>
+</selector>

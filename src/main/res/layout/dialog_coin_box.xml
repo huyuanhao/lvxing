@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/dialog_coin_box_0" android:background="@drawable/bg_white_10" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/iv_close" style="@style/Dialog.CloseGrey"/>
+    <ImageView android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-34dp" android:src="@drawable/selector_box_coin"/>
+    <TextView android:textStyle="bold" android:tag="binding_2" style="@style/tv_16_c33"/>
+    <TextView android:tag="binding_3" android:layout_marginTop="12dp" style="@style/tv_14_c33"/>
+    <ezy.ui.widget.round.RoundLayout android:id="@+id/btn" android:layout_width="200dp" android:layout_height="40dp" android:layout_marginTop="28dp" app:rndCornerRadius="-1" app:rndGradientEndColor="@color/green_end" app:rndGradientStartColor="@color/green_start">
+        <TextView android:textStyle="bold" android:gravity="center_vertical" android:layout_gravity="center" android:text="看视频领取" android:drawableStart="@mipmap/ic_tv_small" style="@style/tv_16_cff"/>
+    </ezy.ui.widget.round.RoundLayout>
+    <TextView android:tag="binding_4" android:layout_marginTop="8dp" android:layout_marginBottom="28dp" style="@style/tv_12_c99"/>
+</LinearLayout>

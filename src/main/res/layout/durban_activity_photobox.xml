@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" style="@style/durban_MatchParent">
+    <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" app:navigationIcon="@drawable/durban_ic_back_white" style="@style/durban_Toolbar.PopupTheme"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/iv_controller_root" android:background="@color/durban_ControllerBackground" android:paddingTop="@dimen/durban_dp_10" android:layout_alignParentBottom="true" style="@style/durban_WrapContent.WidthMatchParent">
+        <LinearLayout android:id="@+id/layout_controller_title_root" style="@style/durban_WrapContent.WidthMatchParent">
+            <TextView android:id="@+id/tv_controller_title_rotation" android:text="@string/durban_controller_title_rotation" style="@style/durban_WrapContent.WidthWeight.ControllerTitle"/>
+            <TextView android:id="@+id/tv_controller_title_scale" android:text="@string/durban_controller_title_scale" style="@style/durban_WrapContent.WidthWeight.ControllerTitle"/>
+        </LinearLayout>
+        <LinearLayout style="@style/durban_MatchParent.ItemRoot">
+            <FrameLayout android:id="@+id/layout_controller_rotation_left" style="@style/durban_MatchParent.WidthWeight.ControllerItem">
+                <ImageView android:id="@+id/iv_controller_rotation_left" android:src="@drawable/durban_ic_rotation_90_left_white" style="@style/durban_WrapContent.ControllerButton"/>
+            </FrameLayout>
+            <FrameLayout android:id="@+id/layout_controller_rotation_right" style="@style/durban_MatchParent.WidthWeight.ControllerItem">
+                <ImageView android:id="@+id/iv_controller_rotation_right" android:src="@drawable/durban_ic_rotation_90_right_white" style="@style/durban_WrapContent.ControllerButton"/>
+            </FrameLayout>
+            <FrameLayout android:id="@+id/layout_controller_scale_big" style="@style/durban_MatchParent.WidthWeight.ControllerItem">
+                <ImageView android:id="@+id/iv_controller_scale_big" android:src="@drawable/durban_ic_scale_out_white" style="@style/durban_WrapContent.ControllerButton"/>
+            </FrameLayout>
+            <FrameLayout android:id="@+id/layout_controller_scale_small" style="@style/durban_MatchParent.WidthWeight.ControllerItem">
+                <ImageView android:id="@+id/iv_controller_scale_small" android:src="@drawable/durban_ic_scale_in_white" style="@style/durban_WrapContent.ControllerButton"/>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/content_frame" android:background="@color/durban_CropBackground" android:layout_above="@+id/iv_controller_root" android:layout_below="@+id/toolbar" style="@style/durban_MatchParent">
+        <ImageView android:layout_gravity="center" android:id="@+id/image_view_logo" android:layout_width="@dimen/durban_dp_200" android:layout_height="@dimen/durban_dp_200" app:srcCompat="@drawable/durban_vector_ic_crop_logo"/>
+        <com.yanzhenjie.durban.view.CropView android:id="@+id/crop_view" android:alpha="0" style="@style/durban_MatchParent"/>
+    </FrameLayout>
+</RelativeLayout>

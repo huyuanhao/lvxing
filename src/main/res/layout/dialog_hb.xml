@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:tag="layout/dialog_hb_0" android:layout_width="300dp" android:layout_height="431dp">
+    <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@mipmap/bg_hb" android:scaleType="fitXY"/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@mipmap/bg_hb" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="start" android:id="@+id/iv_close" android:src="@mipmap/ic_close_red" style="@style/Dialog.CloseGrey"/>
+        <FrameLayout android:tag="binding_1" android:padding="1dp" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginTop="-3dp">
+            <ImageView android:tag="binding_2" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </FrameLayout>
+        <TextView android:layout_marginTop="13dp" android:text="旅行世界" style="@style/tv_14_cff"/>
+        <TextView android:tag="binding_3" android:layout_marginTop="29dp" style="@style/tv_16_cff"/>
+        <ezy.ui.widget.round.RoundText android:tag="binding_4" android:layout_width="50dp" android:layout_height="20dp" android:layout_marginTop="18dp" android:text="可提现" app:rndCornerRadius="3.3dp" app:rndStrokeColor="@color/white" app:rndStrokeWidth="1dp" style="@style/tv_12_cff"/>
+        <LinearLayout android:gravity="center_vertical" android:tag="binding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp">
+            <TextView android:textSize="40sp" android:tag="binding_6" style="@style/tv_16_cff"/>
+            <TextView android:textSize="30sp" android:text="元" style="@style/tv_16_cff"/>
+        </LinearLayout>
+        <TextView android:gravity="center_vertical" android:id="@+id/tv_wallet" android:tag="binding_7" android:layout_marginTop="14dp" android:text="已存入我的钱包" android:drawableEnd="@mipmap/ic_arrow_right_white" style="@style/tv_12_cff"/>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/btn_cash" android:tag="binding_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20dp">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_cash_btn"/>
+        <TextView android:textStyle="bold" android:layout_gravity="center_horizontal" android:layout_marginTop="17dp" android:text="立即提现" style="@style/tv_16_c33"/>
+    </FrameLayout>
+    <ImageView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/iv_open" android:tag="binding_9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="44dp" android:src="@mipmap/ic_open_hb"/>
+</FrameLayout>

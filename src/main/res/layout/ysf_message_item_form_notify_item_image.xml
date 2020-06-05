@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingTop="15dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/ysf_message_item_form_notify_item_title"/>
+    <FrameLayout android:layout_width="190dp" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+        <Button android:textSize="@dimen/ysf_text_size_14" android:textColor="@color/ysf_blue_5092e1" android:id="@+id/ysf_message_form_item_image_select" android:background="@drawable/ysf_btn_white_blue_bg_selector" android:layout_width="110dp" android:layout_height="@dimen/ysf_button_small_height" android:text="@string/ysf_bot_form_upload_image"/>
+        <FrameLayout android:id="@+id/ysf_message_form_item_image_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:background="@drawable/ysf_btn_white_blue_bg_selector" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginRight="8dp">
+                <ImageView android:layout_width="33dp" android:layout_height="33dp" android:src="@drawable/ysf_message_file_icon_jpg" android:contentDescription="@null"/>
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp">
+                    <com.qiyukf.unicorn.widget.FileNameTextView android:id="@+id/ysf_message_form_item_image_name" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ysf_fntMaxLines="1" app:ysf_fntTextColor="@color/ysf_black_222222" app:ysf_fntTextSize="@dimen/ysf_text_size_15"/>
+                    <TextView android:textSize="@dimen/ysf_text_size_13" android:textColor="@color/ysf_grey_999999" android:id="@+id/ysf_message_form_item_image_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView android:layout_gravity="end" android:id="@+id/ysf_message_form_item_image_delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ysf_ic_delete" android:contentDescription="@null"/>
+        </FrameLayout>
+    </FrameLayout>
+    <TextView android:textSize="@dimen/ysf_text_size_14" android:textColor="@color/ysf_red_e64340" android:id="@+id/ysf_message_form_item_error" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/ysf_bot_form_can_not_empty"/>
+</LinearLayout>

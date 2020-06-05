@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.pw.inner.appwall.read.NewsWebView android:id="@+id/win_sdk_read_news_webview" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ProgressBar android:id="@+id/win_sdk_read_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+    <FrameLayout android:clipChildren="true" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginLeft="15dp" android:layout_marginRight="30dp" android:layout_marginBottom="20dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginStart="15dp" android:layout_marginEnd="30dp" android:layout_alignParentEnd="true">
+        <FrameLayout android:id="@+id/win_sdk_read_tip" android:background="@drawable/win_sdk_read_tip_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="14sp" android:textColor="#424346" android:layout_gravity="center_vertical" android:id="@+id/win_sdk_read_tip_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:text="继续阅读XX篇，即可获得XXXX奖励" android:layout_marginStart="15dp"/>
+        </FrameLayout>
+    </FrameLayout>
+    <RelativeLayout android:id="@+id/win_sdk_read_news_progress_layout" android:background="@drawable/win_sdk_white_round" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginRight="15dp" android:layout_marginBottom="15dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true">
+        <com.pw.inner.appwall.read.DonutProgress android:id="@+id/win_sdk_read_news_progress" android:layout_width="42dp" android:layout_height="42dp" android:layout_centerInParent="true" app:donut_finished_color="#ffc856" app:donut_finished_stroke_width="4dp" app:donut_progress="0" app:donut_text="" app:donut_unfinished_color="#eaeaea" app:donut_unfinished_stroke_width="4dp"/>
+        <ImageView android:id="@+id/win_sdk_read_news_gold" android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/win_sdk_button_coin" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</RelativeLayout>

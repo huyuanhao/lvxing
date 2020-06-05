@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/dialog_dog_detail_0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/bg_white_10" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:tag="binding_1" android:layout_width="120dp" android:layout_height="120dp" android:layout_marginTop="20dp" android:adjustViewBounds="true"/>
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp">
+            <TextView android:tag="binding_2" style="@style/tv_18_c33"/>
+            <TextView android:textStyle="bold" android:tag="binding_3" android:layout_marginStart="8dp" style="@style/tv_16_c33"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:tag="binding_4" android:layout_width="match_parent" android:layout_height="75dp" android:layout_marginTop="19dp" android:layout_marginStart="20dp" android:layout_marginEnd="20dp">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textColor="@color/green_49D26B" android:tag="binding_5" style="@style/tv_18_c33"/>
+                    <TextView android:textStyle="bold" android:textColor="@color/green_49D26B" android:text="秒" style="@style/tv_16_c33"/>
+                </LinearLayout>
+                <TextView android:layout_marginTop="5dp" android:text="在线金币" style="@style/tv_12_c99"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:tag="binding_6" style="@style/tv_18_c33"/>
+                    <TextView android:textStyle="bold" android:text="秒" style="@style/tv_16_c33"/>
+                </LinearLayout>
+                <TextView android:layout_marginTop="5dp" android:text="离线金币" style="@style/tv_12_c99"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:layout_marginTop="19dp" android:layout_marginBottom="43dp" android:text="拖动狗到人身上，可切换遛其他狗" style="@style/tv_12_c66"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/iv_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:src="@mipmap/ic_close_white"/>
+</LinearLayout>

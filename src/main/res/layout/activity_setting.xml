@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:tag="layout/activity_setting_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ezy.ui.widget.CenteredTitleBar android:id="@+id/toolbar" app:title="设置" style="@style/Toolbar.BgWhite"/>
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@+id/refresh" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginTop="10dp" android:layout_weight="1">
+        <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/lyt_avatar" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="62dp" android:paddingStart="20dp" android:paddingEnd="20dp">
+                    <TextView android:text="头像" style="@style/tv_14_c33"/>
+                    <Space android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+                    <de.hdodenhof.circleimageview.CircleImageView android:tag="binding_2" android:layout_width="40dp" android:layout_height="40dp"/>
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_arrow_right_grey"/>
+                </LinearLayout>
+                <View android:layout_marginStart="20dp" style="@style/DividerGrey.H"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="62dp" android:paddingStart="20dp" android:paddingEnd="20dp">
+                    <TextView android:text="昵称" style="@style/tv_14_c33"/>
+                    <TextView android:gravity="right|center_vertical|center_horizontal|center|end" android:tag="binding_4" android:layout_width="0dp" android:layout_weight="1" android:drawableEnd="@mipmap/ic_arrow_right_grey" style="@style/tv_14_c33"/>
+                </LinearLayout>
+                <View android:layout_marginLeft="20dp" style="@style/DividerGrey.H"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/lyt_phone" android:tag="binding_5" android:layout_width="match_parent" android:layout_height="62dp" android:paddingStart="20dp" android:paddingEnd="20dp">
+                    <TextView android:text="手机号" style="@style/tv_14_c33"/>
+                    <TextView android:gravity="right|center_vertical|center_horizontal|center|end" android:tag="binding_6" android:layout_width="0dp" android:layout_weight="1" android:drawableEnd="@mipmap/ic_arrow_right_grey" style="@style/tv_14_c33"/>
+                </LinearLayout>
+                <View android:layout_marginLeft="20dp" style="@style/DividerGrey.H"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/lyt_ali" android:layout_width="match_parent" android:layout_height="62dp" android:paddingStart="20dp" android:paddingEnd="20dp">
+                    <TextView android:text="支付宝账号" style="@style/tv_14_c33"/>
+                    <TextView android:textColor="@color/selector_88_and_33" android:gravity="right|center_vertical|center_horizontal|center|end" android:tag="binding_7" android:layout_width="0dp" android:layout_weight="1" android:drawableEnd="@mipmap/ic_arrow_right_grey" style="@style/tv_16_c33"/>
+                </LinearLayout>
+                <View android:layout_marginStart="20dp" style="@style/DividerGrey.H"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="binding_8" android:layout_width="match_parent" android:layout_height="62dp" android:paddingStart="20dp" android:paddingEnd="20dp">
+                    <TextView android:text="隐私" style="@style/tv_14_c33"/>
+                    <TextView android:gravity="right|center_vertical|center_horizontal|center|end" android:layout_width="0dp" android:text="" android:layout_weight="1" android:drawableEnd="@mipmap/ic_arrow_right_grey" style="@style/tv_14_c33"/>
+                </LinearLayout>
+                <View android:layout_marginStart="20dp" style="@style/DividerGrey.H"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="binding_9" android:layout_width="match_parent" android:layout_height="62dp" android:paddingStart="20dp" android:paddingEnd="20dp">
+                    <TextView android:layout_width="0dp" android:text="关于旅行世界" android:layout_weight="1" style="@style/tv_14_c33"/>
+                    <TextView android:gravity="right|center_vertical|center_horizontal|center|end" android:tag="binding_10" android:layout_width="0dp" android:layout_weight="1" android:drawableEnd="@mipmap/ic_arrow_right_grey" style="@style/tv_14_c33"/>
+                </LinearLayout>
+                <View android:layout_marginStart="20dp" style="@style/DividerGrey.H"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="binding_11" android:layout_width="match_parent" android:layout_height="62dp" android:paddingStart="20dp" android:paddingEnd="20dp">
+                    <TextView android:layout_width="0dp" android:text="开启音效" android:layout_weight="1" style="@style/tv_14_c33"/>
+                    <Switch android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/switch_view" android:tag="binding_12" android:layout_width="wrap_content" android:layout_height="30dp" android:thumb="@drawable/selector_switch_thumb" android:track="@drawable/selector_switch_track"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    <ezy.ui.widget.round.RoundText android:layout_gravity="bottom" android:id="@+id/btn_exit" android:layout_margin="30dp" android:text="退出登录" style="@style/RndBtn.Green"/>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/albumPageLight" style="@style/Album.MatchParent">
+    <com.google.android.material.appbar.AppBarLayout android:id="@+id/app_bar_layout" style="@style/Album.AppBar.General">
+        <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" style="@style/Album.Toolbar.Dark"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_below="@+id/app_bar_layout" style="@style/Album.MatchParent">
+        <TextView android:textColor="@color/albumFontHint" android:id="@+id/tv_message" style="@style/Album.WrapContent"/>
+        <androidx.appcompat.widget.AppCompatButton android:textColor="@color/albumFontLight" android:gravity="center" android:id="@+id/btn_camera_image" android:layout_marginTop="@dimen/album_dp_15" android:text="@string/album_camera_image_capture" android:drawableLeft="@drawable/album_ic_image_camera_white" android:drawablePadding="@dimen/album_dp_6" android:drawableStart="@drawable/album_ic_image_camera_white" style="@style/Album.Button.WrapContent"/>
+        <androidx.appcompat.widget.AppCompatButton android:textColor="@color/albumFontLight" android:gravity="center" android:id="@+id/btn_camera_video" android:layout_marginTop="@dimen/album_dp_15" android:text="@string/album_camera_video_capture" android:drawableLeft="@drawable/album_ic_video_camera_white" android:drawablePadding="@dimen/album_dp_6" android:drawableStart="@drawable/album_ic_video_camera_white" style="@style/Album.Button.WrapContent"/>
+    </LinearLayout>
+</RelativeLayout>

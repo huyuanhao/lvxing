@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:variablePadding="true" android:oneshot="false">
+    <item android:duration="80" android:drawable="@drawable/ksad_loading_1"/>
+    <item android:duration="80" android:drawable="@drawable/ksad_loading_2"/>
+    <item android:duration="80" android:drawable="@drawable/ksad_loading_3"/>
+    <item android:duration="80" android:drawable="@drawable/ksad_loading_4"/>
+    <item android:duration="80" android:drawable="@drawable/ksad_loading_5"/>
+    <item android:duration="80" android:drawable="@drawable/ksad_loading_6"/>
+    <item android:duration="80" android:drawable="@drawable/ksad_loading_7"/>
+    <item android:duration="80" android:drawable="@drawable/ksad_loading_8"/>
+    <item android:duration="80" android:drawable="@drawable/ksad_loading_9"/>
+    <item android:duration="80" android:drawable="@drawable/ksad_loading_10"/>
+</animation-list>

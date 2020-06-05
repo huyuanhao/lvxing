@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:tag="layout/dialog_get_coin_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@+id/lyt_main" android:background="@drawable/bg_white_10" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:layout_marginStart="40dp" android:layout_marginEnd="40dp">
+                <TextView android:textSize="20sp" android:textStyle="bold" android:tag="binding_1" android:layout_marginTop="45dp" style="@style/tv_14_c33"/>
+                <TextView android:tag="binding_2" style="@style/tv_16_c33"/>
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp">
+                    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="33dp" android:paddingStart="8dp" android:paddingEnd="8dp" android:layout_marginStart="15dp">
+                        <TextView android:textSize="20sp" android:tag="binding_4" android:layout_marginStart="18dp" style="@style/tv_16_c33"/>
+                        <ImageView android:tag="binding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_double" android:layout_marginStart="6dp"/>
+                    </LinearLayout>
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="34dp" android:layout_height="wrap_content" android:src="@mipmap/ic_gold_coin" android:adjustViewBounds="true"/>
+                </FrameLayout>
+                <ezy.ui.widget.round.RoundText android:id="@+id/btn" android:layout_width="200dp" android:layout_marginTop="17dp" android:layout_marginBottom="30dp" android:text="确定" style="@style/RndBtn.Green"/>
+            </LinearLayout>
+            <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_width="80dp" android:layout_height="69dp" android:src="@mipmap/ic_get_coin" android:layout_marginStart="10dp" android:layout_marginEnd="10dp"/>
+                <ezy.ui.widget.round.RoundText android:textSize="10sp" android:textStyle="normal" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:tag="binding_6" android:layout_width="wrap_content" android:layout_height="20dp" android:layout_margin="0dp" android:text="长视频" android:paddingStart="12dp" android:paddingEnd="12dp" style="@style/RndBtn.Green"/>
+            </FrameLayout>
+            <TextView android:gravity="center" android:layout_gravity="end" android:id="@+id/iv_close" android:background="@drawable/selector_close" android:layout_width="31dp" android:layout_height="31dp" android:layout_marginEnd="40dp" style="@style/tv_16_cff"/>
+        </FrameLayout>
+        <FrameLayout android:tag="binding_7" android:background="@drawable/bg_flow_info_ad" android:padding="3dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginStart="40dp" android:layout_marginEnd="40dp">
+            <com.jiayouya.travel.module.common.widget.round.widget.GeneralRoundLinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/lyt_ad" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="159dp" app:corner_radius="10dp">
+                <ImageView android:id="@+id/iv_gif" android:layout_width="60dp" android:layout_height="wrap_content"/>
+            </com.jiayouya.travel.module.common.widget.round.widget.GeneralRoundLinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/lyt_ad_text" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</FrameLayout>

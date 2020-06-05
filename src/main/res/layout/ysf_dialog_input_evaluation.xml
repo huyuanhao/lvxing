@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/ysf_dialog_bg" android:layout_width="@dimen/ysf_dialog_width" android:layout_height="wrap_content">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="46dp">
+        <TextView android:textSize="@dimen/ysf_text_size_17" android:textColor="@color/ysf_black_222222" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:text="请告知我们具体原因"/>
+        <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/ysf_dialog_input_close" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6dp" android:src="@drawable/ysf_ic_dialog_close" android:scaleType="centerInside" android:contentDescription="@null"/>
+    </FrameLayout>
+    <include layout="@layout/ysf_include_divider"/>
+    <EditText android:textSize="15sp" android:textColor="@color/ysf_grey_666666" android:textColorHint="@color/ysf_grey_999999" android:gravity="top" android:id="@+id/ysf_dialog_input_edit" android:background="@color/ysf_transparent" android:paddingLeft="16dp" android:paddingTop="12dp" android:paddingRight="16dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="150dp" android:hint="@string/ysf_message_robot_evaluation_hint" android:maxLength="200"/>
+    <include layout="@layout/ysf_include_divider"/>
+    <Button android:enabled="false" android:textSize="@dimen/ysf_text_size_15" android:textColor="@color/ysf_white" android:id="@+id/ysf_dialog_input_submit" android:background="@drawable/ysf_btn_blue_bg_selector" android:layout_width="match_parent" android:layout_height="36dp" android:layout_margin="10dp" android:text="@string/ysf_ok"/>
+</LinearLayout>

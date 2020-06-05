@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/win_sdk_bg_item_app_wall_head" android:paddingLeft="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="#303430" android:id="@+id/win_sdk_head_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="猜你喜欢"/>
+        <TextView android:textSize="12sp" android:textColor="#ffa2a6a2" android:id="@+id/win_sdk_head_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.5dp" android:layout_marginBottom="16dp" android:text="安装并打开任一APP，就能领取奖励" android:maxLines="1"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/dialog_bind_phone_hint_0" android:background="@drawable/bg_white_10" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textStyle="bold" android:layout_marginTop="28dp" android:text="绑定手机号" style="@style/tv_16_c33"/>
+    <TextView android:layout_marginTop="27dp" android:text="为了保障账号安全，请先绑定手\10机号码？" style="@style/tv_14_c33"/>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="40dp" android:layout_marginTop="34dp" android:layout_marginBottom="30dp">
+        <ezy.ui.widget.round.RoundText android:textStyle="bold" android:id="@+id/btn_cancel" android:layout_width="100dp" android:layout_height="match_parent" android:text="取消" app:rndCornerRadius="-1" app:rndStrokeColor="@color/grey_E1E1E1" app:rndStrokeWidth="1dp" style="@style/tv_16_c99"/>
+        <ezy.ui.widget.round.RoundText android:id="@+id/btn_confirm" android:layout_width="100dp" android:layout_height="match_parent" android:text="确定" android:layout_marginStart="10dp" android:layout_marginEnd="0dp" style="@style/RndBtn.Green"/>
+    </LinearLayout>
+</LinearLayout>

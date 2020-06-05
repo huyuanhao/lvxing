@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/recycler_view" android:layout_below="@+id/app_bar_layout" style="@style/Album.WrapContent.WidthMatchParent"/>
+    <RelativeLayout android:background="@color/albumSheetBottom" android:layout_alignParentBottom="true" style="@style/Album.MatchParent.SheetBottom">
+        <androidx.appcompat.widget.AppCompatButton android:id="@+id/btn_switch_dir" android:drawableRight="@drawable/album_abc_spinner_white" android:layout_alignParentLeft="true" android:drawableEnd="@drawable/album_abc_spinner_white" android:layout_alignParentStart="true" style="@style/Album.TextButton.WrapContent.SheetBottom"/>
+        <androidx.appcompat.widget.AppCompatButton android:id="@+id/btn_preview" android:drawableLeft="@drawable/album_ic_eye_white" android:layout_alignParentRight="true" android:drawableStart="@drawable/album_ic_eye_white" android:layout_alignParentEnd="true" style="@style/Album.TextButton.WrapContent.SheetBottom"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:id="@+id/layout_loading" android:background="@color/albumPageLight" android:visibility="gone" android:layout_below="@+id/app_bar_layout" style="@style/Album.MatchParent">
+        <com.yanzhenjie.album.widget.ColorProgressBar android:id="@+id/progress_bar" style="@style/Album.Progress.Loading"/>
+        <TextView android:textSize="@dimen/album_sp_16" android:textColor="@color/albumFontHint" android:layout_marginLeft="@dimen/album_dp_20" android:text="@string/album_loading" android:layout_marginStart="@dimen/album_dp_20" style="@style/Album.WrapContent"/>
+    </LinearLayout>
+</merge>

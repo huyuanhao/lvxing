@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/messageActivityBottomLayout" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include layout="@layout/ysf_message_activity_text_layout"/>
+    <com.qiyukf.nim.uikit.session.module.input.MessageBottomContainer android:id="@+id/nim_message_emoticon_container" android:background="@color/ysf_white" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.qiyukf.nim.uikit.session.emoji.EmoticonPickerView android:id="@+id/emoticon_picker_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.qiyukf.nim.uikit.session.module.input.MessageBottomContainer>
+</LinearLayout>

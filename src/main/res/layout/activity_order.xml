@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/activity_order_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ezy.ui.widget.CenteredTitleBar app:title="我的订单" style="@style/Toolbar.BgWhite"/>
+    <net.lucode.hackware.magicindicator.MagicIndicator android:id="@+id/lyt_tab" android:layout_width="match_parent" android:layout_height="35dp"/>
+    <ezy.ui.widget.round.RoundText android:gravity="center" android:layout_width="283dp" android:layout_height="20dp" android:layout_marginTop="17dp" android:text="已经下单，没有看到订单？召回订单&gt;" app:rndCornerRadius="-1" app:rndSolidColor="@color/white" style="@style/tv_12_green"/>
+    <androidx.viewpager.widget.ViewPager android:id="@+id/view_pager" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="11dp"/>
+</LinearLayout>

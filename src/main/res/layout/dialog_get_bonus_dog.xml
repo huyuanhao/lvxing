@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/dialog_get_bonus_dog_0" android:background="@drawable/bg_white_10" android:layout_width="280dp" android:layout_height="wrap_content">
+    <TextView android:textStyle="bold" android:layout_marginTop="24dp" android:text="恭喜获得" style="@style/tv_16_c33"/>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_dog_level47"/>
+        <ezy.ui.widget.round.RoundText android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:layout_width="wrap_content" android:layout_height="18dp" android:text="Lv.38" android:fontFamily="@font/din_black" android:paddingStart="7dp" android:paddingEnd="7dp" app:rndCornerRadius="-1" app:rndGradientEndColor="@color/green_end" app:rndGradientStartColor="@color/green_start" style="@style/tv_14_cff"/>
+    </FrameLayout>
+    <TextView android:textStyle="bold" android:layout_marginTop="18dp" android:text="永久全球分红犬" style="@style/tv_14_red"/>
+    <ezy.ui.widget.round.RoundText android:id="@+id/btn" android:layout_marginTop="22dp" android:layout_marginBottom="38dp" android:text="领取" android:layout_marginStart="40dp" android:layout_marginEnd="40dp" style="@style/RndBtn.Green"/>
+</LinearLayout>

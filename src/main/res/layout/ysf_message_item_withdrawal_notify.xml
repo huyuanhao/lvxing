@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/ysf_text_size_12" android:textColor="@color/ysf_grey_b1b1b1" android:gravity="center" android:autoLink="none|email|phone" android:layout_gravity="center" android:id="@+id/ysf_tv_msg_item_withdrawal_text" android:paddingLeft="10dp" android:paddingTop="2dp" android:paddingRight="10dp" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxWidth="@dimen/ysf_bubble_max_width" android:includeFontPadding="false" android:lineSpacingExtra="3dp"/>
+</LinearLayout>

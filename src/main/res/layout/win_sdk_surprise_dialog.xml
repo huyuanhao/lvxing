@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="330dp" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/win_sdk_tip_bg" android:layout_width="330dp" android:layout_height="413dp">
+        <TextView android:textSize="12sp" android:textColor="#ffffff" android:gravity="center" android:background="@drawable/win_sdk_bg_surprise_title" android:paddingLeft="20dp" android:paddingTop="2dp" android:paddingRight="20dp" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="90dp" android:text="安装应用并打开"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginRight="2.5dp">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.5dp" android:src="@drawable/win_sdk_coin_box"/>
+            <TextView android:textSize="30sp" android:textStyle="bold" android:textColor="#ffedf4be" android:gravity="center" android:id="@+id/win_sdk_coin_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+20000"/>
+        </LinearLayout>
+        <TextView android:textSize="15sp" android:textStyle="bold" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="35dp" android:text="正确安装方式说明"/>
+        <TextView android:textSize="12sp" android:textColor="#ffffff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="44dp" android:layout_marginTop="10dp" android:layout_marginRight="44dp" android:text="温馨提示：当您在安装应用时，请不要从华为、小米、OPPO、VIVO等应用商店中安装，否则无法领取奖励。"/>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:src="@drawable/win_sdk_install_guide"/>
+    </LinearLayout>
+    <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#ffc42524" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/win_sdk_take_reward" android:background="@drawable/win_sdk_surprise_dialog_btn" android:layout_width="180dp" android:layout_height="42dp" android:layout_marginTop="5dp" android:text="收下奖励" android:shadowColor="#ffe78500" android:shadowDy="10"/>
+    <TextView android:textSize="13sp" android:textColor="#ffffff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="44dp" android:layout_marginTop="16dp" android:layout_marginRight="44dp" android:text="所有任务完成前,\10请不要卸载应用，否则无法获得后续奖励"/>
+</LinearLayout>

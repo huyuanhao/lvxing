@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/albumColorPrimaryBlack" style="@style/Album.MatchParent">
+    <androidx.viewpager.widget.ViewPager android:id="@+id/view_pager" style="@style/Album.MatchParent"/>
+    <RelativeLayout android:fitsSystemWindows="true" style="@style/Album.MatchParent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@+id/app_bar_layout" style="@style/Album.AppBar.General.Transparent">
+            <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" style="@style/Album.Toolbar.Dark"/>
+        </com.google.android.material.appbar.AppBarLayout>
+        <FrameLayout android:layout_alignParentBottom="true" style="@style/Album.WrapContent.WidthMatchParent">
+            <RelativeLayout android:id="@+id/layout_bottom" android:background="@color/albumSheetBottom" style="@style/Album.MatchParent.SheetBottom">
+                <TextView android:textColor="@color/albumFontLight" android:gravity="center" android:id="@+id/tv_duration" android:visibility="gone" android:layout_marginLeft="@dimen/album_dp_10" android:maxLines="1" android:drawableLeft="@drawable/album_tag_video_white" android:drawablePadding="@dimen/album_dp_4" android:layout_centerVertical="true" android:drawableStart="@drawable/album_tag_video_white" android:layout_marginStart="@dimen/album_dp_10" style="@style/Album.WrapContent"/>
+                <androidx.appcompat.widget.AppCompatCheckBox android:textSize="@dimen/album_sp_16" android:textColor="@color/albumFontLight" android:id="@+id/check_box" android:layout_marginRight="@dimen/album_dp_10" android:text="@string/album_check" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/album_dp_10" android:layout_alignParentEnd="true" style="@style/Album.CheckBox.WrapContent"/>
+            </RelativeLayout>
+            <FrameLayout android:id="@+id/layout_layer" android:background="@color/albumSheetLayer" style="@style/Album.MatchParent.SheetBottom">
+                <TextView android:textSize="@dimen/album_sp_18" android:textColor="@color/albumFontLight" android:layout_gravity="center" android:text="@string/album_item_unavailable" style="@style/Album.WrapContent"/>
+            </FrameLayout>
+        </FrameLayout>
+    </RelativeLayout>
+</FrameLayout>

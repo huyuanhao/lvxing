@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:layout_width="42dp" android:layout_height="37dp">
+    <com.ksad.lottie.LottieAnimationView android:id="@+id/ksad_photo_comment_like_animation_view" android:layout_width="20dp" android:layout_height="20dp" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+    <ImageView android:id="@+id/ksad_photo_comment_like_button_image" android:layout_width="20dp" android:layout_height="20dp" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+    <TextView android:textSize="12dp" android:textColor="#c6c6c6" android:gravity="center" android:id="@+id/ksad_photo_comment_like_count_text" android:layout_width="42dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

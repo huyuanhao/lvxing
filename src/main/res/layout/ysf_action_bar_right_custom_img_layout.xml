@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@+id/ysf_iv_title_bar_right_btn" android:background="@drawable/ysf_evaluation_star_level_list_dark" android:layout_width="@dimen/ysf_title_bar_icon_size" android:layout_height="@dimen/ysf_title_bar_icon_size" android:scaleType="centerInside" android:contentDescription="@null"/>
+    <TextView android:textSize="@dimen/ysf_text_size_11" android:textColor="@color/ysf_title_bar_text_color_dark_selector" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/ysf_tv_title_bar_right_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ysf_enter_store" android:singleLine="true"/>
+</LinearLayout>

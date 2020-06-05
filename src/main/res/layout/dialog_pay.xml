@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:tag="layout/dialog_pay_0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="end" android:id="@+id/iv_close" android:paddingTop="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="13dp"/>
+    <TextView android:textStyle="bold" android:layout_gravity="center_horizontal" android:layout_marginTop="-14dp" android:text="确认付款" style="@style/tv_14_c33"/>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp">
+        <TextView android:textSize="40sp" android:textStyle="bold" android:textColor="@color/red_EC2324" android:text="￥" style="@style/tv"/>
+        <TextView android:textSize="40sp" android:textStyle="bold" android:textColor="@color/red_EC2324" android:tag="binding_1" style="@style/tv"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/list" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="38dp" android:layout_marginStart="20dp" android:layout_marginEnd="20dp" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/lyt_pay" android:background="@drawable/bg_red" android:layout_width="match_parent" android:layout_height="47dp" android:layout_marginTop="17dp" android:layout_marginBottom="17dp" android:layout_marginStart="20dp" android:layout_marginEnd="20dp">
+        <TextView android:textStyle="bold" android:text="立即支付" style="@style/tv_16_cff"/>
+        <TextView android:textSize="20sp" android:tag="binding_3" android:layout_marginStart="7dp" style="@style/tv_12_cff"/>
+    </LinearLayout>
+</LinearLayout>

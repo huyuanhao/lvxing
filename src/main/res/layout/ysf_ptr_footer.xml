@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/ysf_ptr_footer" android:background="@color/ysf_white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_gravity="top" android:paddingTop="15dp" android:paddingBottom="15dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/ysf_ptr_footer_pull_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ysf_ptr_arrow_up" android:layout_toLeftOf="@+id/ysf_ptr_footer_state_hint" android:layout_centerVertical="true" android:contentDescription="@null"/>
+        <ProgressBar android:id="@+id/ysf_ptr_footer_loading_icon" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateDrawable="@drawable/ysf_progress_bar_grey" android:layout_toLeftOf="@+id/ysf_ptr_footer_state_hint" android:layout_centerVertical="true" style="@style/Widget.ProgressBar.Small"/>
+        <TextView android:textSize="@dimen/ysf_text_size_14" android:textColor="@color/ysf_grey_999999" android:id="@+id/ysf_ptr_footer_state_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:text="@string/ysf_ptr_pull_to_load" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</FrameLayout>

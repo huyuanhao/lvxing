@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:tag="layout/item_logs_0" android:background="@color/white" android:paddingLeft="20dp" android:paddingTop="17dp" android:paddingRight="20dp" android:paddingBottom="18dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:tag="binding_1" android:maxWidth="180dp" android:maxLines="1" style="@style/tv_16_c33"/>
+        <TextView android:tag="binding_2" android:layout_marginTop="7dp" style="@style/tv_12_c99"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="right|center_vertical|center_horizontal|center" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_weight="1">
+        <TextView android:textSize="18sp" android:tag="binding_3" android:maxLines="1" style="@style/tv"/>
+    </LinearLayout>
+</LinearLayout>

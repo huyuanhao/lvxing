@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:tag="layout/activity_avatar_0" android:background="#222222" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ezy.ui.widget.CenteredTitleBar app:title="个人头像" style="@style/Toolbar.BgTrans">
+        <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/iv_title_right" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_more_white" android:paddingStart="15dp" android:paddingEnd="15dp"/>
+    </ezy.ui.widget.CenteredTitleBar>
+    <ImageView android:layout_gravity="center" android:id="@+id/iv_avatar" android:layout_width="match_parent" android:layout_height="wrap_content" android:adjustViewBounds="true"/>
+</FrameLayout>

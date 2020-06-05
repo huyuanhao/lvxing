@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/actionsLayout" android:background="@android:color/white" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.qiyukf.unicorn.widget.ViewPagerFixed android:id="@+id/viewPager" android:layout_width="match_parent" android:layout_height="@dimen/ysf_message_action_list_height" android:layout_marginTop="4dp"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/actions_page_indicator" android:layout_width="match_parent" android:layout_height="8dp" android:layout_marginBottom="4dp"/>
+</LinearLayout>

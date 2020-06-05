@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="horizontal" android:padding="18dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textColor="#c6c6c6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="下载快手APP，查看更多精彩评论"/>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/item_explore_harvest_0" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <FrameLayout android:orientation="vertical" android:background="@drawable/bg_explore_grid" android:layout_width="41dp" android:layout_height="41dp" android:layout_margin="7dp">
+        <ImageView android:layout_gravity="center" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:gravity="center" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:tag="binding_2" android:background="@drawable/selector_explore_num" android:layout_height="14dp" android:minWidth="20dp" android:paddingStart="4dp" android:paddingEnd="4dp" style="@style/tv_12_cff"/>
+    </FrameLayout>
+    <TextView android:tag="binding_3" android:layout_marginTop="-5dp" android:layout_marginBottom="7dp" style="@style/tv_14_c33"/>
+</LinearLayout>

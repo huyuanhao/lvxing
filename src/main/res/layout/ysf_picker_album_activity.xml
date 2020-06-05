@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/picker_bottombar" android:background="#e6e6e6" android:visibility="visible" android:layout_width="match_parent" android:layout_height="50dp" android:layout_alignParentBottom="true">
+        <TextView android:enabled="false" android:textSize="@dimen/ysf_text_size_14" android:textColor="@color/ysf_button_color_state_list" android:gravity="center" android:id="@+id/picker_bottombar_preview" android:paddingLeft="8dp" android:paddingRight="8dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:text="@string/ysf_picker_image_preview" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <com.qiyukf.unicorn.widget.StylableTextView android:enabled="false" android:textSize="@dimen/ysf_text_size_14" android:gravity="center" android:id="@+id/picker_bottombar_select" android:paddingLeft="8dp" android:paddingRight="8dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:text="@string/ysf_send" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/picker_bottombar">
+        <FrameLayout android:id="@+id/picker_album_fragment" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <FrameLayout android:id="@+id/picker_photos_fragment" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:tag="layout/fragment_me_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@+id/refresh" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:tag="binding_1" android:paddingBottom="75dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="20dp" android:paddingEnd="20dp">
+                    <View android:id="@+id/status_view" android:layout_width="match_parent" android:layout_height="0dp"/>
+                    <TextView android:textSize="26sp" android:textStyle="bold" android:id="@+id/tv_name" android:tag="binding_2" android:layout_marginTop="13dp" android:layout_below="@+id/status_view" style="@style/tv_12_cff"/>
+                    <TextView android:tag="binding_3" android:layout_marginTop="7dp" android:layout_below="@+id/tv_name" style="@style/tv_12_cff"/>
+                    <de.hdodenhof.circleimageview.CircleImageView android:tag="binding_4" android:layout_width="60dp" android:layout_height="60dp" android:layout_marginTop="-3dp" android:layout_alignTop="@+id/tv_name" android:layout_alignParentEnd="true" app:civ_border_color="@color/white" app:civ_border_width="2dp"/>
+                </RelativeLayout>
+                <FrameLayout android:id="@+id/lyt_progress" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-75dp">
+                    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp">
+                        <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@mipmap/bg_me" android:adjustViewBounds="true"/>
+                        <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="38dp" android:layout_marginStart="110dp">
+                            <TextView android:text="已完成" style="@style/tv_12_cff"/>
+                            <TextView android:tag="binding_5" android:layout_marginStart="3dp" style="@style/tv_14_cff"/>
+                            <com.jiayouya.travel.common.widget.RndCornerProgressBar android:id="@+id/progress_bar" android:tag="binding_6" android:padding="1dp" android:layout_width="100dp" android:layout_height="8dp" android:layout_marginStart="10dp" app:rcBackgroundColor="@android:color/transparent" app:rcEndColor="#4dd46e" app:rcStartColor="#4dd46e"/>
+                        </LinearLayout>
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="23dp" android:src="@mipmap/ic_increase_active" android:layout_marginStart="110dp"/>
+                        <ImageView android:layout_gravity="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="39dp" android:src="@mipmap/ic_arrow_right_white" android:layout_marginEnd="25dp"/>
+                    </FrameLayout>
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_me_dog" android:adjustViewBounds="true" android:layout_marginStart="25dp"/>
+                </FrameLayout>
+                <androidx.recyclerview.widget.RecyclerView android:id="@+id/list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-8dp" android:layout_marginBottom="20dp" android:paddingStart="15dp" android:paddingEnd="15dp" android:nestedScrollingEnabled="false" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+</FrameLayout>

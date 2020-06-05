@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/activity_cash_0" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ezy.ui.widget.CenteredTitleBar android:tag="binding_1" app:title="提现" style="@style/Toolbar.BgTrans">
+        <TextView android:id="@+id/tv_title_right" android:tag="binding_2" android:text="记录" style="@style/Toolbar.RightText.White"/>
+    </ezy.ui.widget.CenteredTitleBar>
+    <LinearLayout android:orientation="vertical" android:id="@+id/lyt_container" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="112dp">
+                    <TextView android:layout_marginTop="29dp" android:text="我的余额" style="@style/tv_12_cff"/>
+                    <LinearLayout android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textSize="18sp" android:textStyle="bold" android:text="￥" style="@style/tv_12_cff"/>
+                        <TextView android:textSize="36sp" android:textStyle="bold" android:tag="binding_4" android:layout_marginStart="3dp" style="@style/tv_12_cff"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <TextView android:textStyle="bold" android:tag="binding_5" android:paddingTop="28dp" android:layout_width="match_parent" android:layout_marginTop="-10dp" android:text="提现方式" android:paddingStart="20dp" style="@style/tv_16_c33"/>
+                <androidx.recyclerview.widget.RecyclerView android:id="@+id/list_type" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="15dp" android:paddingEnd="15dp" android:nestedScrollingEnabled="false" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" app:spanCount="3"/>
+                <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp">
+                    <TextView android:textStyle="bold" android:text="提现金额" android:layout_marginStart="20dp" style="@style/tv_16_c33"/>
+                    <TextView android:gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/tv_cash_rule" android:tag="binding_6" android:layout_width="0dp" android:drawablePadding="10dp" android:layout_weight="1" android:drawableEnd="@mipmap/ic_question_grey" android:layout_marginEnd="17dp" style="@style/tv_12_c99"/>
+                </LinearLayout>
+                <androidx.recyclerview.widget.RecyclerView android:id="@+id/list_amount" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="15dp" android:paddingEnd="15dp" android:nestedScrollingEnabled="false" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" app:spanCount="3"/>
+                <TextView android:textStyle="bold" android:layout_marginTop="28dp" android:text="注意事项" android:layout_marginStart="20dp" style="@style/tv_16_c33"/>
+                <TextView android:tag="binding_7" android:layout_marginTop="13dp" android:layout_marginBottom="20dp" android:layout_marginStart="20dp" android:layout_marginEnd="20dp" style="@style/tv_12_c66"/>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <ezy.ui.widget.round.RoundText android:id="@+id/btn_cash" android:layout_marginTop="10dp" android:layout_marginBottom="30dp" android:text="立即提现" android:layout_marginStart="30dp" android:layout_marginEnd="30dp" style="@style/RndBtn.Green"/>
+    </LinearLayout>
+</LinearLayout>

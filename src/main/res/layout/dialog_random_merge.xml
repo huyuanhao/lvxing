@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/dialog_random_merge_0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@+id/lyt_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/bg_random_merge"/>
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="45dp" android:src="@mipmap/fb_random_merge" android:layout_marginEnd="4dp"/>
+        <com.jiayouya.travel.module.travel.widget.RandomMergeView android:layout_gravity="center_horizontal" android:id="@+id/random_merge_view" android:layout_width="300dp" android:layout_height="300dp" android:layout_marginTop="32dp" android:layout_marginStart="3dp"/>
+        <ImageView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="47dp" android:src="@mipmap/ic_start"/>
+    </FrameLayout>
+    <ImageView android:id="@+id/iv_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:src="@mipmap/ic_close_dialog"/>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:tag="layout/item_today_profit_logs_0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="60dp" android:paddingStart="20dp" android:paddingEnd="30dp">
+        <de.hdodenhof.circleimageview.CircleImageView android:tag="binding_1" android:layout_width="30dp" android:layout_height="30dp"/>
+        <TextView android:ellipsize="end" android:tag="binding_2" android:maxWidth="100dp" android:maxLines="1" android:layout_marginStart="9dp" style="@style/tv_14_c33"/>
+        <Space android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        <TextView android:tag="binding_3" style="@style/tv_14_red"/>
+    </LinearLayout>
+    <TextView android:layout_gravity="center" android:tag="binding_4" style="@style/tv_14_c66"/>
+</FrameLayout>

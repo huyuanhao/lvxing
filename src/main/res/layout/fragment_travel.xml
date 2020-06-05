@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/lyt_container" android:tag="layout/fragment_travel_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <HorizontalScrollView android:id="@+id/far_scroll_view" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:nestedScrollingEnabled="false">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="338.3281dp">
+            <ImageView android:id="@+id/bg_far" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@mipmap/bg_yd_far" android:adjustViewBounds="true"/>
+            <ImageView android:id="@+id/bg_far_2" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@mipmap/bg_yd_far" android:adjustViewBounds="true"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+    <FrameLayout android:id="@+id/lyt_top" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <HorizontalScrollView android:layout_gravity="bottom" android:id="@+id/middle_scroll_view" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="76dp" android:overScrollMode="never" android:nestedScrollingEnabled="false">
+            <LinearLayout android:id="@+id/lyt_mid_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/bg_middle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/bg_yd_middle" android:adjustViewBounds="true" android:paddingStart="25dp" android:paddingEnd="25dp"/>
+                <ImageView android:id="@+id/bg_middle_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/bg_yd_middle" android:adjustViewBounds="true" android:paddingStart="25dp" android:paddingEnd="25dp"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+        <HorizontalScrollView android:layout_gravity="bottom" android:id="@+id/near_scroll_view" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="77dp" android:overScrollMode="never" android:nestedScrollingEnabled="false">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <ImageView android:id="@+id/bg_near" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@mipmap/bg_yd_near" android:adjustViewBounds="true"/>
+                <ImageView android:id="@+id/bg_near_2" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@mipmap/bg_yd_near" android:adjustViewBounds="true"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/lyt_middle" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.airbnb.lottie.LottieAnimationView android:id="@+id/walk_lottie_view" android:layout_width="185dp" android:layout_height="154dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:lottie_autoPlay="true" app:lottie_fileName="lottie/walk/level_2/data.json" app:lottie_imageAssetsFolder="lottie/walk/level_2/images" app:lottie_loop="true"/>
+            <LinearLayout android:gravity="center" android:id="@+id/lyt_bonus" android:tag="binding_1" android:background="@mipmap/bg_bonus_pop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="65dp" android:layout_marginBottom="50dp" android:layout_marginEnd="17dp" app:layout_constraintBottom_toBottomOf="@+id/walk_lottie_view" app:layout_constraintEnd_toEndOf="0">
+                <TextView android:textColor="@color/red_F35E4E" android:text="分红中: " style="@style/tv_10_cff"/>
+                <com.jiayouya.travel.common.widget.RiseText android:textColor="@color/red_F35E4E" android:id="@+id/tv_rise" app:riseFormat="#0.0000" style="@style/tv_10_cff"/>
+                <TextView android:textColor="@color/red_F35E4E" android:text="元" style="@style/tv_10_cff"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="15dp" android:layout_marginBottom="15dp" android:paddingStart="4dp" android:paddingEnd="4dp" android:layout_marginStart="100dp" app:layout_constraintBottom_toBottomOf="@+id/walk_lottie_view" app:layout_constraintStart_toStartOf="@+id/walk_lottie_view">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_clock_white"/>
+                <com.jiayouya.travel.common.widget.countdownview.CountdownView android:id="@+id/bonus_countdown_view" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2dp" app:isShowMinute="true" app:isShowSecond="true" app:suffix=":" app:suffixGravity="2" app:suffixMinuteRightMargin="-2dp" app:suffixSecondLeftMargin="-2dp" app:suffixTextColor="@color/white" app:suffixTextSize="10sp" app:timeTextColor="@color/white" app:timeTextSize="10sp"/>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-27dp">
+            <LinearLayout android:id="@+id/lyt_coin" android:tag="binding_4" android:layout_width="match_parent" android:layout_height="59dp" android:layout_marginTop="10dp">
+                <View android:background="@color/white" android:layout_width="130dp" android:layout_height="match_parent"/>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/bg_white_rect" android:adjustViewBounds="true"/>
+                    <View android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="-1dp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView android:layout_width="40dp" android:layout_height="wrap_content" android:src="@mipmap/ic_gold_coin" android:adjustViewBounds="true" android:layout_marginStart="15dp"/>
+            <com.jiayouya.travel.module.travel.widget.GradientText android:textSize="20sp" android:id="@+id/tv_gold_icon" android:layout_marginTop="10dp" android:layout_marginStart="61dp" style="@style/tv_16_c33"/>
+            <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="38dp" android:layout_marginStart="61dp">
+                <TextView android:id="@+id/tv_speed" android:tag="binding_5" style="@style/tv_12_c33"/>
+                <TextView android:text="/秒" style="@style/tv_10_c33"/>
+            </LinearLayout>
+            <ImageView android:layout_gravity="end" android:id="@+id/iv_shop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13dp" android:src="@mipmap/ic_dog_shop" android:layout_marginEnd="45dp"/>
+        </FrameLayout>
+        <View android:background="@color/white" android:layout_width="match_parent" android:layout_height="305dp"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:id="@+id/status_view" android:layout_width="match_parent" android:layout_height="0dp"/>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="30sp" android:textStyle="bold" android:tag="binding_6" android:layout_marginTop="10dp" android:drawablePadding="10dp" android:drawableEnd="@mipmap/ic_arrow_right_white_bold" android:layout_marginStart="20dp" style="@style/tv_14_cff"/>
+            <com.jiayouya.travel.common.widget.RndCornerProgressBar android:id="@+id/progress_bar" android:tag="binding_7" android:padding="1dp" android:layout_width="80dp" android:layout_height="6dp" android:layout_marginTop="52dp" android:layout_marginStart="20dp" app:rcBackgroundColor="@android:color/transparent" app:rcEndColor="@color/c9FCBCF" app:rcStartColor="@color/c9FCBCF"/>
+            <LinearLayout android:layout_gravity="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13dp">
+                <FrameLayout android:id="@+id/lyt_free_coin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="15dp">
+                    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_coin_clock"/>
+                    <ImageView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/iv_claim" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_claim"/>
+                    <com.jiayouya.travel.common.widget.countdownview.CountdownView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/countdown_view" android:tag="binding_8" android:paddingTop="1dp" android:paddingBottom="1dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="1dp" android:paddingStart="2dp" android:paddingEnd="2dp" app:isShowMinute="true" app:isShowSecond="true" app:suffix=":" app:suffixGravity="2" app:suffixTextSize="10sp" app:timeTextSize="10sp"/>
+                </FrameLayout>
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="15dp">
+                    <ImageView android:id="@+id/iv_luck_draw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_luck_draw"/>
+                    <View android:layout_gravity="end" android:id="@+id/red_dot" android:tag="binding_9" android:background="@drawable/bg_red_dot" android:layout_width="8dp" android:layout_height="8dp" android:layout_marginEnd="5dp"/>
+                </FrameLayout>
+                <ImageView android:tag="binding_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_ranking" android:layout_marginEnd="15dp"/>
+                <ImageView android:tag="binding_11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_how_play" android:layout_marginEnd="15dp"/>
+            </LinearLayout>
+            <FrameLayout android:layout_gravity="end" android:orientation="vertical" android:id="@+id/lyt_bonus_profit" android:tag="binding_12" android:layout_width="wrap_content" android:layout_height="40dp" android:layout_marginTop="76dp" android:minWidth="90dp" android:layout_marginEnd="15dp">
+                <TextView android:textColor="@color/white" android:layout_gravity="center_horizontal" android:layout_marginTop="5dp" android:text="分红犬今日收益" style="@style/tv_10_c99"/>
+                <LinearLayout android:gravity="bottom" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5dp">
+                    <TextView android:text="￥" style="@style/tv_12_cff"/>
+                    <TextView android:tag="binding_13" style="@style/tv_16_cff"/>
+                </LinearLayout>
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="bottom" android:id="@+id/lyt_bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:tag="binding_14" android:layout_width="match_parent" android:layout_height="43dp" android:layout_marginBottom="13dp" android:paddingStart="23dp" android:paddingEnd="23dp" android:layout_marginStart="15dp" android:layout_marginEnd="15dp">
+            <TextView android:textStyle="bold" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/tv_handbook" android:paddingTop="10dp" android:paddingBottom="10dp" android:text="图鉴" android:drawablePadding="3dp" android:drawableStart="@mipmap/ic_field_guide" style="@style/tv_14_c33"/>
+            <TextView android:textStyle="bold" android:gravity="center_vertical" android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/tv_warehouse" android:paddingTop="10dp" android:paddingBottom="10dp" android:text="仓库" android:drawablePadding="3dp" android:drawableStart="@mipmap/ic_shop" style="@style/tv_14_c33"/>
+        </FrameLayout>
+    </FrameLayout>
+    <com.jiayouya.travel.module.travel.widget.ScaleLayout android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/lyt_add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="13dp">
+        <View android:layout_gravity="bottom" android:id="@+id/add_view" android:tag="binding_15" android:layout_width="126dp" android:layout_height="43dp"/>
+        <FrameLayout android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20dp">
+            <ImageView android:tag="binding_16" android:layout_width="48dp" android:layout_height="48dp" android:adjustViewBounds="true"/>
+            <TextView android:textColor="@color/green_60CC60" android:gravity="center" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:tag="binding_17" android:layout_height="12dp" android:layout_marginBottom="8dp" android:minWidth="20dp" android:paddingStart="5dp" android:paddingEnd="5dp" android:layout_marginEnd="3dp" style="@style/tv_10_c33"/>
+        </FrameLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp">
+            <ImageView android:layout_width="16dp" android:layout_height="16dp" android:src="@mipmap/ic_gold_coin" android:layout_marginEnd="5dp"/>
+            <TextView android:id="@+id/tv_price" style="@style/tv_16_cff"/>
+        </LinearLayout>
+    </com.jiayouya.travel.module.travel.widget.ScaleLayout>
+    <com.jiayouya.travel.module.travel.widget.merge.MergeLayout android:id="@+id/lyt_merge" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="20dp" android:paddingEnd="20dp"/>
+    <com.airbnb.lottie.LottieAnimationView android:id="@+id/lottie_view" android:visibility="invisible" android:layout_width="100dp" android:layout_height="100dp" app:lottie_fileName="lottie/merge/merge.json" app:lottie_imageAssetsFolder="lottie/merge"/>
+    <com.jiayouya.travel.module.travel.widget.FloatImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/iv_explore" android:tag="binding_18" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="60dp" android:src="@mipmap/ic_explore"/>
+</FrameLayout>

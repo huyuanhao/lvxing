@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/dialog_warehouse_hint_0" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/bg_white_10" android:layout_width="260dp" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="75dp" android:layout_height="75dp" android:layout_marginTop="30dp">
+            <ImageView android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <ezy.ui.widget.round.RoundText android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:tag="binding_2" android:layout_height="16dp" android:minWidth="20dp" android:fontFamily="@font/din_black" android:paddingStart="5dp" android:paddingEnd="5dp" app:rndCornerRadius="-1" app:rndGradientEndColor="@color/green_end" app:rndGradientStartColor="@color/green_start" style="@style/tv_12_cff"/>
+        </FrameLayout>
+        <TextView android:textStyle="bold" android:layout_marginTop="25dp" android:text="确定存入仓库？" style="@style/tv_16_c33"/>
+        <ezy.ui.widget.round.RoundText android:id="@+id/btn" android:layout_width="180dp" android:layout_height="40dp" android:layout_marginTop="26dp" android:text="确定" style="@style/RndBtn.Green"/>
+        <TextView android:layout_marginTop="11dp" android:layout_marginBottom="30dp" android:text="存入仓库的狗不产生金币" style="@style/tv_12_c99"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/iv_close" android:paddingTop="30dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_close_white" android:paddingStart="10dp" android:paddingEnd="10dp"/>
+</LinearLayout>

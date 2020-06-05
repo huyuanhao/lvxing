@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:tag="layout/activity_ranking_list_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@mipmap/bg_ranking_list" android:adjustViewBounds="true" app:layout_scrollFlags="1"/>
+            <net.lucode.hackware.magicindicator.MagicIndicator android:id="@+id/lyt_tab" android:background="@drawable/bg_white_t_10" android:paddingTop="12dp" android:paddingBottom="6dp" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginTop="-50dp"/>
+            <View style="@style/DividerGrey.H"/>
+            <androidx.viewpager.widget.ViewPager android:id="@+id/view_pager" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"/>
+        </LinearLayout>
+        <ezy.ui.widget.CenteredTitleBar android:id="@+id/toolbar" app:title=" " style="@style/Toolbar.BgTrans"/>
+    </FrameLayout>
+    <ImageView android:layout_width="match_parent" android:layout_height="10dp" android:layout_marginTop="-10dp" android:src="@mipmap/bg_shadow_bottom" android:scaleType="fitXY"/>
+    <FrameLayout android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ezy.ui.widget.round.RoundText android:id="@+id/btn_share" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" android:text="邀请好友" android:layout_marginStart="25dp" android:layout_marginEnd="25dp" style="@style/RndBtn.Green"/>
+    </FrameLayout>
+</LinearLayout>

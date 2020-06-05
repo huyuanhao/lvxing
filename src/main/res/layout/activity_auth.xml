@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:orientation="vertical" android:tag="layout/activity_auth_0" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/status_view" android:layout_width="match_parent" android:layout_height="0dp"/>
+    <TextView android:id="@+id/tv_close" android:padding="15dp" android:text="关闭" style="@style/tv_16_c33"/>
+    <TextView android:tag="binding_1" android:layout_marginTop="30dp" android:layout_marginStart="15dp" style="@style/tv_16_c33"/>
+    <TextView android:textStyle="bold" android:layout_marginTop="10dp" android:text="你的头像、昵称、个人信息" android:layout_marginStart="15dp" android:layout_marginEnd="15dp" style="@style/tv_16_c33"/>
+    <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:paddingStart="15dp" android:paddingEnd="15dp">
+        <ImageView android:tag="binding_2" android:layout_width="50dp" android:layout_height="50dp"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="10dp">
+            <TextView android:tag="binding_3" style="@style/tv_14_c33"/>
+            <TextView android:layout_marginTop="10dp" android:text="旅行世界个人信息" style="@style/tv_12_c99"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <ezy.ui.widget.round.RoundText android:layout_gravity="center_horizontal" android:id="@+id/btn_agree" android:layout_width="200dp" android:layout_height="40dp" android:text="同意" app:rndCornerRadius="5dp" app:rndSolidColor="@color/green_39CD63" style="@style/tv_16_cff"/>
+    <ezy.ui.widget.round.RoundText android:textColor="@color/green_39CD63" android:layout_gravity="center_horizontal" android:id="@+id/btn_refuse" android:layout_width="200dp" android:layout_height="40dp" android:layout_marginTop="20dp" android:layout_marginBottom="40dp" android:text="拒绝" app:rndCornerRadius="5dp" app:rndSolidColor="@color/grey_f4" style="@style/tv_16_cff"/>
+</LinearLayout>

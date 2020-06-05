@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/dialog_merge_bonus_dog_0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:src="@mipmap/bg_astrolabe"/>
+        <ImageView android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_oz_dog" android:layout_marginStart="144dp"/>
+        <TextView android:gravity="center_horizontal" android:tag="binding_2" android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="18dp" android:layout_marginTop="34dp" android:text="欧洲犬" android:layout_marginStart="177dp" style="@style/tv_10_cff"/>
+        <ImageView android:layout_gravity="end" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="111dp" android:src="@drawable/selector_fz_dog" android:layout_marginEnd="20dp"/>
+        <TextView android:gravity="center_horizontal" android:layout_gravity="end" android:tag="binding_4" android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="18dp" android:layout_marginTop="141dp" android:text="非洲犬" android:layout_marginEnd="6dp" style="@style/tv_10_cff"/>
+        <ImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:tag="binding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="13dp" android:src="@drawable/selector_yz_dog" android:layout_marginEnd="63dp"/>
+        <TextView android:gravity="center_horizontal" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:tag="binding_6" android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="18dp" android:layout_marginBottom="19dp" android:text="亚洲犬" android:layout_marginEnd="45dp" style="@style/tv_10_cff"/>
+        <ImageView android:layout_gravity="bottom" android:tag="binding_7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="13dp" android:src="@drawable/selector_dyz_dog" android:layout_marginStart="42.6dp"/>
+        <TextView android:gravity="center_horizontal" android:layout_gravity="bottom" android:tag="binding_8" android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="18dp" android:layout_marginBottom="14dp" android:text="大洋洲犬" android:layout_marginStart="107dp" style="@style/tv_10_cff"/>
+        <ImageView android:tag="binding_9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="111dp" android:src="@drawable/selector_mz_dog" android:layout_marginStart="10.6dp"/>
+        <TextView android:gravity="center_horizontal" android:tag="binding_10" android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="18dp" android:layout_marginTop="141dp" android:text="美洲犬" android:layout_marginStart="52dp" style="@style/tv_10_cff"/>
+        <FrameLayout android:layout_gravity="center_horizontal" android:id="@+id/btn" android:background="@drawable/selector_fit" android:layout_width="76dp" android:layout_height="76dp" android:layout_marginTop="147dp">
+            <TextView android:textSize="20sp" android:textStyle="bold" android:layout_gravity="center" android:text="合体" style="@style/tv_10_cff"/>
+        </FrameLayout>
+    </FrameLayout>
+    <ImageView android:id="@+id/iv_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="38dp" android:src="@mipmap/ic_close_white"/>
+</LinearLayout>

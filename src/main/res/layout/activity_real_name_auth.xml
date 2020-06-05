@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:tag="layout/activity_real_name_auth_0" android:background="@color/white" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ezy.ui.widget.CenteredTitleBar app:title="实名认证" style="@style/Toolbar.BgWhite"/>
+    <FrameLayout android:id="@+id/lyt_container" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textStyle="bold" android:layout_marginTop="19dp" android:text="为避免机器人作弊，降低全平台的广告\10收益，请进行支付宝认证。" android:lineSpacingExtra="3dp" android:layout_marginStart="20dp" android:layout_marginEnd="20dp" style="@style/tv_18_c33"/>
+            <TextView android:layout_marginTop="27dp" android:text="①将会跳转到支付宝APP授权认证" android:layout_marginStart="20dp" android:layout_marginEnd="20dp" style="@style/tv_14_c33"/>
+            <TextView android:layout_marginTop="17dp" android:text="②认证的支付宝账号必须已实名认证" android:layout_marginStart="20dp" android:layout_marginEnd="20dp" style="@style/tv_14_c33"/>
+            <Space android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1"/>
+            <ezy.ui.widget.round.RoundText android:id="@+id/btn" android:layout_margin="30dp" android:text="支付宝授权认证" style="@style/RndBtn.Green"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="70dp" android:layout_height="wrap_content" android:layout_marginTop="70dp" android:src="@mipmap/ic_success" android:adjustViewBounds="true"/>
+            <TextView android:textStyle="bold" android:layout_marginTop="22dp" android:text="你已完成实名认证" style="@style/tv_16_c33"/>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

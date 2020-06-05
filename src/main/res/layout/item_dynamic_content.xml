@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:tag="layout/item_dynamic_content_0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:paddingStart="14dp" android:paddingEnd="16dp">
+        <View android:tag="binding_1" android:background="@drawable/bg_grey_dot" android:layout_width="6dp" android:layout_height="6dp"/>
+        <View android:layout_height="13dp" style="@style/DividerGrey.V"/>
+        <ImageView android:tag="binding_2" android:layout_width="18dp" android:layout_height="18dp"/>
+        <View android:layout_height="match_parent" style="@style/DividerGrey.V"/>
+    </LinearLayout>
+    <TextView android:textStyle="bold" android:tag="binding_3" android:text="探险队" style="@style/tv_14_c33"/>
+    <TextView android:tag="binding_4" android:layout_width="0dp" android:layout_marginBottom="15dp" android:layout_weight="1" android:lineSpacingExtra="3dp" android:layout_marginStart="10dp" android:layout_marginEnd="10dp" style="@style/tv_13_c33"/>
+    <TextView android:tag="binding_5" android:layout_marginEnd="14dp" style="@style/tv_12_c99"/>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kwad.sdk.entry.view.EntryScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingLeft="16dp" android:paddingTop="5dp" android:paddingBottom="3dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.kwad.sdk.entry.view.EntryViewPager android:id="@+id/ksad_entry_viewpager" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <TextView android:textSize="10dp" android:textColor="#9c9c9c" android:layout_gravity="right" android:id="@+id/ksad_entryscroll_sourceDescRight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginRight="16dp" android:layout_marginBottom="5dp"/>
+    <TextView android:textSize="10dp" android:textColor="#9c9c9c" android:layout_gravity="left" android:id="@+id/ksad_entryscroll_sourceDescLeft" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginRight="16dp" android:layout_marginBottom="5dp"/>
+</com.kwad.sdk.entry.view.EntryScrollView>

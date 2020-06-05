@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kwad.sdk.core.view.AdBaseFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/ksad_root_container" android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.kwad.sdk.contentalliance.detail.video.DetailVideoView android:id="@+id/ksad_video_player" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:layout_gravity="center" android:id="@+id/ksad_video_first_frame" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY"/>
+    <com.kwad.sdk.contentalliance.detail.ad.view.AdBottomView android:id="@+id/ksad_bottom_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <include layout="@layout/ksad_content_alliance_loading"/>
+    <com.kwad.sdk.draw.view.DrawVideoTailFrame android:id="@+id/ksad_video_tail_frame" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/ksad_play_end_web_card_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</com.kwad.sdk.core.view.AdBaseFrameLayout>

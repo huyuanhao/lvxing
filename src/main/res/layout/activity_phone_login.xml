@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:tag="layout/activity_phone_login_0" android:background="@color/white" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ezy.ui.widget.CenteredTitleBar app:title="手机号登录" style="@style/Toolbar.BgTrans.Black"/>
+    <View android:background="@color/grey_f4" android:layout_width="match_parent" android:layout_height="15dp"/>
+    <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="65dp" android:paddingStart="20dp" android:paddingEnd="20dp">
+        <TextView android:text="手机号" style="@style/tv_16_c33"/>
+        <EditText android:textColorHint="@color/color_hint" android:id="@+id/edit_phone" android:background="@null" android:layout_width="0dp" android:layout_height="match_parent" android:hint="请输入手机号" android:maxLength="11" android:layout_weight="1" android:layout_marginStart="20dp" style="@style/tv_16_c33"/>
+        <ezy.ui.widget.round.RoundText android:textSize="12sp" android:textStyle="normal" android:textColor="@color/selector_ff_and_99" android:id="@+id/btn_get_code" android:tag="binding_1" android:layout_width="80dp" android:layout_height="25dp" android:text="获取验证码" style="@style/RndBtn.Green"/>
+    </LinearLayout>
+    <View android:layout_marginStart="20dp" android:layout_marginEnd="20dp" style="@style/DividerGrey.H"/>
+    <TextView android:tag="binding_2" android:layout_marginTop="14dp" android:text="你需要先用微信登录，在【我的】-【个人信息】中绑定手机 号码，才能使用手机号登录" android:layout_marginStart="20dp" android:layout_marginEnd="20dp" style="@style/tv_12_c99"/>
+    <LinearLayout android:gravity="center_vertical" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="65dp" android:paddingStart="20dp" android:paddingEnd="20dp">
+        <TextView android:text="验证码" style="@style/tv_16_c33"/>
+        <EditText android:textColorHint="@color/color_hint" android:id="@+id/edit_code" android:background="@null" android:layout_width="0dp" android:layout_height="match_parent" android:hint="请输入验证码" android:layout_weight="1" android:inputType="number" android:layout_marginStart="20dp" style="@style/tv_16_c33"/>
+    </LinearLayout>
+    <View android:tag="binding_4" android:layout_marginStart="20dp" android:layout_marginEnd="20dp" style="@style/DividerGrey.H"/>
+    <Space android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1"/>
+    <ezy.ui.widget.round.RoundText android:id="@+id/btn" android:layout_margin="30dp" android:text="下一步" style="@style/RndBtn.Green"/>
+</LinearLayout>

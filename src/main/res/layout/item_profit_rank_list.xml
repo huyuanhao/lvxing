@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:tag="layout/item_profit_rank_list_0" android:layout_width="match_parent" android:layout_height="65dp">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:paddingStart="23dp">
+        <ImageView android:tag="binding_1" android:layout_width="24dp" android:layout_height="28dp" android:adjustViewBounds="true" android:layout_marginStart="3dp" android:layout_marginEnd="3dp"/>
+        <TextView android:gravity="center" android:tag="binding_2" android:layout_width="30dp" android:fontFamily="@font/din_black" style="@style/tv_18_c33"/>
+        <de.hdodenhof.circleimageview.CircleImageView android:tag="binding_3" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginStart="13dp"/>
+    </LinearLayout>
+    <TextView android:ellipsize="end" android:tag="binding_4" android:layout_width="0dp" android:maxLines="1" android:layout_weight="1" style="@style/tv_14_c33"/>
+    <LinearLayout android:gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:textSize="18sp" android:tag="binding_5" style="@style/tv_14_c33"/>
+        <TextView android:textSize="13sp" android:text="元" style="@style/tv_14_c33"/>
+    </LinearLayout>
+</LinearLayout>

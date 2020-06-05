@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="5dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/picker_photofolder_cover" android:background="@null" android:layout_width="75dp" android:layout_height="75dp" android:layout_margin="5dp" android:scaleType="centerCrop" android:contentDescription="@null"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp">
+        <TextView android:textSize="@dimen/ysf_text_size_16" android:textStyle="bold" android:textColor="@color/ysf_black_333333" android:id="@+id/picker_photofolder_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textIsSelectable="false"/>
+        <TextView android:textSize="@dimen/ysf_text_size_14" android:textColor="@color/ysf_grey_999999" android:gravity="center" android:id="@+id/picker_photofolder_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textIsSelectable="false"/>
+    </LinearLayout>
+</LinearLayout>

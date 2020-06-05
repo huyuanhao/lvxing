@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:tag="layout/activity_order_details_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ezy.ui.widget.CenteredTitleBar app:title="我的订单" style="@style/Toolbar.BgWhite"/>
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@+id/refresh" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="15dp" android:paddingEnd="15dp">
+                <androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/bg_white_10" android:padding="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp">
+                    <ImageView android:id="@+id/iv_logo" android:layout_width="86dp" android:layout_height="86dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+                    <TextView android:ellipsize="end" android:id="@+id/tv_name" android:tag="binding_1" android:layout_width="0dp" android:layout_marginTop="4dp" android:text="KOKO泰国香米10KG 原装进口大米 包邮正宗泰米包邮2..." android:maxLines="2" android:lineSpacingExtra="3dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toEndOf="@+id/iv_logo" app:layout_constraintTop_toTopOf="0" style="@style/tv_12_c33"/>
+                    <LinearLayout android:gravity="bottom" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginBottom="13dp" app:layout_constraintBottom_toBottomOf="@+id/iv_logo" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="@+id/tv_name">
+                        <TextView android:text="￥" style="@style/tv_16_red"/>
+                        <TextView android:textSize="20sp" android:layout_width="0dp" android:text="154.80" android:layout_weight="1" style="@style/tv_14_red"/>
+                        <TextView android:text="x1" style="@style/tv_16_c99"/>
+                    </LinearLayout>
+                    <TextView android:id="@+id/tv_speed" android:layout_marginTop="30dp" android:text="产金币速度" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/iv_logo" style="@style/tv_14_c33"/>
+                    <TextView android:text="25688m/s" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="@+id/tv_speed" style="@style/tv_14_c66"/>
+                    <TextView android:id="@+id/tv_total" android:layout_marginTop="14dp" android:text="累计获得金币" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/tv_speed" style="@style/tv_14_c33"/>
+                    <TextView android:text="25688m/s" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="@+id/tv_total" style="@style/tv_14_c66"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <LinearLayout android:orientation="vertical" android:background="@drawable/bg_white_10" android:paddingTop="20dp" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="11dp" android:paddingStart="15dp" android:paddingEnd="15dp">
+                    <TextView android:textStyle="bold" android:gravity="center_vertical" android:layout_width="match_parent" android:text="订单信息" android:drawableEnd="@mipmap/ic_arrow_right_grey" style="@style/tv_16_c33"/>
+                    <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp">
+                        <TextView android:text="店铺名称" style="@style/tv_14_c66"/>
+                        <TextView android:gravity="end" android:layout_width="0dp" android:text="天猫超市" android:layout_weight="1" style="@style/tv_14_c33"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+                        <TextView android:text="订单编号" style="@style/tv_14_c66"/>
+                        <TextView android:textSize="10sp" android:gravity="end" android:layout_width="0dp" android:text="复制" android:layout_weight="1" android:paddingEnd="5dp" style="@style/tv_12_red"/>
+                        <TextView android:text="362673487722362739" style="@style/tv_14_c33"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+                        <TextView android:text="下单时间" style="@style/tv_14_c66"/>
+                        <TextView android:gravity="end" android:layout_width="0dp" android:text="2020-02-22 22:34:43" android:layout_weight="1" style="@style/tv_14_c33"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+                        <TextView android:text="订单状态" style="@style/tv_14_c66"/>
+                        <TextView android:gravity="end" android:layout_width="0dp" android:text="正常" android:layout_weight="1" style="@style/tv_14_c33"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:background="@drawable/bg_white_10" android:paddingTop="18dp" android:paddingBottom="18dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:paddingStart="15dp" android:paddingEnd="15dp">
+                    <TextView android:textStyle="bold" android:text="订单为什么失效？" style="@style/tv_16_c33"/>
+                    <TextView android:layout_marginTop="17dp" android:text="1.订单退款\102违法淘宝推广规则，视为无效订单" android:lineSpacingExtra="10dp" style="@style/tv_12_c66"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+</LinearLayout>

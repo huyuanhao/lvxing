@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/iv_file_icon" android:layout_width="75dp" android:layout_height="75dp" android:layout_marginTop="30dp" android:src="@drawable/ysf_message_file_icon_unknown_preview" android:scaleType="fitXY" android:contentDescription="@null"/>
+        <com.qiyukf.unicorn.widget.FileNameTextView android:id="@+id/tv_file_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" app:ysf_fntMaxLines="2" app:ysf_fntTextColor="@color/ysf_black_222222" app:ysf_fntTextSize="18sp"/>
+        <TextView android:textSize="@dimen/ysf_text_size_16" android:textColor="@color/ysf_grey_999999" android:id="@+id/tv_file_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp"/>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="16dp">
+            <Button android:textSize="@dimen/ysf_text_size_18" android:textColor="@color/ysf_white" android:id="@+id/download_btn" android:background="@drawable/ysf_btn_blue_bg_selector" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/ysf_file_download"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/ll_download_progress" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+                <ProgressBar android:id="@+id/pb_download" android:layout_width="0dp" android:layout_height="8dp" android:progressDrawable="@drawable/ysf_file_download_progress_bar" android:layout_weight="1" style="@style/Widget.ProgressBar.Horizontal"/>
+                <ImageView android:id="@+id/iv_stop_download" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:src="@drawable/ysf_ic_file_download_stop" android:contentDescription="@null"/>
+            </LinearLayout>
+        </FrameLayout>
+        <TextView android:textSize="@dimen/ysf_text_size_12" android:textColor="@color/ysf_grey_999999" android:gravity="center" android:id="@+id/tv_tips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/ysf_file_open_tips"/>
+    </LinearLayout>
+</ScrollView>

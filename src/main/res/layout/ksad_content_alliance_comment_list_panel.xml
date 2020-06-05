@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="#33000000" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/ksad_photo_comment_list_space" android:background="#00000000" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="7"/>
+    <RelativeLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/ksad_photo_comment_list_panel_layout" android:background="#ffffffff" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="3">
+        <TextView android:textSize="17dp" android:textColor="#222222" android:gravity="center" android:layout_width="wrap_content" android:layout_height="52dp" android:text="最热评论" android:drawableLeft="@drawable/ksad_photo_comment_fire" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+        <androidx.recyclerview.widget.RecyclerView android:gravity="center_vertical" android:id="@+id/ksad_photo_comment_list_content" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="52dp" android:layout_marginBottom="8dp"/>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/ksad_photo_comment_list_no_data_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:background="@drawable/ksad_photo_comment_no_data" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="172dp"/>
+            <TextView android:textSize="14dp" android:textColor="#c6c6c6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="下载快手APP，抢先发布评论！"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/ksad_photo_comment_list_no_network_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:background="@drawable/ksad_content_no_network" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="111dp"/>
+            <TextView android:textSize="14dp" android:textColor="#c6c6c6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="请检查网络是否正常"/>
+            <Button android:textSize="14dp" android:textColor="#ffffff" android:id="@+id/ksad_photo_comment_list_no_network_retry" android:background="@drawable/ksad_photo_comment_retry_load_button_bg" android:layout_width="120dp" android:layout_height="36dp" android:layout_marginTop="22dp" android:text="重试"/>
+        </LinearLayout>
+        <com.ksad.lottie.LottieAnimationView android:id="@+id/ksad_photo_comment_loading_view" android:visibility="gone" android:layout_width="30dp" android:layout_height="30dp" android:layout_centerInParent="true"/>
+        <ImageButton android:id="@+id/ksad_photo_comment_list_panel_close" android:background="@drawable/ksad_photo_comment_list_panel_close_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_marginRight="8dp" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+</LinearLayout>

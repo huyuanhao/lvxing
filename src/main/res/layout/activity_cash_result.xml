@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/activity_cash_result_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="121dp" android:src="@drawable/selector_cash_result"/>
+    <TextView android:textStyle="bold" android:tag="binding_2" android:layout_marginTop="26dp" style="@style/tv_18_c33"/>
+    <TextView android:tag="binding_3" android:layout_marginTop="14dp" style="@style/tv_12_cff"/>
+    <ezy.ui.widget.round.RoundText android:id="@+id/btn" android:layout_width="200dp" android:layout_marginTop="90dp" android:text="我知道了" style="@style/RndBtn.Green"/>
+</LinearLayout>

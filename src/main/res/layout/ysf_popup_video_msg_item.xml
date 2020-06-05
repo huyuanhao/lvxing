@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:background="@drawable/ysf_ic_popup_video_back" android:layout_width="200px" android:layout_height="30dp">
+    <TextView android:textColor="@color/ysf_white" android:gravity="center" android:id="@+id/ysf_tv_popup_video_voice" android:layout_width="0dp" android:layout_height="match_parent" android:text="静音" android:layout_weight="1"/>
+    <TextView android:textColor="@color/ysf_white" android:gravity="center" android:id="@+id/ysf_tv_popup_video_save" android:layout_width="0dp" android:layout_height="match_parent" android:text="保存" android:layout_weight="1"/>
+</LinearLayout>

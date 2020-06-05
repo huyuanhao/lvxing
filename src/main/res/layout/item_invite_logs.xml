@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:tag="layout/item_invite_logs_0" android:layout_width="match_parent" android:layout_height="83dp" android:paddingStart="20dp" android:paddingEnd="20dp">
+    <de.hdodenhof.circleimageview.CircleImageView android:tag="binding_1" android:layout_width="30dp" android:layout_height="30dp"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="10dp">
+        <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:ellipsize="end" android:tag="binding_2" android:maxLines="10" style="@style/tv_16_c33"/>
+            <TextView android:tag="binding_3" android:text="(未实名)" style="@style/tv_16_c99"/>
+            <ImageView android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_inviter_wx" android:layout_marginStart="5dp" android:layout_marginEnd="5dp"/>
+            <ImageView android:tag="binding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_inviter_qq"/>
+            <TextView android:textSize="20sp" android:gravity="end" android:tag="binding_6" android:layout_width="0dp" android:layout_weight="1" style="@style/tv_16_green"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+            <TextView android:tag="binding_7" style="@style/tv_12_c99"/>
+            <TextView android:gravity="end" android:tag="binding_8" android:layout_width="0dp" android:layout_weight="1" style="@style/tv_12_c99"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

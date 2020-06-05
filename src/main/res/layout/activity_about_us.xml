@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/activity_about_us_0" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ezy.ui.widget.CenteredTitleBar app:title="关于旅行世界" style="@style/Toolbar.BgTrans.Black"/>
+    <ImageView android:tag="binding_1" android:layout_width="70dp" android:layout_height="70dp" android:layout_marginTop="40dp"/>
+    <TextView android:textSize="20sp" android:layout_marginTop="13dp" android:text="旅行世界" style="@style/tv_16_green"/>
+    <TextView android:layout_marginTop="20dp" android:text="一个边走边赚钱的APP" style="@style/tv_14_c99"/>
+    <View android:background="@color/grey_f4" android:layout_width="match_parent" android:layout_height="15dp" android:layout_marginTop="54dp"/>
+    <LinearLayout android:gravity="center_vertical" android:id="@+id/lyt_upgrade" android:layout_width="match_parent" android:layout_height="65dp" android:paddingStart="20dp" android:paddingEnd="20dp">
+        <TextView android:text="检查更新" style="@style/tv_16_c33"/>
+        <TextView android:gravity="right|center_vertical|center_horizontal|center|end" android:tag="binding_2" android:layout_width="0dp" android:drawablePadding="5dp" android:layout_weight="1" android:drawableEnd="@mipmap/ic_arrow_right_grey" style="@style/tv_18_c99"/>
+    </LinearLayout>
+    <View android:layout_marginStart="20dp" android:layout_marginEnd="20dp" style="@style/DividerGrey.H"/>
+    <LinearLayout android:gravity="center_vertical" android:id="@+id/lyt_protocol" android:layout_width="match_parent" android:layout_height="65dp" android:paddingStart="20dp" android:paddingEnd="20dp">
+        <TextView android:text="服务协议" style="@style/tv_16_c33"/>
+        <TextView android:gravity="right|center_vertical|center_horizontal|center|end" android:layout_width="0dp" android:text="" android:drawablePadding="5dp" android:layout_weight="1" android:drawableEnd="@mipmap/ic_arrow_right_grey" style="@style/tv_18_c99"/>
+    </LinearLayout>
+    <View android:layout_marginStart="20dp" android:layout_marginEnd="20dp" style="@style/DividerGrey.H"/>
+    <LinearLayout android:gravity="center_vertical" android:id="@+id/lyt_private" android:layout_width="match_parent" android:layout_height="65dp" android:paddingStart="20dp" android:paddingEnd="20dp">
+        <TextView android:text="隐私协议" style="@style/tv_16_c33"/>
+        <TextView android:gravity="right|center_vertical|center_horizontal|center|end" android:layout_width="0dp" android:text="" android:drawablePadding="5dp" android:layout_weight="1" android:drawableEnd="@mipmap/ic_arrow_right_grey" style="@style/tv_18_c99"/>
+    </LinearLayout>
+    <View android:layout_marginStart="20dp" android:layout_marginEnd="20dp" style="@style/DividerGrey.H"/>
+    <Space android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1"/>
+    <TextView android:layout_marginBottom="30dp" android:text="深圳市加游丫科技有限公司" style="@style/tv_12_c99"/>
+</LinearLayout>

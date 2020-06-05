@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:tag="layout/item_order_0" android:background="@drawable/bg_white_10" android:padding="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="15dp" android:layout_marginEnd="15dp">
+    <ImageView android:layout_width="65dp" android:layout_height="65dp" android:src="@mipmap/ic_launcher"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="10dp">
+        <TextView android:tag="binding_1" android:text="KOKO泰国香米10KG 原装..." style="@style/tv_14_c33"/>
+        <TextView android:gravity="center_vertical" android:layout_marginTop="13dp" android:text="2222m/s" android:drawablePadding="2dp" android:drawableStart="@mipmap/ic_order_coin" style="@style/tv_14_c66"/>
+    </LinearLayout>
+</LinearLayout>

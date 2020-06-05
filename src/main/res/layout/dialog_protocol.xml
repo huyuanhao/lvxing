@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/dialog_protocol_0" android:background="@drawable/bg_white_10" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="20sp" android:textStyle="bold" android:layout_marginTop="30dp" android:text="服务协议和隐私政策" style="@style/tv_14_c33"/>
+    <TextView android:autoLink="web" android:id="@+id/tv_content" android:layout_marginTop="20dp" android:lineSpacingExtra="3dp" android:layout_marginStart="20dp" android:layout_marginEnd="20dp" style="@style/tv_14_c33"/>
+    <View android:layout_marginTop="30dp" style="@style/DividerGrey.H"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="43dp">
+        <TextView android:gravity="center" android:id="@+id/btn_cancel" android:layout_width="0dp" android:layout_height="match_parent" android:text="暂不使用" android:layout_weight="1" style="@style/tv_14_c99"/>
+        <View style="@style/DividerGrey.V"/>
+        <TextView android:textStyle="bold" android:gravity="center" android:id="@+id/btn_confirm" android:layout_width="0dp" android:layout_height="match_parent" android:text="同意" android:layout_weight="1" style="@style/tv_14_green"/>
+    </LinearLayout>
+</LinearLayout>

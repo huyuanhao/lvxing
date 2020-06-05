@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/ysf_black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/ysf_iv_watch_video_finish" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="20dp" android:layout_marginTop="20dp" android:src="@drawable/ysf_ic_watch_video_finish_back"/>
+    <RelativeLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/rlSur" android:layout_width="match_parent" android:layout_height="match_parent">
+        <SurfaceView android:id="@+id/videoView" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+        <ImageView android:id="@+id/videoIcon" android:visibility="gone" android:layout_width="80dp" android:layout_height="80dp" android:src="@drawable/ysf_ic_video_start_back" android:layout_centerInParent="true" android:contentDescription=""/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/layoutDownload" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ysf_video_play_icon_selector" android:contentDescription=""/>
+            <FrameLayout android:layout_gravity="center_horizontal" android:paddingLeft="27dp" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="16dp">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@+id/downloadProgressBackground" android:background="@drawable/ysf_watch_video_download_progress_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="27dp" android:contentDescription=""/>
+                <ImageView android:id="@+id/downloadProgressForeground" android:background="@drawable/ysf_watch_video_download_progress_foreground" android:layout_width="111dp" android:layout_height="wrap_content" android:layout_marginRight="27dp" android:contentDescription=""/>
+                <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/control_download_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ysf_icon_download_pause"/>
+            </FrameLayout>
+            <TextView android:layout_gravity="center_horizontal" android:id="@+id/downloadProgressText" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <TextView android:textSize="12dp" android:textColor="@color/ysf_grey_999999" android:id="@+id/lblVideoFileInfo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_below="@+id/videoView" android:layout_alignLeft="@+id/videoView"/>
+        <TextView android:textSize="12dp" android:textColor="@color/ysf_grey_999999" android:gravity="right" android:id="@+id/lblVideoTimes" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@+id/lblVideoFileInfo" android:layout_alignRight="@+id/videoView"/>
+    </RelativeLayout>
+    <include layout="@layout/ysf_include_video_progress_layout"/>
+</FrameLayout>

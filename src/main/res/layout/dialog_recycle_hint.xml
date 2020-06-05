@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/dialog_recycle_hint_0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/iv_close" style="@style/Dialog.CloseGrey"/>
+    <ImageView android:tag="binding_1" android:layout_width="72dp" android:layout_height="72dp" android:layout_marginTop="-10dp" android:adjustViewBounds="true"/>
+    <TextView android:layout_marginTop="10dp" android:text="回收价格" style="@style/tv_12_c66"/>
+    <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp">
+        <ImageView android:layout_width="19dp" android:layout_height="19dp" android:src="@mipmap/ic_gold_coin"/>
+        <TextView android:textSize="22sp" android:tag="binding_2" android:layout_marginStart="5dp" style="@style/tv_12_c33"/>
+    </LinearLayout>
+    <ezy.ui.widget.round.RoundText android:id="@+id/btn_recycle" android:layout_width="180dp" android:layout_marginTop="28dp" android:layout_marginBottom="25dp" android:text="确定回收" style="@style/RndBtn.Green"/>
+</LinearLayout>

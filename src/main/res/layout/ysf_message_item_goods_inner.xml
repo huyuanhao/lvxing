@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/ysf_iv_goods_img" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/ysf_image_placeholder_loading" android:scaleType="centerCrop" android:contentDescription="@null"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="60dp" android:layout_marginLeft="8dp">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/ysf_text_size_14" android:textColor="@color/ysf_black_222222" android:ellipsize="end" android:id="@+id/ysf_tv_goods_name" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1"/>
+            <LinearLayout android:gravity="end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp">
+                <TextView android:textSize="@dimen/ysf_text_size_14" android:textStyle="bold" android:textColor="@color/ysf_black_222222" android:id="@+id/ysf_tv_goods_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+                <TextView android:textSize="@dimen/ysf_text_size_14" android:textColor="@color/ysf_grey_999999" android:id="@+id/ysf_tv_goods_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/ysf_text_size_14" android:textColor="@color/ysf_grey_999999" android:id="@+id/ysf_tv_goods_sku" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1"/>
+            <TextView android:textSize="@dimen/ysf_text_size_14" android:textColor="@color/ysf_grey_999999" android:layout_gravity="end" android:id="@+id/ysf_tv_goods_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:maxLines="1"/>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

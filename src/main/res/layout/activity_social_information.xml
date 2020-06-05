@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:tag="layout/activity_social_information_0" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ezy.ui.widget.CenteredTitleBar app:title="社交信息" style="@style/Toolbar.BgWhite"/>
+    <RelativeLayout android:id="@+id/lyt_container" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="15dp">
+            <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="65dp" android:paddingStart="20dp" android:paddingEnd="20dp">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_social_wx"/>
+                <TextView android:text="微信号" android:layout_marginStart="10dp" style="@style/tv_16_c33"/>
+                <EditText android:textColorHint="@color/color_hint" android:id="@+id/edit_wx" android:background="@null" android:layout_width="0dp" android:layout_height="match_parent" android:hint="请输入您的微信号" android:layout_weight="1" android:layout_marginStart="18dp" style="@style/tv_16_c33"/>
+            </LinearLayout>
+            <View android:layout_marginStart="20dp" style="@style/DividerGrey.H"/>
+            <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="65dp" android:paddingStart="20dp" android:paddingEnd="20dp">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_social_qq"/>
+                <TextView android:text="QQ号" android:layout_marginStart="10dp" style="@style/tv_16_c33"/>
+                <EditText android:textColorHint="@color/color_hint" android:id="@+id/edit_qq" android:background="@null" android:layout_width="0dp" android:layout_height="match_parent" android:hint="请输入您的QQ号" android:layout_weight="1" android:layout_marginStart="27dp" style="@style/tv_16_c33"/>
+            </LinearLayout>
+            <View android:layout_marginStart="20dp" style="@style/DividerGrey.H"/>
+        </LinearLayout>
+        <ezy.ui.widget.round.RoundText android:id="@+id/btn_save" android:layout_margin="30dp" android:text="保存" android:layout_alignParentBottom="true" style="@style/RndBtn.Green"/>
+    </RelativeLayout>
+</LinearLayout>

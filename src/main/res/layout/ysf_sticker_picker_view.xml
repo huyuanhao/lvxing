@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout android:paddingLeft="10dp" android:paddingTop="4dp" android:paddingRight="10dp" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="90dp">
+        <TextView android:textSize="13sp" android:textColor="@color/ysf_black" android:ellipsize="end" android:gravity="center_horizontal" android:id="@+id/sticker_desc_label" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:scrollHorizontally="false" android:layout_alignParentBottom="true"/>
+        <ImageView android:id="@+id/sticker_thumb_image" android:layout_width="64dp" android:layout_height="64dp" android:layout_marginBottom="4dp" android:adjustViewBounds="true" android:layout_above="@+id/sticker_desc_label" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</LinearLayout>

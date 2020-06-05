@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:tag="layout/activity_map_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <HorizontalScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:background="#528ffa" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <com.jiayouya.travel.module.me.widget.MapView android:id="@+id/map_view" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </FrameLayout>
+    </HorizontalScrollView>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@+id/status_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/iv_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_back_white" android:layout_marginStart="18dp"/>
+            <FrameLayout android:tag="binding_1" android:layout_width="match_parent" android:layout_height="45dp" android:layout_marginStart="60dp" android:layout_marginEnd="60dp">
+                <TextView android:textStyle="bold" android:layout_marginTop="9dp" android:text="我的必得分红犬" android:layout_marginStart="78dp" style="@style/tv_12_c33"/>
+                <TextView android:layout_gravity="end" android:tag="binding_2" android:layout_marginTop="8dp" android:layout_marginEnd="17dp" style="@style/tv_14_c33"/>
+                <com.jiayouya.travel.common.widget.RndCornerProgressBar android:layout_gravity="bottom" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="8dp" android:layout_marginBottom="10dp" android:layout_marginStart="78dp" android:layout_marginEnd="17dp" app:rcBackgroundColor="@color/grey_f4" app:rcEndColor="@color/green_end" app:rcStartColor="@color/green_start"/>
+            </FrameLayout>
+        </FrameLayout>
+        <ImageView android:layout_gravity="bottom" android:layout_width="60dp" android:layout_height="wrap_content" android:src="@mipmap/ic_dog_level47" android:adjustViewBounds="true" android:layout_marginStart="73dp"/>
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="102dp" android:overScrollMode="never" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/bg_white_10" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="82dp" android:layout_margin="15dp" android:paddingStart="15dp" android:paddingEnd="15dp">
+        <TextView android:id="@+id/tv_start" android:layout_marginTop="10dp" android:text="0km" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@style/tv_16_c33"/>
+        <TextView android:layout_gravity="end" android:tag="binding_4" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="@+id/tv_start" style="@style/tv_16_c33"/>
+        <FrameLayout android:id="@+id/lyt_progress" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/tv_start">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@mipmap/bg_ruler" android:adjustViewBounds="true"/>
+            <com.jiayouya.travel.common.widget.RndCornerProgressBar android:layout_gravity="center_vertical" android:id="@+id/progress_bar" android:tag="binding_5" android:layout_width="match_parent" android:layout_height="10dp" app:rcBackgroundColor="@android:color/transparent" app:rcEndColor="@color/green_end" app:rcStartColor="@color/green_start"/>
+        </FrameLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/lyt_progress">
+            <TextView android:tag="binding_6" style="@style/tv_12_c33"/>
+            <TextView android:layout_gravity="end" android:tag="binding_7" style="@style/tv_12_c33"/>
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/tv_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="63dp">
+        <ezy.ui.widget.round.RoundText android:textSize="12sp" android:textColor="@color/white" android:tag="binding_8" android:layout_width="wrap_content" android:layout_height="15dp" android:paddingStart="4dp" android:paddingEnd="4dp" app:rndCornerRadius="7dp" app:rndGradientEndColor="@color/green_end" app:rndGradientStartColor="@color/green_start"/>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_arrow_down_green"/>
+    </LinearLayout>
+</FrameLayout>

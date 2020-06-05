@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:tag="layout/activity_online_service_0" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ezy.ui.widget.CenteredTitleBar app:title="在线客服" style="@style/Toolbar.BgTrans.Black"/>
+    <TextView android:textStyle="bold" android:layout_marginTop="28dp" android:text="有疑问请咨询微信客服" android:layout_marginStart="20dp" style="@style/tv_18_c33"/>
+    <TextView android:layout_marginTop="13dp" android:text="请扫描下方二维码或点击“保存二维码”保存到手机识别二维 码，识别成功后，关注【旅行世界App】服务号。" android:lineSpacingExtra="3dp" android:layout_marginStart="20dp" android:layout_marginEnd="20dp" style="@style/tv_13_c33"/>
+    <ImageView android:layout_gravity="center_horizontal" android:id="@+id/iv_qr_code" android:layout_width="250dp" android:layout_height="250dp" android:layout_marginTop="68dp"/>
+    <Space android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1"/>
+    <ezy.ui.widget.round.RoundText android:id="@+id/btn" android:layout_margin="30dp" android:text="保存二维码" style="@style/RndBtn.Green"/>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:tag="layout/activity_answer_0" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ezy.ui.widget.CenteredTitleBar app:title="每日答题" style="@style/Toolbar.BgWhite"/>
+    <View android:background="@color/grey_f4" android:layout_width="match_parent" android:layout_height="15dp"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/lyt_container" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="36dp" android:paddingStart="20dp" android:paddingEnd="20dp">
+            <ezy.ui.widget.round.RoundText android:tag="binding_1" android:layout_width="45dp" android:layout_height="20dp" app:rndCornerRadius="-1" app:rndStrokeColor="@color/green_39CD63" app:rndStrokeWidth="1dp" style="@style/tv_14_green"/>
+            <TextView android:textStyle="bold" android:tag="binding_2" android:layout_marginStart="9dp" style="@style/tv_16_c33"/>
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/list" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginTop="23dp" android:layout_marginBottom="10dp" android:layout_weight="1" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+        <TextView android:layout_gravity="center_horizontal" android:id="@+id/btn_pre" android:tag="binding_3" android:layout_marginBottom="29dp" android:text="上一题" style="@style/tv_14_c66"/>
+        <ezy.ui.widget.round.RoundText android:id="@+id/btn" android:tag="binding_4" android:layout_marginBottom="20dp" android:layout_marginStart="25dp" android:layout_marginEnd="25dp" style="@style/RndBtn.Green"/>
+    </LinearLayout>
+</LinearLayout>

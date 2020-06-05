@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/dialog_channel_explain_0" android:background="@drawable/bg_white_10" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="24sp" android:textStyle="bold" android:layout_marginTop="42dp" android:text="渠道说明" style="@style/tv_16_c33"/>
+    <TextView android:layout_marginTop="25dp" android:text="用户完成第十阶段，联系平台即可开通渠道权限。渠道可额外获得奖励，随着裂变的用户越多，奖励也会越多。未成为渠道时，显示的额外多赚是预估收入，以成为渠道后的收入为准~" android:lineSpacingExtra="5dp" android:layout_marginStart="30dp" android:layout_marginEnd="30dp" style="@style/tv_14_c66"/>
+    <ezy.ui.widget.round.RoundText android:id="@+id/btn" android:layout_marginTop="35dp" android:layout_marginBottom="40dp" android:text="确定" android:layout_marginStart="40dp" android:layout_marginEnd="40dp" style="@style/RndBtn.Green"/>
+</LinearLayout>

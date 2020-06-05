@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:tag="layout/dialog_offline_profit_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/lyt_main" android:background="@drawable/bg_white_10" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:layout_marginStart="40dp" android:layout_marginEnd="40dp">
+                <TextView android:textStyle="bold" android:layout_marginTop="45dp" android:text="离线收益" style="@style/tv_16_c33"/>
+                <LinearLayout android:gravity="center_vertical" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="33dp" android:layout_marginTop="18dp" android:paddingStart="8dp" android:paddingEnd="8dp">
+                    <ImageView android:layout_width="20dp" android:layout_height="20dp" android:src="@mipmap/ic_gold_coin" android:layout_marginEnd="3dp"/>
+                    <TextView android:textSize="20sp" android:tag="binding_2" style="@style/tv_16_c33"/>
+                </LinearLayout>
+                <ezy.ui.widget.round.RoundLayout android:id="@+id/btn_share" android:layout_marginTop="18dp" android:layout_marginBottom="30dp" android:text="分享翻倍" android:layout_marginStart="25dp" android:layout_marginEnd="25dp" style="@style/RndBtn.Green">
+                    <LinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:id="@+id/iv_play" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_tv_small"/>
+                        <TextView android:textStyle="bold" android:tag="binding_3" style="@style/tv_16_cff"/>
+                    </LinearLayout>
+                </ezy.ui.widget.round.RoundLayout>
+            </LinearLayout>
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_get_coin"/>
+            <TextView android:gravity="center" android:layout_gravity="end" android:id="@+id/iv_close" android:background="@drawable/selector_close" android:layout_width="31dp" android:layout_height="31dp" android:layout_marginEnd="40dp" style="@style/tv_16_cff"/>
+        </FrameLayout>
+        <FrameLayout android:tag="binding_4" android:background="@drawable/bg_flow_info_ad" android:padding="3dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginStart="40dp" android:layout_marginEnd="40dp">
+            <com.jiayouya.travel.module.common.widget.round.widget.GeneralRoundLinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/lyt_ad" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="159dp" app:corner_radius="10dp">
+                <ImageView android:id="@+id/iv_gif" android:layout_width="60dp" android:layout_height="wrap_content"/>
+            </com.jiayouya.travel.module.common.widget.round.widget.GeneralRoundLinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/lyt_ad_text" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</FrameLayout>

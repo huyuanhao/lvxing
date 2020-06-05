@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="album_check_album_limit">
+        <item quantity="other">您只能選擇%1$d個媒體文件</item>
+    </plurals>
+    <plurals name="album_check_album_limit_camera">
+        <item quantity="other">您只能選擇%1$d個媒體文件，不能使用相機</item>
+    </plurals>
+    <plurals name="album_check_image_limit">
+        <item quantity="other">您只能選擇%1$d個圖片文件</item>
+    </plurals>
+    <plurals name="album_check_image_limit_camera">
+        <item quantity="other">您只能選擇%1$d個圖片文件，不能使用相機</item>
+    </plurals>
+    <plurals name="album_check_video_limit">
+        <item quantity="other">您只能選擇%1$d個視頻文件</item>
+    </plurals>
+    <plurals name="album_check_video_limit_camera">
+        <item quantity="other">您只能選擇%1$d個視頻文件，不能使用相機</item>
+    </plurals>
+</resources>

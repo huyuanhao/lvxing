@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/win_app_wall_layout" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:background="#f6f6f6" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="48dp"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/app_wall_detail_view" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@+id/win_app_wall_top_layout" android:layout_width="match_parent" android:layout_height="48dp">
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/win_app_wall_back" android:layout_width="45dp" android:layout_height="45dp" android:src="@drawable/win_sdk_back"/>
+            <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:layout_gravity="center" android:id="@+id/win_app_wall_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="300dp" android:maxLines="1"/>
+        </FrameLayout>
+        <com.pw.view.AppWallView android:id="@+id/appWallView" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+</FrameLayout>

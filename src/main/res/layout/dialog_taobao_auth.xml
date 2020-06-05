@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:id="@+id/lyt_container" android:tag="layout/dialog_taobao_auth_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/bg_white_10" android:layout_width="290dp" android:layout_height="wrap_content" android:layout_marginStart="35dp" android:layout_marginEnd="35dp">
+        <ImageView android:layout_width="60dp" android:layout_height="60dp" android:layout_marginTop="30dp" android:layout_marginBottom="10dp" android:src="@mipmap/ic_tb"/>
+        <TextView android:textSize="20dp" android:textColor="@color/textPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:text="申请淘宝授权"/>
+        <TextView android:textSize="14dp" android:textColor="@color/textSecondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="应淘宝要求，获得返佣前请先进行官方授权！\10 旅行世界APP是淘宝联盟“官方优质合作伙伴”，查优惠券、赚佣金，使用更安心！" android:lineSpacingExtra="10dp" android:layout_marginStart="30dp" android:layout_marginEnd="30dp"/>
+        <ezy.ui.widget.round.RoundText android:id="@+id/btn_go_taobao" android:layout_marginTop="30dp" android:layout_marginBottom="30dp" android:text="前往淘宝授权" style="@style/RndBtn.Green"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/iv_close" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginTop="40dp" android:src="@mipmap/ic_close_dialog"/>
+</LinearLayout>

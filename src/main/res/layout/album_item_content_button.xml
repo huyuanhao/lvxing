@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yanzhenjie.album.widget.SquareCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" app:cardBackgroundColor="@color/albumColorPrimaryBlack" style="@style/Album.Item.Card.MatchParent">
+    <com.yanzhenjie.album.widget.SquareImageView android:id="@+id/iv_album_content_button" android:background="?attr/selectableItemBackground" android:src="@drawable/album_ic_add_photo_white" android:scaleType="center" android:contentDescription="@string/album_title" style="@style/Album.MatchParent"/>
+</com.yanzhenjie.album.widget.SquareCardView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:tag="layout/item_share_0" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="233.33dp" android:layout_height="414.6641dp">
+        <ImageView android:id="@+id/poster_view" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:adjustViewBounds="true"/>
+        <TextView android:textSize="11sp" android:textStyle="bold" android:layout_gravity="bottom" android:tag="binding_2" android:paddingTop="10dp" android:paddingBottom="2dp" android:layout_marginBottom="94.6dp" android:paddingStart="10dp" android:paddingEnd="10dp" android:layout_marginStart="6.66dp" style="@style/tv_10_c33"/>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:tag="binding_3" android:layout_width="220dp" android:layout_height="86dp" android:layout_marginBottom="8.6dp">
+            <de.hdodenhof.circleimageview.CircleImageView android:layout_gravity="center_vertical" android:tag="binding_4" android:layout_width="35dp" android:layout_height="35dp" android:layout_marginStart="10dp"/>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="11dp" android:layout_marginEnd="8.5dp">
+                <TextView android:textStyle="bold" android:ellipsize="end" android:tag="binding_5" android:maxLines="1" style="@style/tv_10_c33"/>
+                <TextView android:textSize="8sp" android:tag="binding_6" android:layout_marginTop="4.5dp" android:lineSpacingExtra="2.48dp" style="@style/tv_12_c33"/>
+            </LinearLayout>
+            <ImageView android:id="@+id/iv_qr_code" android:layout_width="59dp" android:layout_height="59dp" android:layout_marginEnd="14dp"/>
+        </LinearLayout>
+    </FrameLayout>
+    <ImageView android:layout_gravity="end" android:tag="binding_7" android:padding="9dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_share"/>
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kwad.sdk.entry.view.EntryLinearView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <include android:id="@+id/ksad_entry2_photoleft" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" layout="@layout/ksad_view_entryphoto"/>
+        <include android:id="@+id/ksad_entry2_photoright" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="7dp" android:layout_weight="1" layout="@layout/ksad_view_entryphoto"/>
+    </LinearLayout>
+    <TextView android:textSize="10dp" android:textColor="#9c9c9c" android:layout_gravity="right" android:id="@+id/ksad_entry2_sourceDescRight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginBottom="5dp"/>
+    <TextView android:textSize="10dp" android:textColor="#9c9c9c" android:layout_gravity="left" android:id="@+id/ksad_entry2_sourceDescLeft" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginBottom="5dp"/>
+</com.kwad.sdk.entry.view.EntryLinearView>

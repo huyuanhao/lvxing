@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kwad.sdk.entry.view.EntryPhotoView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.kwad.sdk.core.page.widget.RoundAngleImageView android:id="@+id/ksad_entryitem_photocover" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <ImageView android:layout_gravity="center" android:id="@+id/ksad_entryitem_playbtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ksad_entry_play_selector"/>
+    <View android:layout_gravity="bottom" android:background="@drawable/ksad_draw_bottom_bg" android:layout_width="match_parent" android:layout_height="60dp"/>
+    <TextView android:textSize="10dp" android:textColor="#ffffff" android:gravity="center_vertical" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/ksad_entryitem_lickcount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:layout_marginBottom="5dp" android:drawableLeft="@drawable/ksad_entry_like" android:drawablePadding="4dp"/>
+    <FrameLayout android:id="@+id/ksad_entryitem_lookmore" android:background="@drawable/ksad_lookmore_black_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.kwad.sdk.widget.CenterDrawTextView android:textSize="12dp" android:textColor="#ffffff" android:gravity="center_vertical" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="查看更多视频" android:drawableRight="@drawable/ksad_entry_arrow" android:drawablePadding="6dp"/>
+    </FrameLayout>
+</com.kwad.sdk.entry.view.EntryPhotoView>

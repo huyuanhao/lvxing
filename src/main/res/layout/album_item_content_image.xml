@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yanzhenjie.album.widget.SquareCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" style="@style/Album.Item.Card.MatchParent">
+    <RelativeLayout style="@style/Album.MatchParent">
+        <ImageView android:id="@+id/iv_album_content_image" android:scaleType="centerCrop" android:contentDescription="@string/album_title" style="@style/Album.MatchParent"/>
+        <com.yanzhenjie.album.widget.TransferLayout android:layout_alignParentRight="true" android:layout_alignParentEnd="true" style="@style/Album.WrapContent.Transfer">
+            <androidx.appcompat.widget.AppCompatCheckBox android:id="@+id/check_box" style="@style/Album.CheckBox.WrapContent"/>
+        </com.yanzhenjie.album.widget.TransferLayout>
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/layout_layer" android:background="@color/albumSheetLayer" style="@style/Album.MatchParent">
+        <TextView android:textSize="@dimen/album_sp_16" android:textColor="@color/albumFontLight" android:layout_gravity="center" android:text="@string/album_item_unavailable" style="@style/Album.WrapContent"/>
+    </FrameLayout>
+</com.yanzhenjie.album.widget.SquareCardView>

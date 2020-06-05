@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/dialog_inviter_hint_0" android:background="@drawable/bg_white_10" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/iv_close" style="@style/Dialog.CloseGrey"/>
+    <TextView android:textStyle="bold" android:layout_marginTop="-20dp" android:text="绑定邀请人" style="@style/tv_16_c33"/>
+    <de.hdodenhof.circleimageview.CircleImageView android:tag="binding_1" android:layout_width="60dp" android:layout_height="60dp" android:layout_marginTop="22dp"/>
+    <TextView android:tag="binding_2" android:layout_marginTop="15dp" style="@style/tv_14_c33"/>
+    <ezy.ui.widget.round.RoundText android:id="@+id/btn" android:layout_width="200dp" android:layout_marginTop="40dp" android:layout_marginBottom="30dp" android:text="提交" style="@style/RndBtn.Green"/>
+</LinearLayout>

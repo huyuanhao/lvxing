@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:paddingLeft="@dimen/album_dp_35" android:paddingTop="@dimen/album_dp_20" android:paddingRight="@dimen/album_dp_35" android:paddingBottom="@dimen/album_dp_20" style="@style/Album.WrapContent">
+    <com.yanzhenjie.album.widget.ColorProgressBar android:id="@+id/progress_bar" style="@style/Album.Progress.Loading"/>
+    <TextView android:textSize="@dimen/album_sp_16" android:textColor="@color/albumFontHint" android:id="@+id/tv_message" android:layout_marginLeft="@dimen/album_dp_20" android:layout_marginStart="@dimen/album_dp_20" style="@style/Album.WrapContent"/>
+</LinearLayout>

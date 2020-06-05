@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kwad.sdk.feed.widget.base.RatioFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/ksad_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="center" android:id="@+id/ksad_ad_image" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <ImageView android:layout_gravity="top|left|center_vertical|center_horizontal|center" android:layout_width="52dp" android:layout_height="22dp" android:src="@drawable/ksad_ad_label_immerse"/>
+    <LinearLayout android:layout_gravity="bottom" android:background="@drawable/ksad_feed_immerse_image_bg" android:layout_width="match_parent" android:layout_height="56dp">
+        <TextView android:textSize="12dp" android:textColor="#ffffff" android:ellipsize="end" android:id="@+id/ksad_ad_desc" android:layout_width="0dp" android:layout_height="15dp" android:layout_marginLeft="10dp" android:layout_marginTop="31dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" android:maxLines="1" android:includeFontPadding="false" android:layout_weight="1"/>
+        <ImageView android:id="@+id/ksad_ad_dislike" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginTop="27dp" android:layout_marginRight="10dp" android:layout_marginBottom="6dp" android:src="@drawable/ksad_ad_dislike_white" android:scaleType="centerCrop"/>
+    </LinearLayout>
+</com.kwad.sdk.feed.widget.base.RatioFrameLayout>

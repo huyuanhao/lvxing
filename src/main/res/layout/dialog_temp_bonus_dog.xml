@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/dialog_temp_bonus_dog_0" android:background="@drawable/bg_white_10" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textStyle="bold" android:layout_marginTop="24dp" android:text="恭喜获得" style="@style/tv_16_c33"/>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+        <ImageView android:tag="binding_1" android:layout_width="90dp" android:layout_height="wrap_content" android:adjustViewBounds="true"/>
+        <ezy.ui.widget.round.RoundText android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:layout_height="18dp" android:text="Lv.38" android:paddingStart="8dp" android:paddingEnd="8dp" app:rndCornerRadius="-1" app:rndSolidColor="#65db7b" style="@style/tv_14_cff"/>
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="20dp" android:layout_marginTop="5dp" android:paddingStart="7dp" android:paddingEnd="7dp">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_clock_blue"/>
+        <com.jiayouya.travel.common.widget.countdownview.CountdownView android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5dp" app:isShowMinute="true" app:isShowSecond="true" app:suffix=":" app:suffixGravity="2" app:suffixTextColor="@color/blue_45ADFF" app:suffixTextSize="10sp" app:timeTextColor="@color/blue_45ADFF" app:timeTextSize="10sp"/>
+    </LinearLayout>
+    <TextView android:textStyle="bold" android:tag="binding_4" android:layout_marginTop="18dp" style="@style/tv_14_red"/>
+    <TextView android:tag="binding_5" android:layout_marginTop="8dp" style="@style/tv_12_c66"/>
+    <ezy.ui.widget.round.RoundText android:id="@+id/btn" android:layout_marginTop="24dp" android:text="确定" android:layout_marginStart="40dp" android:layout_marginEnd="40dp" style="@style/RndBtn.Green"/>
+    <TextView android:gravity="center_vertical" android:id="@+id/tv_bonus_dog" android:tag="binding_6" android:layout_marginTop="14dp" android:layout_marginBottom="30dp" android:drawablePadding="4dp" android:drawableEnd="@mipmap/ic_arrow_right_dark_grey" style="@style/tv_12_c33"/>
+</LinearLayout>

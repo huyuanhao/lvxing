@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/ysf_dialog_item_middle_selector" android:layout_width="match_parent" android:layout_height="40dp">
+    <TextView android:textSize="@dimen/ysf_text_size_16" android:textColor="@color/ysf_text_link_color_blue" android:layout_gravity="center" android:id="@+id/ysf_dialog_category_item_name" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <View android:layout_gravity="bottom" android:id="@+id/ysf_dialog_category_item_divider" android:background="@color/ysf_grey_f1f1f1" android:layout_width="match_parent" android:layout_height="@dimen/ysf_divider_height"/>
+</FrameLayout>

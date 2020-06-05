@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:tag="layout/activity_invite_code_0" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ezy.ui.widget.CenteredTitleBar app:title="我的邀请码" style="@style/Toolbar.BgWhite">
+        <TextView android:id="@+id/tv_title_right" style="@style/Toolbar.RightText.Grey"/>
+    </ezy.ui.widget.CenteredTitleBar>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <androidx.core.widget.NestedScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="23dp">
+                    <TextView android:textSize="40sp" android:id="@+id/tv_code" android:tag="binding_1" android:layout_centerInParent="true" android:fontFamily="@font/din_black" style="@style/tv_16_c33"/>
+                    <ezy.ui.widget.round.RoundText android:id="@+id/btn_copy" android:layout_width="45dp" android:layout_height="22dp" android:layout_marginBottom="7.5dp" android:text="复制" android:layout_alignBottom="@+id/tv_code" android:layout_marginStart="4dp" android:layout_toEndOf="@+id/tv_code" app:rndCornerRadius="11dp" app:rndSolidColor="#49d26b" style="@style/tv_12_cff"/>
+                </RelativeLayout>
+                <LinearLayout android:gravity="center_vertical" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="80dp" android:layout_marginTop="37dp" android:layout_marginStart="25dp" android:layout_marginEnd="25dp">
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                        <TextView android:textSize="26sp" android:tag="binding_3" style="@style/tv_16_c33"/>
+                        <TextView android:text="直邀好友" style="@style/tv_12_c99"/>
+                    </LinearLayout>
+                    <View android:layout_marginTop="27dp" android:layout_marginBottom="22dp" style="@style/DividerGrey.V"/>
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                        <TextView android:textSize="26sp" android:tag="binding_4" style="@style/tv_16_c33"/>
+                        <TextView android:text="扩散好友" style="@style/tv_12_c99"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <FrameLayout android:id="@+id/lyt_web" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40dp"/>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </FrameLayout>
+    <ezy.ui.widget.round.RoundText android:id="@+id/btn_invite" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" android:text="邀请好友" android:layout_marginStart="25dp" android:layout_marginEnd="25dp" style="@style/RndBtn.Green"/>
+</LinearLayout>

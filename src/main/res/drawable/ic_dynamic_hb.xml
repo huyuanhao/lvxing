@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item>
+        <bitmap android:src="@mipmap/ic_red_oval"/>
+    </item>
+    <item android:gravity="center">
+        <bitmap android:src="@mipmap/ic_dynamic_hb"/>
+    </item>
+</layer-list>

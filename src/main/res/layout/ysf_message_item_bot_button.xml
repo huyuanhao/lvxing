@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:textSize="@dimen/ysf_text_size_15" android:textColor="@color/ysf_blue_5092e1" android:gravity="center" android:background="@drawable/ysf_btn_white_blue_bg_selector" android:layout_width="match_parent" android:layout_height="@dimen/ysf_button_small_height" android:maxLines="1"/>

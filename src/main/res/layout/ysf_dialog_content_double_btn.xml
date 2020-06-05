@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include layout="@layout/ysf_include_divider"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="50dp">
+        <Button android:textSize="@dimen/ysf_text_size_16" android:textColor="@color/ysf_blue_61a7ea" android:id="@+id/ysf_dialog_btn_left" android:background="@drawable/ysf_dialog_double_btn_left_bg_selector" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/ysf_ok" android:layout_weight="1"/>
+        <include android:layout_width="@dimen/ysf_divider_height" android:layout_height="match_parent" layout="@layout/ysf_include_divider"/>
+        <Button android:textSize="@dimen/ysf_text_size_16" android:textColor="@color/ysf_blue_61a7ea" android:id="@+id/ysf_dialog_btn_right" android:background="@drawable/ysf_dialog_double_btn_right_bg_selector" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/ysf_cancel" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

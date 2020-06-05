@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/ysf_clickable_list_content" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/ysf_clickable_list_header" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/ysf_text_size_16" android:textColor="@color/ysf_black_2b2b2b" android:id="@+id/ysf_clickable_list_header_text" android:paddingLeft="16dp" android:paddingTop="10dp" android:paddingRight="16dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/ysf_bubble_content_max_width"/>
+        <include android:id="@+id/ysf_clickable_list_header_divider" android:layout_width="@dimen/ysf_bubble_content_max_width" android:layout_height="@dimen/ysf_divider_height" layout="@layout/ysf_include_divider"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/ysf_clickable_list_container" android:layout_width="@dimen/ysf_bubble_content_max_width" android:layout_height="wrap_content"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/ysf_clickable_list_footer" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include android:id="@+id/ysf_clickable_list_footer_divider" android:layout_width="@dimen/ysf_bubble_content_max_width" android:layout_height="@dimen/ysf_divider_height" layout="@layout/ysf_include_divider"/>
+        <TextView android:textSize="@dimen/ysf_text_size_16" android:textColor="@color/ysf_black_2b2b2b" android:id="@+id/ysf_clickable_list_footer_text" android:paddingLeft="16dp" android:paddingTop="10dp" android:paddingRight="16dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/ysf_bubble_content_max_width"/>
+    </LinearLayout>
+</LinearLayout>

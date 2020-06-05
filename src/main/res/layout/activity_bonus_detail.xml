@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:tag="layout/activity_bonus_detail_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ezy.ui.widget.CenteredTitleBar android:tag="binding_1" app:title="  " style="@style/Toolbar.BgTrans">
+        <TextView android:id="@+id/tv_title_right" android:tag="binding_2" android:text="了解更多" style="@style/Toolbar.RightText.White"/>
+    </ezy.ui.widget.CenteredTitleBar>
+    <ScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="22sp" android:layout_marginTop="10dp" android:text="升至38级可合成全球分红犬" style="@style/tv_12_cff"/>
+                <TextView android:gravity="center" android:tag="binding_4" android:layout_height="24dp" android:layout_marginTop="10dp" android:layout_marginBottom="27dp" android:text="永久获得平台20%广告分红" android:paddingStart="10dp" android:paddingEnd="10dp" style="@style/tv_14_red"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="15dp" android:layout_marginEnd="15dp">
+                <TextView android:gravity="center_vertical" android:tag="binding_5" android:layout_marginTop="18dp" android:drawablePadding="6dp" android:drawableStart="@mipmap/ic_notice_broadcast" style="@style/tv_12_red"/>
+                <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <FrameLayout android:tag="binding_6" android:background="@drawable/bg_white_10" android:layout_width="match_parent" android:layout_height="92dp" android:layout_marginTop="12dp">
+                        <TextView android:layout_marginTop="27dp" android:text="全球分红犬" android:layout_marginStart="108dp" style="@style/tv_14_c33"/>
+                        <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="22dp" android:layout_marginStart="108dp">
+                            <TextView android:textStyle="bold" android:text="今日每只分红" style="@style/tv_18_c33"/>
+                            <TextView android:textColor="@color/red_F35E4E" android:tag="binding_7" style="@style/tv_18_c33"/>
+                            <TextView android:textStyle="bold" android:textColor="@color/red_F35E4E" android:text="元" style="@style/tv_18_c33"/>
+                        </LinearLayout>
+                        <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_arrow_right_grey" android:layout_marginEnd="10dp"/>
+                    </FrameLayout>
+                    <ImageView android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_dog_level47"/>
+                </FrameLayout>
+                <LinearLayout android:orientation="vertical" android:background="@drawable/bg_white_10" android:paddingTop="23dp" android:paddingBottom="23dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:paddingStart="20dp" android:paddingEnd="20dp">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textStyle="bold" android:text="我的全球分红犬" style="@style/tv_16_c33"/>
+                        <TextView android:gravity="end" android:tag="binding_8" android:layout_width="0dp" android:layout_weight="1" style="@style/tv_14_c33"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="23dp">
+                        <TextView android:text="今日分红" style="@style/tv_14_c33"/>
+                        <TextView android:gravity="end" android:tag="binding_9" android:layout_width="0dp" android:layout_weight="1" style="@style/tv_14_c33"/>
+                    </LinearLayout>
+                    <View android:layout_marginTop="12dp" style="@style/DividerGrey.H"/>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp">
+                        <TextView android:text="累计分红" style="@style/tv_14_c33"/>
+                        <TextView android:gravity="end" android:tag="binding_10" android:layout_width="0dp" android:layout_weight="1" style="@style/tv_14_c33"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:background="@drawable/bg_white_10" android:paddingTop="24dp" android:paddingBottom="25dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:paddingStart="20dp" android:paddingEnd="20dp">
+                    <TextView android:textStyle="bold" android:text="分红犬是什么" style="@style/tv_16_c33"/>
+                    <TextView android:tag="binding_11" android:layout_marginTop="26dp" android:lineSpacingExtra="5dp" style="@style/tv_12_c66"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:background="@drawable/bg_white_10" android:paddingTop="24dp" android:paddingBottom="30dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginBottom="20dp" android:paddingStart="20dp" android:paddingEnd="20dp">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textStyle="bold" android:text="个人努力必得分红犬" style="@style/tv_16_c33"/>
+                        <Space android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+                        <TextView android:gravity="center_vertical" android:tag="binding_12" android:text="去加速" android:drawablePadding="5dp" android:drawableStart="@mipmap/ic_increase_speed" style="@style/tv_14_c33"/>
+                    </LinearLayout>
+                    <com.jiayouya.travel.common.widget.RndCornerProgressBar android:tag="binding_13" android:layout_width="match_parent" android:layout_height="8dp" android:layout_marginTop="24dp" app:rcBackgroundColor="@color/grey_f4" app:rcEndColor="@color/green_60CC60" app:rcStartColor="@color/green_60CC60"/>
+                    <TextView android:tag="binding_14" android:layout_marginTop="10dp" style="@style/tv_10_c99"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

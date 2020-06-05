@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:tag="layout/activity_web_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ezy.ui.widget.CenteredTitleBar android:id="@+id/toolbar" style="@style/Toolbar.BgWhite">
+        <TextView android:layout_gravity="center_vertical" android:id="@+id/tv_close" android:text="关闭" android:paddingStart="0dp" android:paddingEnd="5dp" style="@style/tv_14_c33"/>
+        <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/iv_refresh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_refresh_web" android:paddingStart="15dp" android:paddingEnd="15dp"/>
+    </ezy.ui.widget.CenteredTitleBar>
+    <ProgressBar android:id="@+id/progress_bar" android:layout_width="match_parent" android:layout_height="3dp" android:max="100" android:progressTint="@color/green_36AE55" style="?android:attr/progressBarStyleHorizontal"/>
+    <com.jiayouya.travel.module.common.widget.LollipopFixedWebView android:id="@+id/web" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

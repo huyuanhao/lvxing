@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/win_item_sign_layout" android:background="@drawable/win_sdk_item_sign_shape" android:layout_width="match_parent" android:layout_height="136dp">
+    <ImageView android:id="@+id/win_item_sign_icon" android:layout_width="38dp" android:layout_height="38dp" android:layout_marginLeft="12dp" android:layout_marginTop="22dp"/>
+    <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="#424346" android:id="@+id/win_item_sign_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14dp" android:layout_marginTop="20dp" android:maxLines="1" android:layout_toRightOf="@+id/win_item_sign_icon"/>
+    <FrameLayout android:id="@+id/win_item_sign_button_layout" android:layout_width="88dp" android:layout_height="28dp" android:layout_marginTop="27dp" android:layout_marginRight="12dp" android:layout_alignParentRight="true">
+        <com.pw.view.DownloadProgressBar android:layout_gravity="center" android:id="@+id/win_sdk_progress_download_button" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/Widget.ProgressBar.Horizontal"/>
+        <TextView android:textSize="14sp" android:textColor="#fee88e" android:gravity="center" android:layout_gravity="center" android:id="@+id/win_item_sign_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+    </FrameLayout>
+    <TextView android:textSize="12sp" android:textColor="#a2a6a2" android:ellipsize="end" android:id="@+id/win_item_sign_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14dp" android:layout_marginTop="4dp" android:layout_marginRight="14dp" android:maxLines="1" android:layout_toLeftOf="@+id/win_item_sign_button_layout" android:layout_toRightOf="@+id/win_item_sign_icon" android:layout_below="@+id/win_item_sign_name"/>
+    <ImageView android:id="@+id/win_item_sign_tips_img" android:visibility="gone" android:layout_width="41dp" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginRight="34dp" android:src="@drawable/win_sign_tomorrow" android:layout_alignParentRight="true"/>
+    <RelativeLayout android:id="@+id/win_item_sign_progress_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="20dp" android:layout_below="@+id/win_item_sign_icon">
+        <ProgressBar android:id="@+id/win_item_sign_progress_bar" android:layout_width="match_parent" android:layout_height="2dp" android:layout_marginLeft="18dp" android:layout_marginTop="8.5dp" android:layout_marginRight="18dp" android:max="100" android:progress="0" android:progressDrawable="@drawable/win_sdk_sign_progress" style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/win_item_sign_day_layout" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include android:id="@+id/win_item_sign_day_one" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" layout="@layout/win_sdk_sign_img_text"/>
+            <include android:id="@+id/win_item_sign_day_two" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" layout="@layout/win_sdk_sign_img_text"/>
+            <include android:id="@+id/win_item_sign_day_three" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" layout="@layout/win_sdk_sign_img_text"/>
+            <include android:id="@+id/win_item_sign_day_four" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" layout="@layout/win_sdk_sign_img_text"/>
+            <include android:id="@+id/win_item_sign_day_five" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" layout="@layout/win_sdk_sign_img_text"/>
+            <include android:id="@+id/win_item_sign_day_six" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" layout="@layout/win_sdk_sign_img_text"/>
+            <include android:id="@+id/win_item_sign_day_seven" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" layout="@layout/win_sdk_sign_img_text"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/ysf_product_content" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@+id/iv_ysf_message_product_template" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/ll_ysf_message_product_top_parent" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:gravity="center_horizontal" android:id="@+id/ysf_product_image" android:layout_width="77dp" android:layout_height="77dp" android:src="@drawable/ysf_image_placeholder_loading" android:scaleType="centerCrop" android:contentDescription="@null"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_weight="10">
+            <TextView android:textSize="@dimen/ysf_text_size_14" android:textColor="@color/ysf_black_222222" android:ellipsize="end" android:id="@+id/ysf_product_title" android:layout_width="match_parent" android:layout_height="20dp" android:maxLines="1" android:includeFontPadding="false"/>
+            <LinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/ysf_text_size_12" android:textColor="@color/ysf_grey_666666" android:ellipsize="end" android:id="@+id/ysf_product_description" android:layout_width="0dp" android:layout_height="33dp" android:layout_marginTop="5dp" android:maxLines="2" android:includeFontPadding="false" android:layout_weight="1"/>
+                <LinearLayout android:gravity="right" android:orientation="vertical" android:id="@+id/ysf_ll_product_price_and_count_parent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3dp">
+                    <TextView android:id="@+id/ysf_tv_product_pay_money" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                    <TextView android:id="@+id/ysf_tv_product_count" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/ysf_text_size_12" android:textColor="#ff611b" android:ellipsize="end" android:id="@+id/ysf_product_note" android:layout_width="match_parent" android:layout_height="17dp" android:layout_marginTop="5dp" android:maxLines="1" android:includeFontPadding="false"/>
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@+id/ysf_product_sku" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40dp"/>
+                <TextView android:textColor="#ff611b" android:id="@+id/ysf_product_price" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:textColor="#ff611b" android:layout_gravity="right" android:id="@+id/ysf_product_order_status" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@+id/ysf_view_product_order_line" android:background="@color/ysf_grey_e6e6e6" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="1px" android:layout_marginTop="6dp"/>
+    <TextView android:ellipsize="end" android:id="@+id/ysf_tv_product_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="6dp" android:maxLines="1"/>
+    <TextView android:ellipsize="end" android:id="@+id/ysf_tv_product_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="5dp" android:maxLines="1"/>
+    <View android:id="@+id/view_ysf_message_item_activity_line" android:background="@color/ysf_grey_e6e6e6" android:layout_width="wrap_content" android:layout_height="1px" android:layout_marginTop="6dp"/>
+    <TextView android:textColor="@color/ysf_blue_5e94e2" android:ellipsize="end" android:id="@+id/ysf_tv_product_activity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="6dp" android:layout_marginRight="5dp" android:maxLines="1"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/ysf_product_tags" android:paddingLeft="3dp" android:paddingRight="3dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <View android:id="@+id/view_ysf_message_item_send_line" android:background="@color/ysf_grey_e6e6e6" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginTop="10dp"/>
+    <TextView android:textSize="14sp" android:textColor="@color/ysf_blue_5e94e2" android:layout_gravity="center_horizontal" android:id="@+id/tv_ysf_message_product_send" android:paddingTop="10dp" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <View android:id="@+id/view_ysf_message_item_reselect_line" android:background="@color/ysf_grey_e6e6e6" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginTop="10dp"/>
+    <TextView android:textSize="14sp" android:textColor="@color/ysf_blue_5e94e2" android:layout_gravity="center_horizontal" android:id="@+id/tv_ysf_message_product_reselect" android:paddingTop="10dp" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

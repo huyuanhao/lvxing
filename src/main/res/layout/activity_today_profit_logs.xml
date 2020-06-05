@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:tag="layout/activity_today_profit_logs_0" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ezy.ui.widget.CenteredTitleBar app:title="今日分红记录" style="@style/Toolbar.BgTrans.Black"/>
+    <FrameLayout android:tag="binding_1" android:layout_width="match_parent" android:layout_height="30dp" android:layout_marginTop="5dp" android:paddingStart="15dp" android:paddingEnd="15dp" android:layout_marginStart="15dp" android:layout_marginEnd="15dp">
+        <TextView android:textStyle="bold" android:layout_gravity="center_vertical" android:text="昵称" style="@style/tv_14_c33"/>
+        <TextView android:textStyle="bold" android:layout_gravity="center" android:text="分红犬数" style="@style/tv_14_c33"/>
+        <TextView android:textStyle="bold" android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:text="今日分红" style="@style/tv_14_c33"/>
+    </FrameLayout>
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@+id/refresh" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/list" android:layout_width="match_parent" android:layout_height="match_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:tag="layout/fragment_tb_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@+id/refresh" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/bg_tb" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20sp" android:textStyle="bold" android:id="@+id/tv_tb" android:layout_marginTop="75dp" android:text="购物赚金币" android:layout_marginStart="15dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@style/tv_14_cff"/>
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11dp" android:src="@mipmap/ic_ant" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/bg_white_10" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:layout_marginStart="15dp" android:layout_marginEnd="15dp" app:layout_constraintTop_toBottomOf="@+id/tv_tb">
+                        <TextView android:layout_marginTop="20dp" android:text="已赚到金币" style="@style/tv_14_c66"/>
+                        <TextView android:textSize="24sp" android:gravity="center_vertical" android:layout_marginTop="3dp" android:text="384.5aa" android:drawablePadding="2dp" android:drawableStart="@mipmap/ic_tb_coin" style="@style/tv_14_c33"/>
+                        <ezy.ui.widget.round.RoundText android:id="@+id/btn_get" android:layout_marginTop="9dp" android:layout_marginBottom="22dp" android:text="领取" android:layout_marginStart="20dp" android:layout_marginEnd="20dp" style="@style/RndBtn.Green"/>
+                    </LinearLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/bg_white_10" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginStart="15dp" android:layout_marginEnd="15dp">
+                    <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginStart="15dp" android:layout_marginEnd="15dp">
+                        <TextView android:textStyle="bold" android:text="我的订单" style="@style/tv_16_c33"/>
+                        <TextView android:text="(金币产出速度 22333t/秒）" android:layout_marginStart="5dp" style="@style/tv_14_c99"/>
+                    </LinearLayout>
+                    <androidx.recyclerview.widget.RecyclerView android:id="@+id/list" android:layout_width="match_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" app:spanCount="4"/>
+                    <TextView android:tag="binding_1" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" android:text="查看全部订单(28)" style="@style/tv_14_green"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:background="@drawable/bg_white_10" android:paddingTop="19dp" android:paddingBottom="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:paddingStart="15dp" android:paddingEnd="15dp" android:layout_marginStart="15dp" android:layout_marginEnd="15dp">
+                    <TextView android:textStyle="bold" android:text="淘宝购物步骤" style="@style/tv_16_c33"/>
+                    <TextView android:textColorHint="@color/color_hint" android:gravity="center_vertical" android:id="@+id/tv_search" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="43dp" android:layout_marginTop="12dp" android:hint="搜商品/宝贝标题" android:drawablePadding="16dp" android:drawableEnd="@mipmap/ic_search" android:paddingStart="16dp" android:paddingEnd="16dp" style="@style/tv_16_c33"/>
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp">
+                        <TextView android:gravity="center_horizontal" android:text="淘宝优惠券" android:drawableTop="@mipmap/ic_coupon" android:drawablePadding="7dp" style="@style/tv_10_c33"/>
+                        <Space android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+                        <TextView android:gravity="center_horizontal" android:text="天猫超市" android:drawableTop="@mipmap/ic_tm_market" android:drawablePadding="7dp" style="@style/tv_10_c33"/>
+                        <Space android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+                        <TextView android:gravity="center_horizontal" android:text="天猫国际" android:drawableTop="@mipmap/ic_coupon" android:drawablePadding="7dp" style="@style/tv_10_c33"/>
+                        <Space android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+                        <TextView android:gravity="center_horizontal" android:text="聚划算" android:drawableTop="@mipmap/ic_jhs" android:drawablePadding="7dp" style="@style/tv_10_c33"/>
+                        <Space android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+                        <TextView android:gravity="center_horizontal" android:text="海淘抢" android:drawableTop="@mipmap/ic_htq" android:drawablePadding="7dp" style="@style/tv_10_c33"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ksad.lottie.LottieAnimationView android:layout_gravity="center" android:id="@+id/ksad_center_loading__animation_view" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp"/>
+    <FrameLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/ksad_error_container" android:background="#7f000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="12sp" android:textColor="#c6c6c6" android:gravity="center" android:layout_gravity="center" android:id="@+id/ksad_load_error_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:text="网络信号不好，请检查网络连接后重试" android:fontFamily="sans-serif"/>
+        <TextView android:textSize="12sp" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center" android:id="@+id/ksad_retry_btn" android:background="@drawable/ksad_loading_btn_bg" android:layout_width="80dp" android:layout_height="24dp" android:layout_marginTop="22dp" android:text="点击重试"/>
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/ysf_white" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="50dp">
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@+id/ysf_message_item_progress" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginRight="5dp" android:indeterminateDrawable="@drawable/ysf_progress_bar_grey" style="@style/Widget.ProgressBar.Small"/>
+        <TextView android:textSize="@dimen/ysf_text_size_20" android:textColor="#222222" android:layout_gravity="center" android:id="@+id/ysf_translated_text" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ysf_audio_under_translating"/>
+    </LinearLayout>
+    <Button android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/ysf_translate_cancel_button" android:background="@drawable/ysf_btn_white_round_bg" android:layout_width="80dp" android:layout_height="35dp" android:layout_marginBottom="35dp" android:text="@string/ysf_cancel"/>
+</FrameLayout>

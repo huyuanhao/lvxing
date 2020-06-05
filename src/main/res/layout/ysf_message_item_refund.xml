@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="@dimen/ysf_bubble_max_width" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/ysf_text_size_16" android:textColor="@color/ysf_black_222222" android:id="@+id/ysf_tv_refund_label" android:paddingLeft="8dp" android:paddingTop="10dp" android:paddingRight="8dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <include layout="@layout/ysf_include_divider"/>
+    <LinearLayout android:orientation="vertical" android:paddingLeft="8dp" android:paddingTop="10dp" android:paddingRight="8dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/ysf_iv_refund_state_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ysf_ic_bot_status" android:contentDescription="@null"/>
+            <TextView android:textColor="#4cac35" android:id="@+id/ysf_tv_refund_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/ysf_ll_refund_item_container" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

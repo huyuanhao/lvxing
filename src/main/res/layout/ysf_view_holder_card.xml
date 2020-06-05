@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/ysf_holder_card_layout" android:background="@drawable/ysf_list_selector" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/ysf_holder_card_container" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <include android:id="@+id/ysf_holder_card_divider" android:visibility="gone" layout="@layout/ysf_include_divider"/>
+</LinearLayout>

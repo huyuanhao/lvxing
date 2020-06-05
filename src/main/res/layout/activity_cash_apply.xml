@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:tag="layout/activity_cash_apply_0" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ezy.ui.widget.CenteredTitleBar android:id="@+id/toolbar" app:title="提现结果" style="@style/Toolbar.BgTrans.Black"/>
+    <ScrollView android:id="@+id/nestedScrollView" android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:src="@mipmap/ic_success"/>
+            <TextView android:layout_marginTop="24dp" android:text="提现申请已提交" style="@style/tv_16_c33"/>
+            <TextView android:textSize="12dp" android:tag="binding_1" android:layout_marginTop="8dp" style="@style/tv_14_c99"/>
+            <View android:background="@color/grey_f4" android:layout_width="match_parent" android:layout_height="15dp" android:layout_marginTop="53dp"/>
+            <LinearLayout android:gravity="center_vertical" android:paddingLeft="20dp" android:paddingTop="25dp" android:paddingRight="20dp" android:paddingBottom="14dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:text="提现金额" style="@style/tv_16_c33"/>
+                <TextView android:textSize="14dp" android:textColor="@color/textPrimary" android:gravity="right" android:tag="binding_2" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:maxLines="1" android:layout_weight="1"/>
+            </LinearLayout>
+            <View android:layout_marginStart="20dp" android:layout_marginEnd="20dp" style="@style/DividerGrey.H"/>
+            <LinearLayout android:gravity="center_vertical" android:paddingLeft="20dp" android:paddingTop="14dp" android:paddingRight="20dp" android:paddingBottom="14dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:text="手续费" style="@style/tv_16_c33"/>
+                <TextView android:textSize="14dp" android:textColor="@color/textPrimary" android:gravity="end" android:tag="binding_3" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:maxLines="1" android:layout_weight="1"/>
+            </LinearLayout>
+            <View android:layout_marginStart="20dp" android:layout_marginEnd="20dp" style="@style/DividerGrey.H"/>
+            <LinearLayout android:gravity="center_vertical" android:paddingLeft="20dp" android:paddingTop="14dp" android:paddingRight="20dp" android:paddingBottom="14dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:text="提现至账户" style="@style/tv_16_c33"/>
+                <TextView android:textSize="14dp" android:textColor="@color/textPrimary" android:gravity="end" android:tag="binding_4" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:maxLines="1" android:layout_weight="1"/>
+            </LinearLayout>
+            <View android:layout_marginStart="20dp" android:layout_marginEnd="20dp" style="@style/DividerGrey.H"/>
+        </LinearLayout>
+    </ScrollView>
+    <ezy.ui.widget.round.RoundText android:layout_gravity="bottom" android:id="@+id/btn_complete" android:layout_margin="30dp" android:text="完成" style="@style/RndBtn.Green"/>
+</LinearLayout>

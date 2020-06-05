@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/dialog_explore_rule_0" android:background="@drawable/bg_white_10" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="20sp" android:textStyle="bold" android:layout_marginTop="38dp" android:text="探险规则" style="@style/tv_14_c33"/>
+    <TextView android:layout_marginTop="32dp" android:text="探险收获包含三大类型：金币、红包、狗，金币和红包会自动收纳在一起，点击弹框提示是否领取。点击狗提示：是否移至仓库。" android:lineSpacingExtra="3dp" android:layout_marginStart="30dp" android:layout_marginEnd="30dp" style="@style/tv_14_c66"/>
+    <ezy.ui.widget.round.RoundText android:id="@+id/btn" android:layout_marginTop="37dp" android:layout_marginBottom="30dp" android:text="确定" android:layout_marginStart="40dp" android:layout_marginEnd="40dp" style="@style/RndBtn.Green"/>
+</LinearLayout>

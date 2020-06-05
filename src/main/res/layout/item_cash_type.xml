@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:tag="layout/item_cash_type_0" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginTop="10dp" android:adjustViewBounds="true" android:layout_marginStart="5dp" android:layout_marginEnd="5dp"/>

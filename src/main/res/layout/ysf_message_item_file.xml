@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dist="http://schemas.android.com/apk/distribution" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/ll_content" android:layout_width="@dimen/ysf_bubble_max_width" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <com.qiyukf.unicorn.widget.FileNameTextView android:id="@+id/message_item_file_name_label" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ysf_fntMaxLines="2" app:ysf_fntTextColor="@color/ysf_black_222222" app:ysf_fntTextSize="@dimen/ysf_text_size_16"/>
+        <TextView android:textSize="@dimen/ysf_text_size_12" android:textColor="@color/ysf_grey_999999" android:id="@+id/message_item_file_status_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:maxLines="1"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/message_item_file_icon_image" android:layout_width="60dp" android:layout_height="60dp" android:layout_marginLeft="10dp" android:src="@drawable/ysf_message_file_icon_unknown" android:scaleType="fitXY" android:contentDescription="@null"/>
+</LinearLayout>
